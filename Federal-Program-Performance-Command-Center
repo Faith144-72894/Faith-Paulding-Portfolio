@@ -1,0 +1,88 @@
+# Federal Program Performance Command Center
+
+A sanitized PL-600 portfolio project demonstrating a centralized federal program-performance, risk-management, forecasting, and executive-reporting solution built with Microsoft Power Platform.
+
+## Project Overview
+
+This solution consolidates program information from disconnected spreadsheets, SharePoint lists, legacy systems, and manual status reports into a centralized program-management and executive-reporting platform.
+
+Program managers can track cost, schedule, performance, risks, issues, milestones, corrective actions, and upcoming deadlines. Leadership receives real-time dashboards and 30-, 60-, and 90-day forecasts for proactive decision-making.
+
+All agencies, programs, users, financial values, and performance metrics in this repository are fictional.
+
+## Business Challenge
+
+Government organizations frequently experience:
+
+- Program data stored across disconnected systems
+- Manually prepared weekly and monthly reports
+- Inconsistent performance metrics
+- Limited visibility into cost and schedule risk
+- Delayed identification of missed milestones
+- Duplicate and incomplete records
+- Difficulty reconciling multiple data sources
+- Limited executive-level forecasting
+- Dependence on aging legacy systems
+
+## Proposed Solution
+
+The command center provides:
+
+- Centralized program and project tracking
+- Cost, schedule, scope, and performance monitoring
+- Risk and issue management
+- Milestone and deliverable tracking
+- Corrective-action management
+- Automated data ingestion and validation
+- 30-, 60-, and 90-day forecasting
+- Role-based data access
+- Automated status-report generation
+- Executive Power BI dashboards
+
+## Application Modules
+
+### Program Intake
+
+Captures program information, ownership, funding, objectives, dates, stakeholders, and reporting requirements.
+
+### Milestone Management
+
+Tracks milestones, dependencies, responsible owners, planned dates, revised dates, completion status, and supporting documentation.
+
+### Risk and Issue Management
+
+Records program risks and issues, probability, impact, mitigation actions, escalation status, and accountable owners.
+
+### Corrective Action Tracking
+
+Connects performance concerns to corrective actions, milestones, responsible parties, due dates, and completion evidence.
+
+### Executive Reporting
+
+Provides leadership with program health, funding status, milestone performance, overdue actions, risk exposure, and forward-looking forecasts.
+
+## Microsoft Technology Stack
+
+| Technology | Solution Role |
+|---|---|
+| Power Apps | Program, milestone, risk, and corrective-action management |
+| Power Automate | Data ingestion, notifications, escalations, and report distribution |
+| Power BI | Executive dashboards, KPIs, trends, and forecasting |
+| Dataverse | Enterprise relational data storage |
+| SharePoint Online | Document management and alternative structured storage |
+| SQL | Data integration, transformation, and reporting support |
+| Power Query | Data cleansing, standardization, and reconciliation |
+| DAX | Performance measures, health scores, and forecasting |
+| Microsoft Teams | Collaboration, alerts, and dashboard access |
+| Excel | Controlled source ingestion and supplemental analysis |
+
+## Solution Architecture
+
+```mermaid
+flowchart TD
+    A[Legacy Systems and Files] --> B[Automated Data Integration]
+    B --> C[Dataverse or SharePoint]
+    C --> D[Power Apps]
+    C --> E[Power BI]
+    D --> F[Power Automate]
+    F --> G[Teams and Outlook]
