@@ -1,0 +1,98 @@
+# Government Service Request & Approval Portal
+
+A sanitized PL-600 portfolio project demonstrating a centralized government service-request, review, approval, and performance-tracking solution built with Microsoft Power Platform.
+
+## Project Overview
+
+This solution replaces email-based requests, static forms, disconnected spreadsheets, and manual approval processes with a centralized digital portal.
+
+Government employees, contractors, or approved external users can submit requests, upload supporting documentation, monitor progress, and respond to requested corrections. Internal teams can review, route, approve, reject, prioritize, and track requests through completion.
+
+All agencies, users, requests, records, and performance metrics presented in this repository are fictional.
+
+## Business Challenge
+
+Government organizations frequently experience:
+
+- Requests submitted through multiple email accounts
+- Incomplete or inconsistent request information
+- Delayed approvals and unclear ownership
+- Limited visibility into request status
+- Manual follow-up and reminder processes
+- Missing documentation and approval history
+- Difficulty measuring service-level performance
+- Limited reporting on workload and bottlenecks
+
+## Proposed Solution
+
+The portal provides:
+
+- Centralized request submission
+- Save Draft functionality
+- Dynamic and conditional forms
+- Required-field validation
+- Automated request-number generation
+- Multilevel review and approval routing
+- Returned-for-correction processing
+- Document attachment management
+- Status and ownership tracking
+- SLA monitoring and overdue alerts
+- Automated Teams and Outlook notifications
+- Executive Power BI reporting
+
+## Application Workflows
+
+### Workflow 1: Request Submission
+
+Users create a new request, select the service category, enter required information, upload documentation, and save or submit the request.
+
+### Workflow 2: Triage and Assignment
+
+The system validates the submission, determines its priority and service category, and routes it to the appropriate review team.
+
+### Workflow 3: Review and Approval
+
+Authorized reviewers approve, reject, return, reassign, or escalate requests. Each decision is recorded in the audit history.
+
+### Workflow 4: Fulfillment and Closure
+
+Assigned teams complete the requested service, document the resolution, obtain final approval when required, and close the request.
+
+## Example Government Use Cases
+
+The solution can support:
+
+- IT service requests
+- Procurement requests
+- Personnel actions
+- Training requests
+- Travel authorizations
+- Records requests
+- Facility and maintenance requests
+- Data and reporting requests
+- Access and permission requests
+- Policy exception requests
+
+## Microsoft Technology Stack
+
+| Technology | Solution Role |
+|---|---|
+| Power Apps | Request submission and internal management application |
+| Power Pages | Optional external or public-facing request portal |
+| Power Fx | Form validation, navigation, filtering, and business logic |
+| Power Automate | Routing, approvals, reminders, escalations, and notifications |
+| Dataverse | Enterprise relational data storage and security |
+| SharePoint Online | Alternative data source and document storage |
+| Power BI | SLA, workload, bottleneck, and performance reporting |
+| Microsoft Teams | Collaboration and operational notifications |
+| Outlook | Request confirmations and approval notifications |
+
+## Solution Architecture
+
+```mermaid
+flowchart TD
+    A[Requester Portal] --> B[Power Apps or Power Pages]
+    B --> C[Dataverse or SharePoint]
+    B --> D[Power Automate]
+    D --> E[Approvals and Notifications]
+    C --> F[Power BI Reporting]
