@@ -7,34 +7,10 @@ Senior Technical Program Manager • Digital Transformation Lead • Technology 
 A business process may span email, spreadsheets, shared drives, legacy applications, manual approvals, and separate reporting. Automating one step without redesigning the operating model preserves the fragmentation.
 
 ## Current State
-```text
-Email Intake
-   ↓
-Manual Spreadsheet
-   ↓
-Separate Reviewer Tracker
-   ↓
-Email Approval
-   ↓
-Shared Drive Evidence
-   ↓
-Manual Leadership Report
-```
+Email Intake → Manual Spreadsheet → Separate Reviewer Tracker → Email Approval → Shared Drive Evidence → Manual Leadership Report
 
 ## Target State
-```text
-Governed Intake
-   ↓
-Validated System of Record
-   ↓
-Automated Workflow / Approval
-   ↓
-Audit History + Evidence
-   ↓
-Exception / SLA Monitoring
-   ↓
-Executive Decision Analytics
-```
+Governed Intake → Validated System of Record → Automated Workflow / Approval → Audit History + Evidence → Exception / SLA Monitoring → Executive Decision Analytics
 
 ## Execution Plan
 1. Discover process, systems, owners, controls, delays, duplicate entry.
@@ -45,16 +21,14 @@ Executive Decision Analytics
 6. Improve using cycle-time, defect, adoption, SLA, and decision-time measures.
 
 ## Projection Calculation
-```python
-def projected_hours_saved(monthly_cases, manual_minutes, modern_minutes):
-    return monthly_cases * (manual_minutes - modern_minutes) / 60
-
-hours_saved = projected_hours_saved(
-    monthly_cases=500,
-    manual_minutes=35,
-    modern_minutes=12
-)
-```
+| Input / Measure | Value or Formula |
+|---|---|
+| Monthly Cases | 500 |
+| Current Manual Time | 35 minutes/case |
+| Modernized Time | 12 minutes/case |
+| Minutes Saved per Case | 23 |
+| Projected Hours Saved per Month | 500 × 23 ÷ 60 = 191.7 hours |
+| Projected Hours Saved per Year | 191.7 × 12 = 2,300 hours |
 
 ## Capability Demonstrated
 Technical program management • business process reengineering • requirements • architecture • implementation planning • UAT • governance • KPI design • modernization strategy
