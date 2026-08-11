@@ -1,0 +1,6 @@
+use_case,business_value,data_readiness,technical_feasibility,risk,adoption_readiness,projected_hours_saved,owner,status
+Policy Knowledge Search,5,5,4,2,4,520,AI Lead,Pilot
+Status Summary,4,5,5,1,5,340,Program Lead,Build
+Financial Variance Narrative,5,3,3,4,3,260,Finance Lead,Discovery
+Request Routing,4,5,5,2,5,410,Service Lead,Pilot
+Risk Pattern Detection,4,3,3,4,3,180,Risk Lead,Discovery
