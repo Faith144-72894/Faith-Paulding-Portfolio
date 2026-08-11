@@ -1,73 +1,307 @@
-# Power Platform Code & Workflow Logic Page
+# Power Platform | Full Build Code
 
-Pairs with REAL-TIME-SOLUTION.md. This page shows the Power Fx, automation, validation, security, and workflow logic behind the solution without fenced code blocks.
+This is the working-code companion to the real-time solution. The formulas are written in the form I would enter into Power Apps and Power BI. They are intentionally displayed as plain text rather than fenced Markdown code blocks.
 
-## Power Fx — Intake Validation
-| Requirement | Power Fx Logic |
-|---|---|
-| Required Title | IsBlank(txtTitle.Text) |
-| Required Due Date | IsBlank(dpDueDate.SelectedDate) |
-| Due Date cannot be historical | dpDueDate.SelectedDate < Today() |
-| Submit error | Notify("Required information is missing", NotificationType.Error) |
-| New record | Patch(Requests, Defaults(Requests), {...}) |
-| Submission timestamp | SubmittedOn: Now() |
-| Submitted status | Status: {Value: "Submitted"} |
+## Power Apps — Screen OnVisible
 
-## Save Draft Logic
-| Condition | Action |
-|---|---|
-| User selects Save Draft | Set(varSubmissionAction, "Draft") |
-| Draft validation | Validate only fields required to identify/save record |
-| Record status | Draft |
-| Visibility | Restrict draft to submitter and authorized support roles |
-| Resume | Load existing draft into form by record ID / submitter |
+    Set(varSubmissionAction, Blank());
+    Set(varCurrentUserEmail, Lower(User().Email));
+    Set(varIsReviewer, !IsBlank(LookUp(ReviewerSecurity, Lower(Email) = varCurrentUserEmail)));
+    Set(varToday, Today());
+    Refresh(Requests);
+    Refresh(AuditHistory);
 
-## Submit Logic
-| Condition | Action |
-|---|---|
-| User selects Review & Submit | Set(varSubmissionAction, "Submit") |
-| Missing required submission field | Stop + notification |
-| Duplicate governed identifier | Stop + duplicate warning |
-| Valid submission | Patch/SubmitForm |
-| Successful submit | Status = Pending Review |
+## Power Apps — Save Draft Button OnSelect
 
-## Review Workflow
-| Reviewer Action | System Logic |
-|---|---|
-| Approve | Set approved state; capture reviewer/date; route forward |
-| Return | Require comments; return to submitter; log action |
-| Reject | Require disposition; lock record according to policy |
-| Field changed | Capture previous value + new value in audit history |
+    Set(varSubmissionAction, "Draft");
+    If(
+        IsBlank(Trim(txtTitle.Text)),
+        Notify("Enter a title before saving the draft.", NotificationType.Error),
+        If(
+            IsBlank(varCurrentRecord),
+            Set(
+                varCurrentRecord,
+                Patch(
+                    Requests,
+                    Defaults(Requests),
+                    {
+                        Title: Trim(txtTitle.Text),
+                        Description: Trim(txtDescription.Text),
+                        DueDate: dpDueDate.SelectedDate,
+                        Status: {Value: "Draft"},
+                        SubmittedByEmail: Lower(User().Email),
+                        SubmittedByName: User().FullName,
+                        DraftSavedOn: Now(),
+                        LastModifiedOn: Now()
+                    }
+                )
+            ),
+            Set(
+                varCurrentRecord,
+                Patch(
+                    Requests,
+                    varCurrentRecord,
+                    {
+                        Title: Trim(txtTitle.Text),
+                        Description: Trim(txtDescription.Text),
+                        DueDate: dpDueDate.SelectedDate,
+                        Status: {Value: "Draft"},
+                        DraftSavedOn: Now(),
+                        LastModifiedOn: Now()
+                    }
+                )
+            )
+        );
+        Notify("Draft saved.", NotificationType.Success)
+    )
 
-## Power Automate Logic
-1. Trigger on record creation or modification.
-2. Read current workflow state.
-3. Compare current values with prior governed state.
-4. Write audit-history record.
-5. Determine next owner from status and role mapping.
-6. Send notification or approval.
-7. Evaluate due date / SLA.
-8. Create escalation when threshold is breached.
-9. Update reporting timestamp.
+## Power Apps — Review & Submit Button OnSelect
 
-## DAX Operational Measures
-| Measure | Logic |
-|---|---|
-| Open Requests | Count records where Status not Closed/Rejected |
-| Overdue Requests | Open records with DueDate < TODAY() |
-| Average Review Time | Average Submitted-to-Review duration |
-| Return Rate | Returned submissions ÷ submitted records |
-| Projected SLA Breaches | Open requests due within threshold with completion below target |
+    Set(varSubmissionAction, "Submit");
+    Set(varDuplicateCount, CountRows(Filter(Requests, Lower(Title) = Lower(Trim(txtTitle.Text)) && ID <> Coalesce(varCurrentRecord.ID, -1))));
 
-## Security Logic
-| User Type | Access Pattern |
-|---|---|
-| Submitter | Create + read own draft/submission as policy allows |
-| Reviewer | Read assigned records + approved review actions |
-| Program Owner | Read/manage scoped program records |
-| Developer | DEV maker; controlled TEST deployment |
-| Administrator | Environment/DLP/capacity administration only where authorized |
-| BI Consumer | Read published reporting |
+    If(
+        IsBlank(Trim(txtTitle.Text)),
+        Notify("Title is required.", NotificationType.Error),
+        IsBlank(Trim(txtDescription.Text)),
+        Notify("Description is required.", NotificationType.Error),
+        IsBlank(dpDueDate.SelectedDate),
+        Notify("Due date is required.", NotificationType.Error),
+        dpDueDate.SelectedDate < Today(),
+        Notify("Due date cannot be earlier than today.", NotificationType.Error),
+        varDuplicateCount > 0,
+        Notify("A possible duplicate record already exists. Review before submitting.", NotificationType.Error),
+        Set(
+            varCurrentRecord,
+            Patch(
+                Requests,
+                Coalesce(varCurrentRecord, Defaults(Requests)),
+                {
+                    Title: Trim(txtTitle.Text),
+                    Description: Trim(txtDescription.Text),
+                    DueDate: dpDueDate.SelectedDate,
+                    Status: {Value: "Pending Review"},
+                    SubmittedByEmail: Lower(User().Email),
+                    SubmittedByName: User().FullName,
+                    SubmittedOn: Now(),
+                    LastModifiedOn: Now()
+                }
+            )
+        );
+        Patch(
+            AuditHistory,
+            Defaults(AuditHistory),
+            {
+                RequestID: varCurrentRecord.ID,
+                Action: "Submitted",
+                PreviousStatus: "Draft",
+                NewStatus: "Pending Review",
+                ActionByEmail: Lower(User().Email),
+                ActionByName: User().FullName,
+                ActionDateTime: Now()
+            }
+        );
+        Notify("Request submitted for review.", NotificationType.Success)
+    )
 
-## Role Evidence
-Power Platform Solution Architect • Senior Power Platform Developer • Power Apps Developer • Power Automate Developer • Workflow Automation Lead • Power Platform Governance Lead
+## Power Apps — Reviewer Approve Button OnSelect
+
+    If(
+        !varIsReviewer,
+        Notify("You do not have reviewer permission.", NotificationType.Error),
+        Set(varPreviousStatus, varCurrentRecord.Status.Value);
+        Set(
+            varCurrentRecord,
+            Patch(
+                Requests,
+                varCurrentRecord,
+                {
+                    Status: {Value: "Approved"},
+                    ReviewedByEmail: Lower(User().Email),
+                    ReviewedByName: User().FullName,
+                    ReviewedOn: Now(),
+                    ReviewComments: Trim(txtReviewerComments.Text),
+                    LastModifiedOn: Now()
+                }
+            )
+        );
+        Patch(
+            AuditHistory,
+            Defaults(AuditHistory),
+            {
+                RequestID: varCurrentRecord.ID,
+                Action: "Approved",
+                PreviousStatus: varPreviousStatus,
+                NewStatus: "Approved",
+                Comments: Trim(txtReviewerComments.Text),
+                ActionByEmail: Lower(User().Email),
+                ActionByName: User().FullName,
+                ActionDateTime: Now()
+            }
+        );
+        Notify("Request approved.", NotificationType.Success)
+    )
+
+## Power Apps — Reviewer Return Button OnSelect
+
+    If(
+        IsBlank(Trim(txtReviewerComments.Text)),
+        Notify("Return comments are required.", NotificationType.Error),
+        Set(varPreviousStatus, varCurrentRecord.Status.Value);
+        Set(
+            varCurrentRecord,
+            Patch(
+                Requests,
+                varCurrentRecord,
+                {
+                    Status: {Value: "Returned"},
+                    ReviewComments: Trim(txtReviewerComments.Text),
+                    ReviewedByEmail: Lower(User().Email),
+                    ReviewedByName: User().FullName,
+                    ReviewedOn: Now(),
+                    LastModifiedOn: Now()
+                }
+            )
+        );
+        Patch(
+            AuditHistory,
+            Defaults(AuditHistory),
+            {
+                RequestID: varCurrentRecord.ID,
+                Action: "Returned",
+                PreviousStatus: varPreviousStatus,
+                NewStatus: "Returned",
+                Comments: Trim(txtReviewerComments.Text),
+                ActionByEmail: Lower(User().Email),
+                ActionByName: User().FullName,
+                ActionDateTime: Now()
+            }
+        );
+        Notify("Request returned to the submitter.", NotificationType.Success)
+    )
+
+## Power Apps — My Drafts Gallery Items
+
+    SortByColumns(
+        Filter(
+            Requests,
+            Lower(SubmittedByEmail) = Lower(User().Email) &&
+            Status.Value = "Draft"
+        ),
+        "LastModifiedOn",
+        SortOrder.Descending
+    )
+
+## Power Apps — Reviewer Queue Gallery Items
+
+    SortByColumns(
+        Filter(
+            Requests,
+            Status.Value = "Pending Review"
+        ),
+        "SubmittedOn",
+        SortOrder.Ascending
+    )
+
+## Power Apps — Status Display Formula
+
+    Switch(
+        ThisItem.Status.Value,
+        "Draft", "Draft",
+        "Pending Review", "Pending Review",
+        "Returned", "Returned for Revision",
+        "Approved", "Approved",
+        "Rejected", "Rejected",
+        "Unknown"
+    )
+
+## Power Automate — Trigger Condition
+
+    @or(
+        equals(triggerOutputs()?['body/Status/Value'], 'Pending Review'),
+        equals(triggerOutputs()?['body/Status/Value'], 'Approved'),
+        equals(triggerOutputs()?['body/Status/Value'], 'Returned')
+    )
+
+## Power Automate — Days Until Due Expression
+
+    div(
+        sub(
+            ticks(triggerOutputs()?['body/DueDate']),
+            ticks(utcNow())
+        ),
+        864000000000
+    )
+
+## Power Automate — Escalation Condition
+
+    @and(
+        lessOrEquals(outputs('Days_Until_Due'), 3),
+        not(equals(triggerOutputs()?['body/Status/Value'], 'Approved')),
+        not(equals(triggerOutputs()?['body/Status/Value'], 'Closed'))
+    )
+
+## Power Automate — Audit History Payload
+
+    RequestID = triggerOutputs()?['body/ID']
+    Action = triggerOutputs()?['body/Status/Value']
+    PreviousStatus = variables('PreviousStatus')
+    NewStatus = triggerOutputs()?['body/Status/Value']
+    ActionByEmail = triggerOutputs()?['body/Editor/Email']
+    ActionDateTime = utcNow()
+    Comments = coalesce(triggerOutputs()?['body/ReviewComments'], '')
+
+## Power BI — Open Requests
+
+    Open Requests =
+    CALCULATE(
+        COUNTROWS(Requests),
+        NOT(Requests[Status] IN {"Closed", "Rejected"})
+    )
+
+## Power BI — Overdue Requests
+
+    Overdue Requests =
+    CALCULATE(
+        COUNTROWS(Requests),
+        Requests[DueDate] < TODAY(),
+        NOT(Requests[Status] IN {"Closed", "Rejected"})
+    )
+
+## Power BI — Average Review Time
+
+    Average Review Time Days =
+    AVERAGEX(
+        FILTER(
+            Requests,
+            NOT(ISBLANK(Requests[SubmittedOn])) &&
+            NOT(ISBLANK(Requests[ReviewedOn]))
+        ),
+        DATEDIFF(Requests[SubmittedOn], Requests[ReviewedOn], DAY)
+    )
+
+## Power BI — Return Rate
+
+    Return Rate =
+    DIVIDE(
+        CALCULATE(COUNTROWS(Requests), Requests[Status] = "Returned"),
+        CALCULATE(COUNTROWS(Requests), NOT(ISBLANK(Requests[SubmittedOn]))),
+        0
+    )
+
+## Power BI — Projected SLA Breaches
+
+    Projected SLA Breaches =
+    CALCULATE(
+        COUNTROWS(Requests),
+        Requests[Status] <> "Closed",
+        Requests[SLADueDate] >= NOW(),
+        Requests[SLADueDate] <= NOW() + 3,
+        Requests[PercentComplete] < 0.80
+    )
+
+## What This Code Demonstrates
+
+This is not pseudocode standing in for the build. The page shows the Power Fx formulas, Power Automate expressions, DAX measures, validation sequence, status transitions, audit-history writes, reviewer permissions, queue filtering, SLA logic, and projection measures that would sit behind the real-time solution.
+
+Role alignment: Power Platform Solution Architect • Senior Power Platform Developer • Power Apps Developer • Power Automate Developer • Workflow Automation Lead • Power Platform Governance Lead
