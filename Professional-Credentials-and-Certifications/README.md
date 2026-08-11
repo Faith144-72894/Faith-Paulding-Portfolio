@@ -1,8 +1,16 @@
 # Professional Credentials & Certifications
 
-This section provides a consolidated view of the professional credentials and targeted continuing education that support my work across technical program leadership, data and analytics, automation, cybersecurity, enterprise transformation, and strategic execution.
+This section provides a consolidated view of the professional credentials, current federal suitability position, and targeted continuing education that support my work across technical program leadership, data and analytics, automation, cybersecurity, enterprise transformation, and strategic execution.
 
 The credentials are presented as supporting evidence of capability—not as a substitute for applied experience. Across the broader portfolio, these areas are translated into working data models, formulas, code, architecture, controls, automation, analytics, and implementation scenarios.
+
+## Current Federal Suitability / Trust Position
+
+| Current Status | Positioning |
+|---|---|
+| Public Trust | Current Public Trust position supporting my alignment with federal and government-contractor environments where this level of suitability is applicable. |
+
+> Public Trust is presented here as my current federal suitability/trust position and is not represented as a national-security security clearance.
 
 ## Professional Certification
 
@@ -57,6 +65,7 @@ The credentials are presented as supporting evidence of capability—not as a su
 
 | Credential Area | Role Relevance |
 |---|---|
+| Public Trust | Federal contractor roles • Government technology delivery • Federal program support • Public-sector modernization environments where Public Trust suitability is applicable |
 | Scrum / Agile | Senior Technical Program Manager • Technology Delivery Lead • AI Transformation Program Manager • Cloud Transformation Program Manager |
 | Power BI / Analytics | BI & Decision Intelligence Lead • Data & AI Lead • Financial / Program Analytics • Data Transformation Lead |
 | RPA / Automation | Power Platform Solution Architect • Automation Lead • Digital Transformation Lead • Business Systems Modernization |
