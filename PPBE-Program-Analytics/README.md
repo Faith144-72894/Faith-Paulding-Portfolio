@@ -1,60 +1,51 @@
-# PPBE Program Analytics
+# PPBE Program Analytics | Planning-to-Execution Decision Support
 
-I created this fictional PPBE analytics concept to demonstrate how I would approach the transition from technical program and data leadership into financial and resource-management decision support.
+> Fictional educational portfolio model. It does not represent an official PPBE product or actual government budget data.
 
-> This is an educational portfolio model. It does not represent actual government budget data, an official PPBE product, or a claim that I have owned an agency PPBE process.
+## Challenge
+Requirements, planned resources, available funding, execution, milestones, and program risk can be discussed in separate products. As conditions change, leadership may see the pieces without seeing the effect of one change on the broader program picture.
 
-## The Question Behind the Project
+## Desired Result
+Create a decision-support layer that connects planning assumptions to current execution so resource pressure, schedule risk, and emerging unfunded needs are visible early enough for leadership action.
 
-Planning, Programming, Budgeting, and Execution cannot be understood effectively when requirements, funding, execution, milestones, and risk are viewed in isolation. Accordingly, I designed this model around a connected question: **Are resources aligned to the mission requirement, and what does leadership need to know before the variance becomes a larger program problem?**
+## Plan
+1. Establish Program/FY/Requirement/Funding relationships.
+2. Capture planning baseline and current execution separately.
+3. Define health thresholds based on funding, schedule, milestone, and risk conditions.
+4. Calculate 30/60/90-day forecast exposure.
+5. Maintain a decision log for exceptions requiring leadership action.
+6. Reassess health as execution conditions change.
 
-## Analytical Components
+## Execution
+Fictional planning and execution records feed a governed analytical model. Power BI calculates variance and program health; scheduled refresh updates the decision layer; threshold logic identifies programs that move from normal to emerging or critical conditions.
 
-The model connects a program requirements register, fiscal-year funding plan, POM-style planning scenario, budget execution tracker, unfunded requirement register, cost and schedule variance, 30/60/90-day forecast, program-health scoring, and decision log.
-
-## Program Health Logic
-
-```text
-GREEN  = execution and schedule remain within approved thresholds
-AMBER  = an emerging funding, schedule, milestone, or risk condition requires attention
-RED    = a critical threshold has been exceeded or leadership action is required
+```mermaid
+flowchart LR
+ REQ[Mission Requirement] --> PLAN[Planning Baseline]
+ PLAN --> FUND[Available Resources]
+ FUND --> EXEC[Execution]
+ EXEC --> FCST[Forecast]
+ FCST --> HEALTH[Program Health]
+ HEALTH --> DEC[Leadership Decision]
+ DEC --> PLAN
 ```
 
-Rather than treating color as decoration, the status should be evidence-based. Therefore, each health determination should trace back to measurable conditions and supporting records.
+## Real-Time / Operational Controls
+- Baseline versus current-state separation
+- Evidence-based Green/Amber/Red thresholds
+- Funding and schedule variance
+- Unfunded requirement flags
+- 30/60/90-day outlook
+- Decision-required indicator
+- Refresh-driven health recalculation
 
-## Example Data Structure
+## Demonstration Results
+When a fictional funding, milestone, or forecast condition changes, the program-health indicator recalculates and the affected program can move into an exception view. Consequently, leadership can investigate the driver rather than waiting for the next manually assembled status package.
 
-| Field | Purpose |
-|---|---|
-| Program_ID | Unique fictional program key |
-| Fiscal_Year | Planning or execution year |
-| Requirement | Validated resource need |
-| Planned_Funding | Planning baseline |
-| Available_Funding | Current fictional funding level |
-| Obligations | Fictional obligations to date |
-| Forecast | Projected year-end requirement |
-| Variance | Difference from plan |
-| Health | Green/Amber/Red decision indicator |
-| Decision_Required | Leadership-action flag |
-
-## Executive Experience
-
-The reporting experience would move from an Executive PPBE Overview into Funding Execution, Program Health, Unfunded Requirements, 30/60/90-Day Forecasts, and Cost/Schedule Risk. In practice, this structure allows leadership to begin with the portfolio and progressively investigate the programs driving the exception.
-
-## Why This Matters for My Career Transition
-
-My background already requires me to connect data quality, technical delivery, risk, milestones, stakeholder requirements, and executive reporting. PPBE adds a financial-resource dimension to that same decision architecture. Consequently, this project is intentionally designed to strengthen that bridge without overstating experience I have not yet performed directly.
-
-## Remote Delivery Capability
-
-Planning analysis, data modeling, budget documentation, scenario analysis, Power BI reporting, brief development, and stakeholder coordination are remote-capable where contract and security requirements allow. Conversely, classified data, customer-specific financial systems, or major planning-cycle activities may require hybrid or on-site support.
-
-## Skills Demonstrated
-
-PPBE Concepts • Program Analysis • Budget Execution • Forecasting • Power BI • Excel • SQL • Data Modeling • Executive Reporting • Risk Analysis
+## Result Measures
+Funding variance • execution rate • forecast variance • unfunded requirement exposure • milestone risk • programs requiring decisions • time from threshold breach to visibility
 
 ## Career Alignment
+PPBE Analyst/Consultant • Business Financial Manager • Resource Management Analyst • Senior Program Analyst • Program Financial Analyst
 
-PPBE Analyst / Consultant • Business Financial Manager • Resource Management Analyst • Senior Program Analyst • Program Financial Analyst
-
-Ultimately, the purpose of this project is not to imitate a budget spreadsheet. It is to demonstrate how I would build a decision-support structure around requirements, resources, execution, and program outcomes.
+The value of the model is the connection between planning and execution: a plan becomes operationally useful when leadership can see when reality begins to diverge from it.
