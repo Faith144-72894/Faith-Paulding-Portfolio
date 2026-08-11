@@ -1,77 +1,46 @@
-# AI RMF Governance Portfolio
+# AI RMF Governance | Continuous Risk Operations
 
-I built this project around a governance reality that organizations are increasingly facing: AI can move from experimentation to operational use faster than policy, ownership, controls, and monitoring can mature around it. Consequently, the challenge is not simply whether an AI capability performs well. The challenge is whether the organization can explain who owns it, what risks were evaluated, what evidence supports deployment, and what happens when performance or context changes.
-
-> This is an educational portfolio implementation organized around the NIST AI Risk Management Framework functions: Govern, Map, Measure, and Manage. It is not an official NIST assessment or government AI system.
+> Fictional educational portfolio implementation organized around NIST AI RMF Govern, Map, Measure, and Manage. It is not an official assessment or certification.
 
 ## Challenge
+AI risk is not static. A use case can be acceptable at approval and later change because of new data, model behavior, users, business context, performance degradation, or incidents. A one-time governance checklist therefore creates a gap between approval and operation.
 
-A fictional enterprise is introducing AI use cases across multiple business functions. However, there is no consistent intake process, AI inventory, risk-rating method, approval record, monitoring plan, or escalation path. Moreover, technical teams and business owners are evaluating risk differently, which creates inconsistent decision-making and limited auditability.
+## Desired Result
+Create a continuous governance cycle where AI ownership, context, evidence, monitoring, mitigation, and deployment decisions remain visible throughout the lifecycle.
 
-## Solution
+## Plan
+1. Register every use case and accountable owner.
+2. Map purpose, stakeholders, data, impact, and dependencies.
+3. Define evaluation measures and risk thresholds.
+4. Approve, condition, or reject deployment based on evidence.
+5. Monitor operational signals after deployment.
+6. Trigger mitigation, escalation, reassessment, or retirement when conditions change.
 
-I designed a governance operating model that connects AI use-case intake to four continuous functions: **Govern, Map, Measure, and Manage**. By design, each use case moves through a traceable set of governance decisions rather than relying on informal approval.
-
+## Execution
 ```mermaid
 flowchart LR
-    G[GOVERN] --> M[MAP]
-    M --> ME[MEASURE]
-    ME --> MA[MANAGE]
-    MA --> G
+ IN[Use-Case Intake] --> G[GOVERN]
+ G --> M[MAP]
+ M --> ME[MEASURE]
+ ME --> D{Decision}
+ D -->|Approve| OP[Operate & Monitor]
+ D -->|Condition| FIX[Mitigation]
+ D -->|Reject| STOP[Do Not Deploy]
+ OP --> SIG[Risk / Performance Signal]
+ SIG --> MA[MANAGE]
+ MA --> G
 ```
 
-## Challenge-to-Solution Alignment
+## Continuous Controls
+AI inventory • ownership/RACI • context assessment • evaluation evidence • risk register • approval record • monitoring thresholds • incident/escalation workflow • periodic reassessment • retirement decision
 
-| Governance Challenge | Solution I Designed |
-|---|---|
-| No clear ownership | AI governance charter and RACI |
-| AI use cases are not centrally tracked | AI system/use-case inventory |
-| Risk is assessed inconsistently | Standardized context and impact assessment |
-| Performance evidence is fragmented | Evaluation plan and test-evidence register |
-| High-risk issues lack escalation | Risk register, mitigation plan, and escalation workflow |
-| Deployment decisions are difficult to defend | Formal approval and deployment decision record |
-| Risk changes after launch | Monitoring metrics and periodic review schedule |
+## Demonstration Results
+A fictional AI use case that passes initial review can later generate a monitoring exception. That signal is connected back to the risk record, owner, mitigation, and governance decision rather than remaining only in a technical log.
 
-## GOVERN
-
-Establish accountability, policy, roles, documentation, escalation, inventory, and risk tolerance. In practice, this becomes the management layer that determines who has authority to approve, challenge, pause, or retire an AI use case.
-
-## MAP
-
-Document the use case, intended outcomes, users, affected stakeholders, data sources, dependencies, and potential harms. Equally important, the mapping process establishes context before technical performance is evaluated.
-
-## MEASURE
-
-Define how performance, reliability, security, privacy, bias/fairness considerations, explainability, and other relevant risks will be evaluated. Accordingly, evidence becomes part of the governance decision rather than an afterthought.
-
-## MANAGE
-
-Prioritize risk, select treatments, approve or restrict deployment, monitor change, respond to incidents, and retire systems responsibly.
-
-## Fictional AI Risk Register
-
-| Risk | Example Control | Evidence |
-|---|---|---|
-| Unsupported output | Retrieval grounding and evaluation | Evaluation report |
-| Sensitive-data exposure | Access control and data minimization | Access review |
-| Inappropriate automated action | Human approval | Workflow log |
-| Performance degradation | Monitoring thresholds | KPI dashboard |
-| Unapproved use case | Intake and governance gate | Approval record |
-
-## Why This Solution Fits the Challenge
-
-The governance model creates continuity between policy, architecture, data, security, and operational monitoring. Therefore, the organization can evaluate AI as an enterprise capability rather than as a collection of disconnected experiments.
-
-## Remote Delivery Capability
-
-Governance frameworks, policy analysis, risk registers, control mapping, documentation, use-case reviews, assessments, and governance meetings are strongly compatible with remote delivery.
-
-## Skills Demonstrated
-
-Responsible AI • AI Governance • AI Risk • Cybersecurity • Data Governance • Auditability • Controls • Policy-to-Technology Translation • Executive Communication
+## Result Measures
+Use cases with named owners • assessment completion rate • open high-risk findings • evaluation pass rate • monitoring exceptions • time-to-mitigation • overdue reassessments • unresolved incidents
 
 ## Career Alignment
+AI Governance/Responsible AI Lead • AI Risk Consultant • AI Technical Program Manager • Data Governance Lead • AI Modernization Lead
 
-AI Governance / Responsible AI Lead • AI Risk Consultant • AI Technical Program Manager • Data Governance Lead • AI Modernization Lead
-
-Ultimately, this project demonstrates how I would give AI innovation a structure that leadership can govern, defend, and scale.
+The operating principle is continuity: governance should remain active for as long as the AI capability remains active.
