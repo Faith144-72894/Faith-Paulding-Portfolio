@@ -1,184 +1,209 @@
 # Public Sector Technology & Transformation
 
-## What This Portfolio Demonstrates
+## Role Targets, Market Alignment & Portfolio Evidence
 
-This section is built around the work performed inside technology companies, cloud providers, consulting organizations, systems integrators, healthcare and education technology organizations, and enterprise teams that deliver solutions to public-sector customers.
+This section is built around roles inside technology companies, cloud/platform providers, consulting organizations, systems integrators, regulated enterprises, and organizations delivering technology to public-sector customers. The portfolio is structured so a hiring manager can move from the **role I am targeting** to the **operating challenge**, then directly into the **dataset, formula, code, architecture, controls, and decision logic** I would use to solve it.
 
-The operating problem is rarely a lack of software. The problem is fragmentation: requests arrive through email, teams maintain separate spreadsheets, approvals depend on individual follow-up, financial information sits outside delivery reporting, leadership receives static status decks, and technical decisions are disconnected from adoption and business outcomes.
+The salary ranges below are **base-salary targeting ranges for U.S. senior-level opportunities**, not guarantees. Actual compensation varies by company, geography, level, clearance/customer requirements, equity, bonus, and scope. My target is to compete in the senior market where the role expects both technical depth and program/business ownership.
 
-My approach is to treat that fragmentation as an operating-system problem. I map how work enters the organization, where decisions occur, what data is created, who owns each handoff, where work can stall, what technology supports the process, what it costs to operate, and what leadership needs to know to intervene.
+## Target Roles & Compensation Expectations
 
-The resulting solution connects intake, workflow, architecture, automation, data, analytics, AI, financial visibility, security, adoption, and continuity into one measurable operating model.
+| Target Role | Target Base Salary | Market Positioning | Portfolio Evidence |
+|---|---:|---|---|
+| Senior Technical Program Manager — Public Sector | $165K–$200K+ | Senior technical delivery / cross-functional program leadership | [Role Case](Senior-Technical-Program-Manager_Public-Sector/) |
+| Solutions Architect — Public Sector | $170K–$220K+ | Enterprise/cloud/platform architecture | [Role Case](Solutions-Architect_Public-Sector/) |
+| Customer Solutions Manager — Public Sector | $155K–$190K+ | Customer transformation, adoption and value realization | [Role Case](Customer-Solutions-Manager_Public-Sector/) |
+| Data & AI Lead — Public Sector | $175K–$225K+ | Data strategy, AI delivery and governed analytics | [Role Case](Data-AI-Lead_Public-Sector/) |
+| Cloud Transformation Program Manager — Public Sector | $165K–$205K+ | Cloud migration and modernization program leadership | [Role Case](Cloud-Transformation-Program-Manager_Public-Sector/) |
+| Technology Delivery Lead — Public Sector | $160K–$195K+ | Technical delivery, recovery and dependency leadership | [Role Case](Technology-Delivery-Lead_Public-Sector/) |
+| BI & Decision Intelligence Lead — Public Sector | $160K–$200K+ | Enterprise analytics, semantic models and executive decision intelligence | [Role Case](BI-Decision-Intelligence-Lead_Public-Sector/) |
+| AI Transformation Program Manager — Public Sector | $175K–$220K+ | AI portfolio, production readiness and value realization | [Role Case](AI-Transformation-Program-Manager_Public-Sector/) |
+| Power Platform Solution Architect — Public Sector | $160K–$200K+ | Enterprise Power Platform architecture and workflow modernization | [Role Case](Power-Platform-Solution-Architect_Public-Sector/) |
+| Financial Systems Modernization / Transformation Manager | $155K–$195K+ | Financial systems, analytics and modernization leadership | Portfolio expansion target |
+
+**Compensation research:** These targets are intentionally presented as ranges rather than a single “market salary.” Current postings for senior technical program, solutions architecture, cloud/data/AI, and Power Platform architecture roles show wide ranges depending on employer and level. Use current postings and compensation databases when negotiating a specific opportunity. [AWS Careers](https://www.amazon.jobs/) • [Microsoft Careers](https://jobs.careers.microsoft.com/) • [Google Careers](https://www.google.com/about/careers/applications/jobs/results/) • [Levels.fyi](https://www.levels.fyi/) • [Glassdoor](https://www.glassdoor.com/Salaries/index.htm)
 
 ---
 
-## Public Sector Role Portfolio
+## How to Read the Data in This Portfolio
 
-### 1. Senior Technical Program Manager — Public Sector
+The sample CSV files are not decorative. Each dataset represents the operating information I would need in that role. The calculations are deliberately tied to the actual columns in those files.
+
+**Dataset field → business rule → formula → code → threshold → decision → action.**
+
+[Open the full Dataset → Formula → Decision Crosswalk](DATASET-FORMULA-CROSSWALK.md)
+
+Examples:
+
+- In the **Senior Technical Program Manager** dataset, `decision_due` feeds decision-aging logic, `uat_pass_rate` feeds release readiness, and `continuity_ready` becomes a go/no-go control.
+- In the **Customer Solutions Manager** dataset, `active_users_30d / target_users` calculates adoption, while `legacy_transactions / total transactions` exposes whether teams are still relying on the old process.
+- In the **Data & AI Lead** dataset, `actual_freshness_hours` is tested against `freshness_sla_hours`, while `quality_score` and `grounding_score` determine whether automated output can proceed or requires human review.
+- In the **Cloud Transformation PM** dataset, readiness is not a date. `identity_ready`, `data_validated`, `integration_ready`, `rollback_ready`, and `support_ready` must pass before a workload becomes cutover-eligible.
+- In the **AI Transformation PM** dataset, business value, data readiness, feasibility, inverse risk, and adoption readiness combine into a weighted priority score used to decide which AI use cases deserve investment.
+- In the **Power Platform Architect** dataset, submission/review dates calculate cycle time, ECD drives risk, and duplicate flags expose intake/data-quality problems.
+
+The crosswalk includes Excel-style formulas plus SQL, Python, DAX, or Power Fx patterns where the role and implementation layer call for them.
+
+---
+
+## 1. Senior Technical Program Manager — Public Sector
 
 **Business condition:** A customer modernization program has multiple workstreams, vendors, technical dependencies, decision gates, security reviews, testing activities, and leadership commitments. Status exists, but no single view explains what is blocking delivery or what decision is required next.
 
-**What I would build and manage:**
+**Dataset:** `data/delivery_control.csv` inside the role case.
 
-Integrated delivery plan • dependency register • milestone/ECD control • decision log • RAID register • executive operating brief • recovery actions • release readiness • UAT coordination • adoption transition
+**Fields driving decisions:** workstream • owner • planned finish • percent complete • health • dependency • decision due • UAT pass rate • continuity ready.
 
-**Performance questions answered:**
+**What I calculate:** portfolio completion • overdue decision days • UAT readiness • continuity coverage • composite release readiness.
 
-What is late? What is blocked? Which dependency affects the critical path? Who owns the next action? What decision is needed from leadership? What happens if the dependency is not resolved?
+**What I decide from it:** escalate a decision • resequence a dependency • add testing capacity • hold release • maintain fallback • approve go-live.
 
-**Business continuity:** Every critical workstream has an owner, dependency, escalation route, and fallback method so modernization does not stop the operating process it is replacing.
+[Open Role Case](Senior-Technical-Program-Manager_Public-Sector/)
 
 ---
 
-### 2. Public Sector Solutions Architect
+## 2. Solutions Architect — Public Sector
 
 **Business condition:** A customer has applications, spreadsheets, shared repositories, analytics, identity requirements, security controls, and new AI capabilities but no documented target architecture connecting them.
 
-**What I would produce:**
+**Dataset:** `data/architecture_inventory.csv`.
 
-Current-state architecture • target-state architecture • architecture decision records • integration map • identity/access model • data architecture • environment strategy • security boundaries • licensing assumptions • cost model • deployment sequence
+**Fields driving decisions:** component • current state • target pattern • data owner • identity pattern • integration • criticality • estimated monthly cost • continuity method.
 
-**Architecture decisions include:**
+**What I calculate:** monthly architecture run rate • high-criticality share • continuity coverage • modernization coverage.
 
-System of record • API vs batch integration • Dataverse vs SharePoint vs SQL • identity pattern • analytics layer • AI grounding pattern • service accounts • environment separation • records/evidence storage • disaster/fallback method
+**What I decide from it:** target platform • integration pattern • resilience requirement • identity pattern • modernization sequence • cost tradeoff.
 
-**Business continuity:** Architecture decisions include failure paths and alternate operating methods, not only the preferred technical design.
+[Open Role Case](Solutions-Architect_Public-Sector/)
 
 ---
 
-### 3. Customer Solutions Manager — Public Sector
+## 3. Customer Solutions Manager — Public Sector
 
 **Business condition:** A solution has technically launched, but user adoption is uneven. Leadership sees implementation as complete while operational teams continue using spreadsheets and manual workarounds.
 
-**What I would manage:**
+**Dataset:** `data/adoption_telemetry.csv`.
 
-Target users • active users • adoption rate • unresolved blockers • capability usage • training needs • value realization • executive checkpoints • customer actions • product-team dependencies
+**Fields driving decisions:** target users • active users • transactions • legacy transactions • blockers • cycle time • hours saved.
 
-**Performance measures:**
+**What I calculate:** adoption rate • legacy reliance • blocker density • monthly productivity benefit.
 
-Adoption % • time saved • reduction in manual handoffs • transaction completion • feature utilization • blocker aging • user-group adoption • realized vs projected value
+**What I decide from it:** where to intervene • which user group needs training • which blocker requires product escalation • whether legacy retirement is premature.
 
-**Business continuity:** Low-adoption areas are identified before legacy processes are retired.
+[Open Role Case](Customer-Solutions-Manager_Public-Sector/)
 
 ---
 
-### 4. Public Sector Data & AI Lead
+## 4. Data & AI Lead — Public Sector
 
 **Business condition:** Operational data is distributed across systems with different refresh schedules, quality levels, owners, and permissions. AI use cases are being proposed on top of that environment.
 
-**What I would establish:**
+**Dataset:** `data/data_product_registry.csv`.
 
-Data product inventory • source ownership • freshness SLAs • quality rules • exception handling • lineage • permission model • AI use-case register • grounding controls • human review • telemetry • model/output monitoring
+**Fields driving decisions:** source • freshness SLA • actual freshness • quality score • AI use • grounding score • human-review rule.
 
-**Runtime questions:**
+**What I calculate:** freshness compliance • quality pass • grounding review trigger • trusted data-product rate.
 
-Is the source current? Did the quality check pass? Is the requesting user authorized to see the source? Is the AI response grounded? Does the confidence/risk threshold require human review?
+**What I decide from it:** allow automated use • block stale data • correct quality defects • require human review • suspend an AI output path.
 
-**Business continuity:** Analytics and AI degrade safely when a source is stale or unavailable instead of silently producing unsupported output.
+[Open Role Case](Data-AI-Lead_Public-Sector/)
 
 ---
 
-### 5. Cloud Transformation Program Manager
+## 5. Cloud Transformation Program Manager — Public Sector
 
 **Business condition:** Workloads need to move from legacy or fragmented infrastructure while the organization must continue operating throughout migration.
 
-**What I would manage:**
+**Dataset:** `data/migration_inventory.csv`.
 
-Application/workload inventory • business criticality • dependency mapping • migration waves • readiness scoring • security dependencies • cutover windows • rollback plans • data validation • acceptance criteria • post-cutover stabilization
+**Fields driving decisions:** workload • criticality • wave • readiness • identity • data validation • integration • rollback • support • cutover window.
 
-**Performance measures:**
+**What I calculate:** technical gate pass • cutover eligibility • wave readiness • critical blocked workloads.
 
-Wave readiness • unresolved dependencies • rollback readiness • migrated workloads • defects after cutover • downtime • acceptance rate
+**What I decide from it:** move • hold • split wave • resequence • remediate dependency • activate rollback.
 
-**Business continuity:** Critical workloads do not move without rollback criteria, business-owner acceptance, and a documented continuity path.
+[Open Role Case](Cloud-Transformation-Program-Manager_Public-Sector/)
 
 ---
 
-### 6. Public Sector Technology Delivery Lead
+## 6. Technology Delivery Lead — Public Sector
 
 **Business condition:** Risks, assumptions, issues, dependencies, customer decisions, and technical recovery actions exist across different tools and meetings.
 
-**What I would operate:**
+**Dataset:** `data/raid_register.csv`.
 
-RAID register • decision queue • escalation logic • blocker aging • recovery plan • ownership matrix • delivery cadence • action closure • customer dependency tracking
+**Fields driving decisions:** type • impact • owner • opened date • due date • status • recovery action • affected process.
 
-**Performance measures:**
+**What I calculate:** item age • days overdue • high-impact open blockers • recovery coverage • escalation trigger.
 
-Open high-impact blockers • average blocker age • overdue decisions • recovery-action closure • dependency aging • delivery variance
+**What I decide from it:** escalate • assign recovery • change delivery sequence • invoke fallback • close or continue monitoring.
 
-**Business continuity:** Every high-impact disruption is paired with a recovery action rather than simply reported as red status.
+[Open Role Case](Technology-Delivery-Lead_Public-Sector/)
 
 ---
 
-### 7. Public Sector BI & Decision Intelligence Lead
+## 7. BI & Decision Intelligence Lead — Public Sector
 
 **Business condition:** Leadership receives multiple reports with different definitions for performance, finance, risk, adoption, and delivery.
 
-**What I would build:**
+**Dataset:** `data/kpi_registry.csv`.
 
-KPI charter • semantic model • source-to-measure mapping • executive dashboard • threshold logic • exception views • drill-through • 30/60/90-day outlook • refresh controls • data-quality indicators
+**Fields driving decisions:** KPI • definition • source • refresh SLA • actual age • threshold • current value • owner • decision trigger.
 
-**Decision model:**
+**What I calculate:** freshness variance • stale-KPI flag • threshold exception • action requirement.
 
-Indicator → threshold → exception → owner → action → resolution.
+**What I decide from it:** whether the metric is trustworthy enough to use and which owner/action is triggered when performance crosses its threshold.
 
-A dashboard is useful only when a leader can determine what changed, why it matters, who owns it, and what action is required.
+[Open Role Case](BI-Decision-Intelligence-Lead_Public-Sector/)
 
 ---
 
-### 8. AI Transformation Program Manager
+## 8. AI Transformation Program Manager — Public Sector
 
 **Business condition:** Teams have many AI ideas but no shared mechanism for determining which use cases should progress from idea to production.
 
-**What I would establish:**
+**Dataset:** `data/ai_use_case_portfolio.csv`.
 
-AI use-case pipeline • mission/business value • data readiness • risk tier • technical feasibility • human-review requirement • pilot metrics • evaluation gate • deployment owner • value-realization measure
+**Fields driving decisions:** business value • data readiness • technical feasibility • risk • adoption readiness • projected hours saved • owner • status.
 
-**Lifecycle:**
+**What I calculate:** weighted priority score • production-candidate flag • portfolio productivity potential.
 
-Idea → discovery → data readiness → control review → prototype → evaluation → UAT → production → monitoring → reassessment.
+**What I decide from it:** fund • pilot • hold • improve data • add controls • scale • terminate.
 
-**Performance measures:**
-
-Hours saved • cycle-time reduction • accuracy/grounding • exception rate • adoption • cost per transaction • human-review volume
+[Open Role Case](AI-Transformation-Program-Manager_Public-Sector/)
 
 ---
 
-### 9. Power Platform Solution Architect — Public Sector
+## 9. Power Platform Solution Architect — Public Sector
 
 **Business condition:** Departmental forms and spreadsheets have expanded into business-critical workflows without a scalable application, data, automation, security, or support model.
 
-**What I would architect:**
+**Dataset:** `data/requests.csv` plus workflow/audit structures in the role case.
 
-Power Apps experience • Dataverse/SharePoint data layer • Power Automate orchestration • Power BI decision layer • environment strategy • DLP • service accounts • role-based access • solution packaging • ALM • support ownership • licensing model
+**Fields driving decisions:** request ID • type • status • submitted/review dates • reviewer • priority • ECD • duplicate flag.
 
-**Operational design:**
+**What I calculate:** review cycle days • pending-review age • duplicate rate • ECD risk • approval/return rate.
 
-Save Draft → Submit → Validate → Review → Return/Approve → Create or Update Record → Notify → Audit → Report.
+**What I decide from it:** routing • reviewer capacity • duplicate handling • escalation • workflow redesign • production support requirements.
 
-**Business continuity:** Production flows have co-ownership/service-account strategy, failed-run handling, retry logic, and a documented manual fallback.
+[Open Role Case](Power-Platform-Solution-Architect_Public-Sector/)
 
 ---
 
-### 10. Financial Systems Modernization Manager — Public Sector
+## 10. Financial Systems Modernization Manager — Public Sector
 
 **Business condition:** Budget, obligations, expenditures, forecast, program delivery, and leadership reporting are maintained through separate reconciliation processes.
 
-**What I would connect:**
+**Target dataset structure:** program/workstream • available authority • obligations • expenditures • forecast • milestone • ECD • risk • owner.
 
-Financial source data • program/workstream structure • budget authority • obligations • expenditures • forecast • variance • milestones • risk • corrective action • executive reporting
+**Core formulas:**
 
-**Core calculations:**
+    Execution Rate = Obligations / Available Authority
+    Forecast Variance = Forecast - Budget
+    Remaining Balance = Budget - Obligations
+    Projected Pressure = Forecast - Available Authority
 
-Execution Rate = Obligations / Available Authority
-
-Forecast Variance = Forecast - Budget
-
-Remaining Balance = Budget - Obligations
-
-Projected Pressure = Forecast - Available Authority
-
-**Business continuity:** Funding pressure is surfaced early enough to change scope, sequence work, or escalate a decision before delivery stops.
+**What I decide from it:** rephase work • change scope • escalate resource pressure • reconcile forecast • protect critical milestones.
 
 ---
 
@@ -197,8 +222,6 @@ Projected Pressure = Forecast - Available Authority
 | Adoption measured informally | Adoption/value tracker | Measurable realized value |
 | Single-person workflow ownership | Service ownership + fallback | Operational continuity |
 
----
-
 ## Technology & Operating Stack
 
 **Application and workflow:** Power Apps • Power Automate • SharePoint • Dataverse
@@ -213,20 +236,16 @@ Projected Pressure = Forecast - Available Authority
 
 **Financial operations:** budget • obligations • expenditures • forecasts • variance • resource pressure • program-to-finance alignment
 
----
-
 ## Evidence in This Section
 
-### [Real-Time Solution](REAL-TIME-SOLUTION.md)
-A complete fragmented-to-modernized scenario showing how the operating problem is assessed, architected, sequenced, implemented, measured, and sustained.
+[Dataset → Formula → Decision Crosswalk](DATASET-FORMULA-CROSSWALK.md) shows how the actual CSV columns feed the calculations and operating decisions.
 
-### [Code & Logic](CODE-AND-LOGIC.md)
-Implementation-level Python, SQL, Power Fx, DAX, workflow, validation, risk, routing, SLA, financial, and projection logic.
+[Public Sector Data & Code Index](PUBLIC-SECTOR-DATA-CODE-INDEX.md) maps each role to its primary operational question and code structure.
 
-The code is included to demonstrate that I can move between executive/program context and the technical mechanics required to implement the solution.
+[Real-Time Solution](REAL-TIME-SOLUTION.md) demonstrates a fragmented-to-modernized scenario.
 
----
+[Code & Logic](CODE-AND-LOGIC.md) provides implementation-level SQL, Python, DAX, Power Fx, workflow, validation, risk, routing, SLA, financial, and projection logic.
 
-## The Capability Being Demonstrated
+## Portfolio Standard
 
-This is not a collection of disconnected software examples. It demonstrates the ability to take an ambiguous operating problem, determine where fragmentation is affecting performance, define the target operating model, architect the technology, build the controls, quantify performance, and establish a path that keeps the organization operating while the change is implemented.
+The sample data is fictional and designed to demonstrate operating logic. The standard is that a reader should be able to trace a business condition into the source fields, reproduce the calculation, inspect the code, understand the threshold, and see the decision or action the result is intended to drive.
