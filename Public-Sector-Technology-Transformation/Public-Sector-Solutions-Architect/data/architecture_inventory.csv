@@ -1,0 +1,6 @@
+component,current_state,target_pattern,data_owner,identity_pattern,integration,criticality,estimated_monthly_cost,continuity_method
+Request Intake,Email and spreadsheet,Power Apps + Dataverse,Operations,Entra ID,Native connector,High,1800,Manual intake template
+Evidence,Shared drive,SharePoint controlled library,Records,Entra ID,API/connector,High,700,Controlled offline export
+Operational Data,Multiple spreadsheets,Dataverse,Data Owner,Security roles,API,High,3200,Scheduled critical-data export
+Analytics,Desktop workbooks,Power BI semantic model,Analytics,Workspace roles,DirectQuery/Import,Medium,2100,Static executive pack
+Knowledge Search,Manual document search,Grounded AI retrieval,Knowledge Owner,Permission filtering,API,Medium,2500,Direct repository search
