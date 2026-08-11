@@ -1,53 +1,109 @@
-# Faith Paulding | Federal Technology, Data, Financial Management & Modernization Candidate Portfolio
+# Faith Paulding | From Fragmented Government Operations to Decision-Ready Systems
 
-**Target:** Government contracting roles where technical program leadership, data/BI, Power Platform, financial-management analytics, AI architecture, cybersecurity-aware governance, audit modernization, and enterprise transformation intersect.
+I built this portfolio around the work I want to continue doing: walking into a process that has grown across spreadsheets, email, shared drives, legacy tools, disconnected reports, and manual handoffs—and determining how the pieces should work together.
 
-## Candidate Alignment
+My lane sits between the mission, the data, and the build. I can work through the business problem with stakeholders, define what the information needs to do, design the data and workflow structure, build or guide the technical solution, and translate the finished system into information leadership can actually use.
 
-MBA — Engineering Management • Certified ScrumMaster (CSM) • IBM Cybersecurity Certification • IBM AI Architecture Certification • Senior technical/data delivery background • Power BI • Power Apps • Power Automate • Power Fx • SharePoint • Dataverse • DAX • Power Query • SQL • Python • Tableau • SSRS • Excel / Power Pivot
+That is the thread connecting the projects in this repository.
 
-## Roles This Portfolio Supports
+## Where I Fit
 
-| Area | Target Roles | Direct Evidence |
+| I can step into work involving… | Roles this supports | Evidence |
 |---|---|---|
-| Technical Program / Transformation | Senior Technical Program Manager; Digital Transformation Lead/Manager; Technology Modernization Program Manager; Enterprise Modernization Lead; Agile Delivery Manager; Senior Program Analyst | [Modernization Playbook](Federal-Digital-Transformation-Playbook/README.md) • [Program Performance](Federal-Program-Performance-Command-Center) |
-| Data / BI / Analytics | BI/Data Analytics Lead; Senior BI Developer; Lead Data Analyst; Power BI Lead; Business Intelligence Manager; Executive Decision Support Analyst; Performance Analyst | [Executive Performance Analytics](Executive-BI-Analytics-Portfolio/README.md) • [Real-Time BI Capability](Executive-BI-Analytics-Portfolio/REAL-TIME-SOLUTION.md) |
-| Power Platform / Automation | Power Platform Solution Architect; Enterprise Power Platform Architect; Senior Power Platform Developer; Workflow Automation Lead; Power Platform Governance Lead | [Enterprise Power Platform Architecture](Power-Platform-Enterprise-Architecture/README.md) • [Real-Time Automation](Power-Platform-Enterprise-Architecture/REAL-TIME-SOLUTION.md) |
-| Financial Management / PPBE | Financial Management Business Analyst; Financial Systems Analyst; Financial Data/BI Analyst; Business Financial Manager; Resource Management Analyst; PPBE Analyst; Program Financial Analyst | [Financial Management Analytics](Federal-Financial-Management-Analytics/README.md) • [Financial Calculations](Federal-Financial-Management-Analytics/REAL-TIME-SOLUTION.md) • [PPBE Analytics](PPBE-Program-Analytics/README.md) |
-| Audit / Compliance / Risk | Audit Readiness Analyst; Audit Remediation Analyst; Audit Data Analytics Lead; Audit Management Systems Analyst; GRC Analyst; Risk & Controls Analyst | [Audit & Compliance Solution](#government-audit--compliance-management-system) • [AI Risk Governance](NIST-AI-RMF-Governance/README.md) |
-| AI / Emerging Technology | AI Solutions Architect; Enterprise AI Architect; AI Technical Program Manager; AI Transformation Manager; AI Governance Lead; Responsible AI Lead; AI Risk Consultant | [Enterprise AI Architecture](Enterprise-AI-Architecture/README.md) • [Runtime AI Capability](Enterprise-AI-Architecture/REAL-TIME-SOLUTION.md) • [AI RMF Governance](NIST-AI-RMF-Governance/README.md) |
-| Cybersecurity-Aware Governance | Cybersecurity Program Analyst; Cybersecurity Business Analyst; Cybersecurity Governance Analyst; Cyber Risk & Controls Analyst; Secure Digital Transformation Consultant | [AI Risk Governance](NIST-AI-RMF-Governance/REAL-TIME-SOLUTION.md) • [Enterprise AI Architecture](Enterprise-AI-Architecture/README.md) |
+| Complex technical delivery across business and IT teams | Senior Technical Program Manager • Digital Transformation Lead • Technology Modernization Program Manager • Agile Delivery Manager | [Federal Digital Transformation](Federal-Digital-Transformation-Playbook/README.md) |
+| Data that exists but is difficult to trust, combine, or act on | BI/Data Analytics Lead • Lead Data Analyst • Senior BI Developer • Power BI Lead • Decision Support Analyst | [Executive Performance Analytics](Executive-BI-Analytics-Portfolio/README.md) |
+| Manual intake, approvals, status tracking, and recurring follow-up | Power Platform Solution Architect • Senior Power Platform Developer • Workflow Automation Lead • Business Systems Analyst | [Power Platform Enterprise Architecture](Power-Platform-Enterprise-Architecture/README.md) |
+| Financial information that needs stronger execution and forecast visibility | Financial Systems Analyst • Financial Data/BI Analyst • Business Financial Manager • Program Financial Analyst | [Federal Financial Management Analytics](Federal-Financial-Management-Analytics/README.md) |
+| Requirements, resources, execution, milestones, and risk that need one decision picture | PPBE Analyst • Resource Management Analyst • Budget/Program Analytics Consultant | [PPBE Program Analytics](PPBE-Program-Analytics/README.md) |
+| Audit findings and corrective actions spread across separate trackers | Audit Readiness Analyst • Audit Remediation Analyst • Audit Data Analytics Lead • Audit Management Systems Analyst | Government Audit & Compliance Management System below |
+| AI implementation that has to account for access, grounding, monitoring, and risk | AI Solutions Architect • AI Technical Program Manager • AI Transformation Manager • AI Governance Lead | [Enterprise AI Architecture](Enterprise-AI-Architecture/README.md) |
+| Technology risk that has to remain governed after deployment | Responsible AI Lead • AI Risk Consultant • Cybersecurity Governance Analyst • Cyber Risk & Controls Analyst | [AI RMF Governance](NIST-AI-RMF-Governance/README.md) |
 
-## Portfolio Evaluation Format
+## What I Bring Into the Work
 
-Every solution is intended to show the same hiring evidence:
+MBA, Engineering Management • Certified ScrumMaster (CSM) • IBM Cybersecurity Certification • IBM AI Architecture Certification
 
-**Common Government Problem → Fragmented/Siloed State → Target State → Data → Plan → Execution → Code/Calculations → Projection → Controls → Result Measures → Role Capability**
+Power BI • Power Apps • Power Automate • Power Fx • SharePoint • Dataverse • DAX • Power Query • SQL • Python • Tableau • SSRS • Excel / Power Pivot
 
-No project requires a reviewer to infer how the technical work translates to the target role. Each folder identifies the role alignment and connects the data, calculations, workflow, architecture, and measures to the responsibilities represented by that role.
+The tools matter because they allow me to move between analysis and execution. The portfolio is organized around what I can do with them, not around a software inventory.
 
-## Portfolio Evidence Map
+## How to Read This Portfolio
 
-| Project | Common Problem | Modernized Capability | Technical Evidence |
-|---|---|---|---|
-| [Federal Financial Management Analytics](Federal-Financial-Management-Analytics/README.md) | Budget, obligation, expenditure, forecast, and program data maintained separately | Governed financial model with variance, execution, projection, and exception reporting | [DAX + projection logic](Federal-Financial-Management-Analytics/REAL-TIME-SOLUTION.md) |
-| [PPBE Program Analytics](PPBE-Program-Analytics/README.md) | Requirements, resources, execution, milestones, and risks evaluated in silos | Requirement-to-resource decision model with 30/60/90 outlook | [PPBE calculations](PPBE-Program-Analytics/REAL-TIME-SOLUTION.md) |
-| [Executive Performance Analytics](Executive-BI-Analytics-Portfolio/README.md) | Separate trackers and inconsistent KPI definitions | Governed semantic model, exception analytics, drill-through, forecast | [DAX + backlog projection](Executive-BI-Analytics-Portfolio/REAL-TIME-SOLUTION.md) |
-| [Power Platform Enterprise Architecture](Power-Platform-Enterprise-Architecture/README.md) | Email, spreadsheets, manual approvals, separate reporting | Governed intake, workflow, audit history, alerts, operational analytics | [Power Fx + automation logic](Power-Platform-Enterprise-Architecture/REAL-TIME-SOLUTION.md) |
-| [Enterprise AI Architecture](Enterprise-AI-Architecture/README.md) | Distributed knowledge and unmanaged AI access/output risk | Authorized retrieval, grounding, controls, telemetry, human review | [Python runtime logic](Enterprise-AI-Architecture/REAL-TIME-SOLUTION.md) |
-| [AI RMF Governance](NIST-AI-RMF-Governance/README.md) | Point-in-time approval does not detect changing AI risk | Continuous metrics, thresholds, evidence, reassessment | [Python risk scoring](NIST-AI-RMF-Governance/REAL-TIME-SOLUTION.md) |
-| [Federal Digital Transformation](Federal-Digital-Transformation-Playbook/README.md) | Existing fragmented processes automated without redesign | Current-state to target-state operating model and phased implementation | [Projection + execution model](Federal-Digital-Transformation-Playbook/REAL-TIME-SOLUTION.md) |
+I did not build these folders as isolated technology demos. Each one starts with a government operating problem and follows the decisions required to move it forward.
+
+**What is happening now → why the current process breaks down → what should connect → what data is required → how I would build it → how the logic works → what permissions and licenses are needed → what can be measured or projected → what leadership gains from the change.**
+
+The sample records are fictional. The architecture, calculations, workflow logic, security considerations, implementation decisions, and role alignment demonstrate how I approach the work.
+
+## The Work
+
+### Financial Management: See the Position Before It Becomes a Problem
+
+The issue is not simply whether financial data exists. The issue is whether budget authority, commitments, obligations, expenditures, requirements, forecasts, and program ownership can be read together soon enough to influence a decision.
+
+[Open the financial management case](Federal-Financial-Management-Analytics/README.md) to see a full fictional FY2026 dataset, execution calculations, forecast logic, funding-gap analysis, exception handling, permissions, and implementation considerations.
+
+### PPBE & Resource Decisions: Connect the Requirement to the Money and the Mission
+
+A requirement can look supportable in one file while the funding, schedule, milestone, or risk picture tells a different story somewhere else. This case connects those pieces so a resource decision can be evaluated in context.
+
+[Open the PPBE case](PPBE-Program-Analytics/README.md).
+
+### Executive Analytics: Stop Rebuilding the Same Answer Every Reporting Cycle
+
+When every office maintains its own definitions and trackers, leadership reporting becomes a reconciliation exercise. This case focuses on creating one governed performance model with consistent measures, exceptions, projections, and drill-through to the record behind the number.
+
+[Open the executive analytics case](Executive-BI-Analytics-Portfolio/README.md).
+
+### Power Platform: Replace the Handoff Chain, Not Just the Form
+
+A digital form does not modernize a process if the approval, ownership, evidence, status history, and reporting still happen manually. This case treats the application, workflow, data, security, licensing, automation, and reporting as one operating solution.
+
+[Open the Power Platform case](Power-Platform-Enterprise-Architecture/README.md).
+
+### Enterprise AI: Make the Answer Traceable Before Making It Fast
+
+Government AI has to do more than return an answer. The system has to know what a user is allowed to retrieve, where the supporting information came from, when confidence is too low, what should be logged, and when a person needs to make the call.
+
+[Open the enterprise AI case](Enterprise-AI-Architecture/README.md).
+
+### AI Risk: Approval Is Not the End of Governance
+
+Model behavior, data, users, and operating conditions change after deployment. This case turns AI risk from a point-in-time document into measurable thresholds, evidence, monitoring, escalation, and reassessment.
+
+[Open the AI governance case](NIST-AI-RMF-Governance/README.md).
+
+### Digital Transformation: Fix the Operating Model Before Automating the Symptoms
+
+Email intake, spreadsheet tracking, manual approvals, shared-drive evidence, and static reporting are often parts of the same process. This case works from that full picture instead of automating one broken handoff at a time.
+
+[Open the transformation case](Federal-Digital-Transformation-Playbook/README.md).
 
 ## Government Audit & Compliance Management System
 
-**Role Alignment:** Power Platform Solution Architect • Senior Technical Program Manager • Audit Readiness/Remediation Analyst • Audit Data Analytics Lead • Digital Transformation Lead
+This is the clearest example of how I approach a fragmented lifecycle.
 
-**Common Problem:** Intake, deficiencies, recommendations, corrective actions, milestones, evidence, approvals, and closure are maintained across disconnected trackers and communications.
+The starting point is familiar: intake in one location, review somewhere else, deficiencies in another tracker, recommendations and corrective actions maintained separately, evidence stored in documents, and leadership reporting assembled after the fact.
 
-**Fragmented State:** intake form → spreadsheet → reviewer tracker → corrective-action tracker → document repository → manually assembled leadership report.
+I would treat those records as one connected lifecycle:
 
-**Target State:** governed intake → validated source of truth → Deficiency → Recommendation → CAP → Milestone → Evidence relationships → automated workflow/audit history → exception alerts → executive analytics.
+**Intake → Review → Deficiency → Recommendation → Corrective Action → Milestone → Evidence → Closure → Reporting**
 
-**Execution:** Power Apps for intake/review/management; Power Automate for status history, routing, alerts, and escalation; SharePoint/Dataverse for governed records and evidence; Power BI for health, overdue exposure, completion, and forecasting.
+The technical design supports that lifecycle with Power Apps for controlled interaction, Power Automate for routing and history, SharePoint or Dataverse for governed records, and Power BI for operating and leadership visibility. The value is in the relationships: leadership can move from portfolio health to the exact recommendation, action, milestone, evidence requirement, owner, or deadline creating the condition.
 
-**Result Measures:** submission-to-review time • overdue count • workflow aging • CAP completion • evidence completeness • closure cycle • 30/60/90-day exposure
+This case aligns directly with Power Platform Solution Architect, Senior Technical Program Manager, Audit Readiness/Remediation, Audit Data Analytics, and Digital Transformation work.
+
+## What I Would Expect to Be Measured
+
+A modernization effort should leave evidence that the process changed. Depending on the solution, I would expect to measure review time, workflow aging, backlog, overdue exposure, execution rate, forecast variance, funding gaps, milestone performance, corrective-action completion, evidence completeness, SLA performance, data-quality exceptions, adoption, and 30/60/90-day projected exposure.
+
+## Implementation Reality
+
+Architecture does not stop at the diagram. The repository also accounts for software dependencies, developer and end-user permissions, environment access, least-privilege security, licensing structure, estimated public commercial licensing cost, premium connectors, storage/capacity considerations, and the difference between a development configuration and a production deployment.
+
+[Review the software, permissions, and licensing matrix](SOFTWARE-LICENSING-PERMISSIONS-MATRIX.md).
+
+---
+
+**Faith Paulding**  
+Technical Program Leadership • Data & BI • Power Platform • Financial Management Analytics • AI Architecture • Cybersecurity-Aware Governance • Government Modernization
