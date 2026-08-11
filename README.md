@@ -1,5 +1,153 @@
 # Faith Paulding | Real-Time Federal Digital Transformation Portfolio
 
+## Government Contracting Positions I Am Aligned For
+
+My résumé, technical delivery experience, leadership background, certifications, and the solution portfolio documented in this repository create alignment across a broad range of government-contracting roles. Rather than limiting my candidacy to a single technical lane, my experience spans **technical program leadership, data and business intelligence, Power Platform architecture, digital transformation, financial-management modernization, audit readiness, AI architecture, cybersecurity-aware delivery, governance, and enterprise analysis.**
+
+### Technical Program Management, Transformation & Agile Delivery
+- Senior Technical Program Manager
+- Technical Program Manager — Data / Analytics
+- Technical Program Manager — Power Platform / Automation
+- Technical Program Manager — AI / Emerging Technology
+- Data Analytics Program Manager
+- Digital Transformation Lead
+- Digital Transformation Manager
+- Technology Modernization Program Manager
+- Enterprise Modernization Lead
+- Agile Delivery Manager — IT / Data
+- Senior Program Analyst
+- Senior Management Analyst
+- Program Controls Analyst
+- Business Systems Analyst — DoD / Federal
+- Technical Business Analyst
+- Enterprise Business Analyst
+- Requirements / Process Modernization Lead
+
+### Data, Business Intelligence & Analytics
+- BI / Data Analytics Lead
+- Senior BI Developer
+- Senior Data Analyst
+- Lead Data Analyst
+- Data Analytics Lead
+- Data Analytics Program Manager
+- Power BI Lead / Developer
+- Business Intelligence Manager
+- Data Visualization Lead
+- Data Governance Lead
+- Data Quality Lead
+- Data Governance / Data Quality Manager
+- Analytics Modernization Consultant
+- Executive Reporting / Decision Support Analyst
+- Performance Management Analyst
+- Program Performance Analyst
+- Data Integration Analyst
+- Reporting & Analytics Consultant
+
+### Microsoft Power Platform & Enterprise Automation
+- Power Platform Solution Architect
+- Enterprise Power Platform Architect
+- Senior Power Platform Developer
+- Power Apps Developer
+- Power Automate Developer
+- Low-Code Solution Architect
+- Workflow Automation Lead
+- Automation / Workflow Solutions Lead
+- Microsoft 365 Solutions Consultant
+- SharePoint / Power Platform Solutions Analyst
+- Business Applications Solution Architect
+- Power Platform Governance Lead
+- Power Platform ALM Lead
+- Intelligent Automation Consultant
+
+### Financial Management, PPBE & Resource Analytics
+- Financial Management Business Analyst
+- Financial Systems Analyst
+- Financial Data / BI Analyst
+- Financial Management Modernization Consultant
+- Financial Systems Modernization Analyst
+- Business Financial Manager
+- Resource Management Analyst
+- PPBE Analyst / Consultant
+- PPBE Data / Analytics Analyst
+- Program Financial Analyst
+- Program Controls Analyst
+- Budget / Program Analytics Consultant
+- Financial Reporting Analyst
+- Financial Data Analyst
+- Budget Execution Analytics Analyst
+- Financial Transformation Consultant
+- Resource / Program Decision Support Analyst
+
+### Audit, Compliance, Risk & Governance
+- Audit Readiness Analyst
+- Audit Remediation Analyst
+- Audit Readiness / Remediation Analyst
+- Audit Data Analytics Lead
+- Audit Management Systems Analyst
+- Corrective Action / Remediation Analyst
+- Governance, Risk & Compliance Analyst
+- Data Governance Lead
+- Compliance Technology Analyst
+- Internal Controls / Process Improvement Analyst
+- Risk & Controls Analyst
+- Program Governance Analyst
+- Technology Governance Lead
+- Digital Governance Consultant
+
+### AI Architecture, AI Modernization & Responsible AI
+- AI Technical Program Manager
+- AI / Data Modernization Lead
+- AI Solutions Architect
+- Enterprise AI Architect
+- AI Transformation Manager
+- AI Modernization Consultant
+- AI Governance Lead
+- Responsible AI Lead
+- AI Governance / Responsible AI Lead
+- AI Risk Consultant
+- AI Program Manager
+- AI Business Systems Analyst
+- AI Implementation / Adoption Lead
+- AI Data Governance Lead
+- Emerging Technology Program Manager
+
+### Cybersecurity-Aware Technology & Governance Roles
+- Cybersecurity Program Analyst
+- Cybersecurity Business Analyst
+- Cybersecurity Data Analyst
+- Cybersecurity Governance Analyst
+- Security / Technology Governance Analyst
+- Cyber Risk & Controls Analyst
+- Cybersecurity Modernization Analyst
+- Security Data / BI Analyst
+- Cybersecurity Technical Program Support
+- Secure Digital Transformation Consultant
+
+### Federal Program, Performance & Management Consulting
+- Federal Management Consultant
+- Senior Program Management Consultant
+- Federal Digital Transformation Consultant
+- Government Technology Consultant
+- Program Management Analyst
+- Program Performance Analyst
+- Management & Program Analyst
+- Business Process Reengineering Analyst
+- Process Improvement Lead
+- Performance Management Consultant
+- Program Modernization Analyst
+- Enterprise Transformation Consultant
+- Decision Support Analyst
+
+## Why This Range Is Credible
+
+The breadth of these roles is supported by the intersection of my résumé and this portfolio: technical program delivery, Air Force/DoD modernization experience, audit-management and corrective-action workflows, requirements and process mapping, Power Apps, Power Fx, Power Automate, SharePoint, Power BI, DAX, Power Query, SQL, Excel, Tableau, data modeling, automation, governance, executive reporting, Agile delivery, and enterprise solution design. Moreover, my **MBA in Engineering Management, Certified ScrumMaster credential, IBM Cybersecurity Certification, and IBM AI Architecture Certification** strengthen the bridge between technology execution, management, risk, and emerging-technology modernization.
+
+Not every position requires the same depth in every competency. Accordingly, this portfolio is structured to let a hiring manager move directly from a target role to evidence of the problems I can analyze, the solutions I can architect, the execution plans I can develop, and the results I would measure.
+
+> **Remote contracting alignment:** Many of these functions are highly compatible with remote delivery—particularly analytics, Power Platform development, architecture, Agile delivery, governance, financial-management analysis, audit remediation, AI architecture, and documentation—when the contract permits remote work and authorized systems can be accessed securely. Customer, clearance, classified-network, and site-specific requirements ultimately determine work location.
+
+---
+
 **Data & BI • Power Platform • AI Architecture • Cybersecurity • Financial Management Modernization**
 
 I rebuilt this portfolio around the way I approach an actual delivery environment: **identify the operational challenge, define the result that matters, establish the plan, execute the solution, and measure whether the operating condition improved.** Technology is the enabler; the outcome is the point.
