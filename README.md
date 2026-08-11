@@ -4,7 +4,58 @@ Welcome. This portfolio shows how I approach complex work when the process, data
 
 I work across technical program delivery, data and decision intelligence, Power Platform architecture, AI transformation, financial and program analytics, workflow modernization, and cybersecurity-aware governance. The common thread is execution: understand the operating problem, structure the data, define the controls, build the logic, connect the technology, and give decision-makers a usable view of what is happening and what needs to happen next.
 
-The repository is organized around two distinct markets: **Public Sector Technology & Transformation** and **Government / Federal Mission Delivery**. The operating expectations are different, so the portfolio evidence is separated accordingly.
+The repository is organized around **Public Sector Technology & Transformation**, **Private Sector / Commercial Technology**, and **Government / Federal Mission Delivery**. The responsibilities overlap, but the operating context, customer model, compensation structure, and success measures can differ.
+
+## Target Roles & Compensation Expectations
+
+The target ranges below represent the **base-salary levels I am pursuing**. Market benchmarks are U.S. national title references and should not be read as employer-specific guarantees. Large technology companies, consulting firms, cloud providers, regulated enterprises, and high-cost markets may offer materially higher base salary or total compensation through bonus and equity.
+
+### Public Sector Technology Roles
+
+| Target Role | Target Base Salary | Current U.S. Market Reference | Portfolio Evidence |
+|---|---:|---:|---|
+| Senior Technical Program Manager — Public Sector | **$165K–$205K+** | Senior/expert experience benchmark can extend to roughly **$134K–$158K** | [Role case](Public-Sector-Technology-Transformation/Senior-Technical-Program-Manager_Public-Sector/) |
+| Solutions Architect — Public Sector | **$160K–$210K+** | National 25th–75th percentile about **$120K–$142K** | [Role case](Public-Sector-Technology-Transformation/Solutions-Architect_Public-Sector/) |
+| Customer Solutions Manager — Public Sector | **$155K–$185K+** | National 25th–75th percentile about **$117K–$144K** | [Role case](Public-Sector-Technology-Transformation/Customer-Solutions-Manager_Public-Sector/) |
+| Data & AI Lead — Public Sector | **$165K–$210K+** | AI Lead 25th–75th percentile about **$128K–$151K** | [Role case](Public-Sector-Technology-Transformation/Data-AI-Lead_Public-Sector/) |
+| Cloud Transformation Program Manager — Public Sector | **$160K–$200K+** | Cloud Program Manager 25th–75th percentile about **$147K–$173K** | [Role case](Public-Sector-Technology-Transformation/Cloud-Transformation-Program-Manager_Public-Sector/) |
+| Technology Delivery Lead — Public Sector | **$155K–$190K+** | Senior/expert experience benchmark can reach about **$147K–$169K** | [Role case](Public-Sector-Technology-Transformation/Technology-Delivery-Lead_Public-Sector/) |
+| BI & Decision Intelligence Lead — Public Sector | **$155K–$195K+** | Broad BI market 25th–75th percentile about **$150K–$190K** | [Role case](Public-Sector-Technology-Transformation/BI-Decision-Intelligence-Lead_Public-Sector/) |
+| AI Transformation Program Manager — Public Sector | **$165K–$210K+** | AI Lead 25th–75th percentile about **$128K–$151K** | [Role case](Public-Sector-Technology-Transformation/AI-Transformation-Program-Manager_Public-Sector/) |
+| Power Platform Solution Architect — Public Sector | **$155K–$195K+** | Platform Architect 25th–75th percentile about **$121K–$140K** | [Role case](Public-Sector-Technology-Transformation/Power-Platform-Solution-Architect_Public-Sector/) |
+
+### Private Sector / Commercial Technology Roles
+
+These are the same core capabilities translated into commercial enterprises, SaaS/platform companies, financial services, healthcare technology, consulting, cloud, data/AI, and enterprise-transformation environments.
+
+| Target Role | Target Base Salary | Current U.S. Market Reference | Closest Portfolio Evidence |
+|---|---:|---:|---|
+| Senior Technical Program Manager — Enterprise / Technology | **$170K–$220K+** | Senior/expert experience benchmark can extend to about **$158K**, with major technology employers often materially above national title averages | [TPM case](Public-Sector-Technology-Transformation/Senior-Technical-Program-Manager_Public-Sector/) |
+| Enterprise Solutions Architect | **$170K–$225K+** | Solution Architect 25th–75th percentile about **$120K–$142K** | [Architecture case](Public-Sector-Technology-Transformation/Solutions-Architect_Public-Sector/) |
+| Customer Solutions / Client Solutions Manager | **$160K–$200K+** | Customer Solutions Manager 25th–75th percentile about **$117K–$144K** | [Customer solutions case](Public-Sector-Technology-Transformation/Customer-Solutions-Manager_Public-Sector/) |
+| Data & AI Lead / Data Transformation Lead | **$175K–$225K+** | AI Lead 25th–75th percentile about **$128K–$151K** | [Data & AI case](Public-Sector-Technology-Transformation/Data-AI-Lead_Public-Sector/) |
+| Cloud Transformation Program Manager | **$170K–$215K+** | Cloud Program Manager 25th–75th percentile about **$147K–$173K** | [Cloud case](Public-Sector-Technology-Transformation/Cloud-Transformation-Program-Manager_Public-Sector/) |
+| Technology Delivery Lead / Enterprise Delivery Lead | **$160K–$200K+** | Expert experience benchmark for Delivery Lead can reach about **$172K** | [Delivery case](Public-Sector-Technology-Transformation/Technology-Delivery-Lead_Public-Sector/) |
+| BI / Decision Intelligence Lead | **$160K–$205K+** | Business Intelligence 25th–75th percentile about **$150K–$190K** | [Decision intelligence case](Public-Sector-Technology-Transformation/BI-Decision-Intelligence-Lead_Public-Sector/) |
+| AI Transformation Program Manager | **$175K–$225K+** | AI Lead 25th–75th percentile about **$128K–$151K** | [AI transformation case](Public-Sector-Technology-Transformation/AI-Transformation-Program-Manager_Public-Sector/) |
+| Power Platform / Enterprise Platform Architect | **$160K–$205K+** | Platform Architect 25th–75th percentile about **$121K–$140K** | [Platform architecture case](Public-Sector-Technology-Transformation/Power-Platform-Solution-Architect_Public-Sector/) |
+| Financial Systems Modernization / Transformation Manager | **$160K–$205K+** | Compensation varies substantially by industry, platform ownership, financial scope, and leadership level | [Financial analytics](Federal-Financial-Management-Analytics/README.md) |
+| Technical Transformation Manager / Digital Transformation Lead | **$165K–$215K+** | Often maps to senior program, technology delivery, architecture, or transformation-management compensation bands | [Transformation case](Federal-Digital-Transformation-Playbook/README.md) |
+| Associate Director — Data / Technology Transformation | **$180K–$230K+** | Employer and industry specific; target reflects broader portfolio ownership and people/program leadership | [Portfolio evidence](Public-Sector-Technology-Transformation/README.md) |
+
+### Salary Benchmark Sources
+
+- [Senior Technical Program Manager — Salary.com](https://www.salary.com/research/salary/listing/senior-technical-program-manager-salary)
+- [Solution Architect — Salary.com](https://www.salary.com/research/salary/listing/solution-architect-salary)
+- [Customer Solutions Manager — Salary.com](https://www.salary.com/research/salary/recruiting/customer-solutions-manager-salary)
+- [Cloud Program Manager — Salary.com](https://www.salary.com/research/salary/position/cloud-program-manager-salary)
+- [Technology Delivery Lead — Salary.com](https://www.salary.com/research/salary/recruiting/technology-delivery-lead-salary)
+- [Delivery Lead — Salary.com](https://www.salary.com/research/salary/recruiting/delivery-lead-salary)
+- [Business Intelligence — Salary.com](https://www.salary.com/research/salary/opening/business-intelligence-salary)
+- [AI Lead — Salary.com](https://www.salary.com/research/salary/offering/ai-lead-salary)
+- [Platform Architect — Salary.com](https://www.salary.com/research/salary/position/platform-architect-salary)
+
+**Compensation note:** for private-sector opportunities, I would evaluate **total compensation** in addition to base salary, including annual bonus, equity/RSUs, sign-on incentives, retirement match, and other employer-specific compensation.
 
 ## Portfolio Navigation
 
@@ -27,6 +78,12 @@ The current role portfolios include:
 - [Power Platform Solution Architect | Public Sector](Public-Sector-Technology-Transformation/Power-Platform-Solution-Architect_Public-Sector/)
 
 Each role folder is designed as a hiring case rather than a generic technology sample. The reader can see the role context, common challenges, day-to-day operating responsibilities, solution approach, fictional operational data, data relationships, formulas, SQL/Python/DAX/Power Fx logic where applicable, real-time scenarios, controls, implementation considerations, and business artifacts that support the work.
+
+### Private Sector / Commercial Translation
+
+The portfolio does not require a separate duplicate set of commercial folders to demonstrate private-sector fit. The same execution model translates directly into commercial operating problems: fragmented customer operations, enterprise platform modernization, SaaS adoption, cloud migration, financial systems transformation, executive analytics, AI portfolio management, workflow automation, and cross-functional technical delivery.
+
+For private-sector recruiters, the strongest starting points are the target-role salary table above and the corresponding technical cases linked directly from it.
 
 ### Government / Federal Mission Delivery
 
@@ -84,16 +141,16 @@ The folders include fictional briefs, operating reviews, readiness assessments, 
 
 ## Role Alignment
 
-| Capability | Public Sector Role Alignment | Government / Federal Alignment |
-|---|---|---|
-| Cross-functional technical delivery | Senior Technical Program Manager • Technology Delivery Lead • Cloud Transformation Program Manager | Technical Program Manager • Digital Transformation Lead • Modernization Program Manager |
-| Enterprise solution design | Solutions Architect • Power Platform Solution Architect | Solution Architect • Power Platform Architect • Business Systems Architect |
-| Data strategy and analytics | Data & AI Lead • BI & Decision Intelligence Lead | Data/BI Lead • Senior BI Developer • Decision Support / Performance Analytics |
-| AI delivery and architecture | AI Transformation Program Manager • Data & AI Lead • Solutions Architect | AI Solutions Architect • AI Technical Program Manager • AI Governance Lead |
-| Customer adoption and implementation | Customer Solutions Manager • Technical Program Manager | Stakeholder Delivery Lead • Implementation Lead • Program Integration Lead |
-| Financial and program performance | Transformation / Analytics leadership roles | Financial Systems Analyst • Business Financial Manager • Program Financial Analyst • PPBE / Resource Analyst |
-| Workflow and low-code modernization | Power Platform Solution Architect • Technology Delivery Lead | Power Platform Architect/Developer • Workflow Automation Lead • Business Systems Analyst |
-| Risk, controls and governance | AI/Data/Architecture leadership | AI Risk • Cyber Governance • Audit Readiness • Audit Remediation • Controls Analytics |
+| Capability | Public Sector Role Alignment | Private Sector / Commercial Alignment | Government / Federal Alignment |
+|---|---|---|---|
+| Cross-functional technical delivery | Senior TPM • Technology Delivery Lead • Cloud Transformation PM | Senior TPM • Enterprise Delivery Lead • Transformation Manager | Technical PM • Digital Transformation Lead • Modernization PM |
+| Enterprise solution design | Solutions Architect • Power Platform Solution Architect | Enterprise Solutions Architect • Platform Architect | Solution Architect • Power Platform Architect • Business Systems Architect |
+| Data strategy and analytics | Data & AI Lead • BI & Decision Intelligence Lead | Data Transformation Lead • BI Lead • Analytics Manager | Data/BI Lead • Senior BI Developer • Decision Support / Performance Analytics |
+| AI delivery and architecture | AI Transformation PM • Data & AI Lead • Solutions Architect | AI Program Manager • AI Transformation Lead • AI Solutions Architect | AI Solutions Architect • AI Technical PM • AI Governance Lead |
+| Customer adoption and implementation | Customer Solutions Manager • TPM | Customer Success Transformation • Client Solutions • Implementation Leadership | Stakeholder Delivery Lead • Implementation Lead • Program Integration Lead |
+| Financial and program performance | Transformation / Analytics leadership | Financial Systems Transformation • Finance Analytics • Program Performance | Financial Systems Analyst • BFM • Program Financial Analyst • PPBE / Resource Analyst |
+| Workflow and low-code modernization | Power Platform Solution Architect • Technology Delivery Lead | Enterprise Platform Architect • Automation Lead • Business Systems Lead | Power Platform Architect/Developer • Workflow Automation Lead • Business Systems Analyst |
+| Risk, controls and governance | AI/Data/Architecture leadership | Technology Risk • AI Governance • Data Governance | AI Risk • Cyber Governance • Audit Readiness • Audit Remediation • Controls Analytics |
 
 ## Representative Problems I Can Step Into
 
