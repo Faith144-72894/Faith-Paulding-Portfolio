@@ -1,109 +1,129 @@
-# Faith Paulding | From Fragmented Government Operations to Decision-Ready Systems
+# Faith Paulding | Technical Transformation, Data, AI & Program Leadership
 
-I built this portfolio around the work I want to continue doing: walking into a process that has grown across spreadsheets, email, shared drives, legacy tools, disconnected reports, and manual handoffs—and determining how the pieces should work together.
+Welcome. This portfolio shows how I approach complex work when the process, data, technology, ownership, and reporting do not yet operate as one system.
 
-My lane sits between the mission, the data, and the build. I can work through the business problem with stakeholders, define what the information needs to do, design the data and workflow structure, build or guide the technical solution, and translate the finished system into information leadership can actually use.
+I work across technical program delivery, data and decision intelligence, Power Platform architecture, AI transformation, financial and program analytics, workflow modernization, and cybersecurity-aware governance. The common thread is execution: understand the operating problem, structure the data, define the controls, build the logic, connect the technology, and give decision-makers a usable view of what is happening and what needs to happen next.
 
-That is the thread connecting the projects in this repository.
+The repository is organized around two distinct markets: **Public Sector Technology & Transformation** and **Government / Federal Mission Delivery**. The operating expectations are different, so the portfolio evidence is separated accordingly.
 
-## Where I Fit
+## Portfolio Navigation
 
-| I can step into work involving… | Roles this supports | Evidence |
+### Public Sector Technology & Transformation
+
+[Open the Public Sector portfolio](Public-Sector-Technology-Transformation/README.md)
+
+This section is organized around the roles I can step into across technology companies, consulting organizations, integrators, cloud/platform providers, regulated organizations, state/local/public-service environments, and teams serving public-sector customers.
+
+The current role portfolios include:
+
+- [Senior Technical Program Manager | Public Sector](Public-Sector-Technology-Transformation/Senior-Technical-Program-Manager_Public-Sector/)
+- [Solutions Architect | Public Sector](Public-Sector-Technology-Transformation/Solutions-Architect_Public-Sector/)
+- [Customer Solutions Manager | Public Sector](Public-Sector-Technology-Transformation/Customer-Solutions-Manager_Public-Sector/)
+- [Data & AI Lead | Public Sector](Public-Sector-Technology-Transformation/Data-AI-Lead_Public-Sector/)
+- [Cloud Transformation Program Manager | Public Sector](Public-Sector-Technology-Transformation/Cloud-Transformation-Program-Manager_Public-Sector/)
+- [Technology Delivery Lead | Public Sector](Public-Sector-Technology-Transformation/Technology-Delivery-Lead_Public-Sector/)
+- [BI & Decision Intelligence Lead | Public Sector](Public-Sector-Technology-Transformation/BI-Decision-Intelligence-Lead_Public-Sector/)
+- [AI Transformation Program Manager | Public Sector](Public-Sector-Technology-Transformation/AI-Transformation-Program-Manager_Public-Sector/)
+- [Power Platform Solution Architect | Public Sector](Public-Sector-Technology-Transformation/Power-Platform-Solution-Architect_Public-Sector/)
+
+Each role folder is designed as a hiring case rather than a generic technology sample. The reader can see the role context, common challenges, day-to-day operating responsibilities, solution approach, fictional operational data, data relationships, formulas, SQL/Python/DAX/Power Fx logic where applicable, real-time scenarios, controls, implementation considerations, and business artifacts that support the work.
+
+### Government / Federal Mission Delivery
+
+This side of the repository is built around government operating requirements: mission delivery, financial execution, PPBE/resource decisions, audit and corrective-action management, controlled workflow modernization, traceable analytics, governance, permissions, evidence, and leadership reporting.
+
+Core cases include:
+
+- [Government Mission Modernization](Government-Mission-Modernization/README.md)
+- [Federal Digital Transformation](Federal-Digital-Transformation-Playbook/README.md)
+- [Federal Financial Management Analytics](Federal-Financial-Management-Analytics/README.md)
+- [PPBE Program Analytics](PPBE-Program-Analytics/README.md)
+- [Power Platform Enterprise Architecture](Power-Platform-Enterprise-Architecture/README.md)
+- [Executive BI & Analytics](Executive-BI-Analytics-Portfolio/README.md)
+- [Executive Decision Intelligence](Executive-Decision-Intelligence/)
+- [Enterprise AI Architecture](Enterprise-AI-Architecture/README.md)
+- [NIST AI RMF Governance](NIST-AI-RMF-Governance/README.md)
+
+The government cases account for the additional context required when modernization has to coexist with mission continuity, controlled access, auditability, evidence retention, funding constraints, policy, formal decision authority, security boundaries, and legacy operating processes.
+
+## How I Work Through a Problem
+
+I start with the operating condition rather than the software.
+
+**Current state → failure point → data source → ownership → business rule → relationship → technical design → calculation/automation → control → decision → measurable result.**
+
+That sequence matters. A new application does not solve a fragmented process if ownership is still unclear. A dashboard does not create decision intelligence if the source definitions conflict. Automation does not improve operations if exceptions have nowhere to go. AI does not create a trustworthy capability if access, grounding, evidence, confidence, and human escalation are undefined.
+
+The portfolio therefore shows the work behind the interface—not only the finished screen.
+
+## What You Will Find Inside the Role Cases
+
+### Business Context
+Each case explains what is happening operationally, why the condition matters, who is affected, what typically causes the problem, and what I would be responsible for in the role.
+
+### Day-to-Day Execution
+The role pages describe how I would operate: reviewing health and exceptions, resolving dependencies, working with stakeholders and technical teams, validating data, managing decisions, testing controls, monitoring delivery, preparing leadership context, and moving open items to closure.
+
+### Data With Context
+The sample data is fictional, but it is structured to represent a real operating environment. The supporting pages explain the grain of the data, source systems, primary and foreign keys, relationships, field purpose, refresh cadence, quality rules, ownership, and the business decisions each dataset supports.
+
+### Formulas & Calculations
+Measures are tied to the operating problem. Examples include schedule variance, decision aging, dependency closure, UAT pass rate, release readiness, execution rate, forecast variance, remaining balance, SLA attainment, adoption, risk exposure, data-quality exceptions, milestone performance, and projected 30/60/90-day exposure.
+
+### Real Code & Logic
+Where appropriate, the cases include SQL, Python, DAX, Power Query, Power Fx, and automation logic. The code is paired with the business condition it is intended to evaluate or control rather than presented as isolated syntax.
+
+### Architecture & Controls
+The portfolio addresses source-to-report architecture, application and workflow structure, environment strategy, identity, permissions, least privilege, audit history, DLP, integration dependencies, exception handling, retry/recovery behavior, UAT, production readiness, rollback, and business continuity.
+
+### Software, Permissions & Licensing
+Implementation also requires knowing who needs which tool, permission, environment role, connector, capacity, or premium feature. [Review the software, permissions, and licensing matrix](SOFTWARE-LICENSING-PERMISSIONS-MATRIX.md).
+
+### Decision & Operating Artifacts
+The folders include fictional briefs, operating reviews, readiness assessments, data registries, sample datasets, decision logic, and other artifacts that show how the technical work translates into day-to-day management and leadership decisions.
+
+## Role Alignment
+
+| Capability | Public Sector Role Alignment | Government / Federal Alignment |
 |---|---|---|
-| Complex technical delivery across business and IT teams | Senior Technical Program Manager • Digital Transformation Lead • Technology Modernization Program Manager • Agile Delivery Manager | [Federal Digital Transformation](Federal-Digital-Transformation-Playbook/README.md) |
-| Data that exists but is difficult to trust, combine, or act on | BI/Data Analytics Lead • Lead Data Analyst • Senior BI Developer • Power BI Lead • Decision Support Analyst | [Executive Performance Analytics](Executive-BI-Analytics-Portfolio/README.md) |
-| Manual intake, approvals, status tracking, and recurring follow-up | Power Platform Solution Architect • Senior Power Platform Developer • Workflow Automation Lead • Business Systems Analyst | [Power Platform Enterprise Architecture](Power-Platform-Enterprise-Architecture/README.md) |
-| Financial information that needs stronger execution and forecast visibility | Financial Systems Analyst • Financial Data/BI Analyst • Business Financial Manager • Program Financial Analyst | [Federal Financial Management Analytics](Federal-Financial-Management-Analytics/README.md) |
-| Requirements, resources, execution, milestones, and risk that need one decision picture | PPBE Analyst • Resource Management Analyst • Budget/Program Analytics Consultant | [PPBE Program Analytics](PPBE-Program-Analytics/README.md) |
-| Audit findings and corrective actions spread across separate trackers | Audit Readiness Analyst • Audit Remediation Analyst • Audit Data Analytics Lead • Audit Management Systems Analyst | Government Audit & Compliance Management System below |
-| AI implementation that has to account for access, grounding, monitoring, and risk | AI Solutions Architect • AI Technical Program Manager • AI Transformation Manager • AI Governance Lead | [Enterprise AI Architecture](Enterprise-AI-Architecture/README.md) |
-| Technology risk that has to remain governed after deployment | Responsible AI Lead • AI Risk Consultant • Cybersecurity Governance Analyst • Cyber Risk & Controls Analyst | [AI RMF Governance](NIST-AI-RMF-Governance/README.md) |
+| Cross-functional technical delivery | Senior Technical Program Manager • Technology Delivery Lead • Cloud Transformation Program Manager | Technical Program Manager • Digital Transformation Lead • Modernization Program Manager |
+| Enterprise solution design | Solutions Architect • Power Platform Solution Architect | Solution Architect • Power Platform Architect • Business Systems Architect |
+| Data strategy and analytics | Data & AI Lead • BI & Decision Intelligence Lead | Data/BI Lead • Senior BI Developer • Decision Support / Performance Analytics |
+| AI delivery and architecture | AI Transformation Program Manager • Data & AI Lead • Solutions Architect | AI Solutions Architect • AI Technical Program Manager • AI Governance Lead |
+| Customer adoption and implementation | Customer Solutions Manager • Technical Program Manager | Stakeholder Delivery Lead • Implementation Lead • Program Integration Lead |
+| Financial and program performance | Transformation / Analytics leadership roles | Financial Systems Analyst • Business Financial Manager • Program Financial Analyst • PPBE / Resource Analyst |
+| Workflow and low-code modernization | Power Platform Solution Architect • Technology Delivery Lead | Power Platform Architect/Developer • Workflow Automation Lead • Business Systems Analyst |
+| Risk, controls and governance | AI/Data/Architecture leadership | AI Risk • Cyber Governance • Audit Readiness • Audit Remediation • Controls Analytics |
 
-## What I Bring Into the Work
+## Representative Problems I Can Step Into
+
+A program has ten trackers but no integrated release picture. A leadership dashboard is rebuilt manually every reporting cycle. Financial execution looks acceptable until future commitments and milestones are included. Customer adoption drops after a technically successful release. A workflow has been digitized but approvals and evidence are still handled through email. An AI use case has business value but no defined grounding, access, confidence, or escalation model. A cloud migration plan shows dates but not operational dependencies. Audit findings, recommendations, corrective actions, milestones, and evidence cannot be traced through one lifecycle.
+
+Those are the types of conditions these cases are designed to solve.
+
+## Technical Capability
+
+**Data & Analytics:** Power BI • DAX • Power Query • SQL • Python • Tableau • SSRS • Excel / Power Pivot
+
+**Microsoft Business Applications:** Power Apps • Power Automate • Power Fx • SharePoint • Dataverse
+
+**Architecture & Delivery:** solution design • data modeling • workflow architecture • integration planning • requirements • UAT • release readiness • dependency management • technical program delivery • Agile/Scrum
+
+**AI & Governance:** AI architecture • use-case prioritization • retrieval/grounding concepts • human-in-the-loop controls • monitoring • AI risk • cybersecurity-aware governance
+
+## Professional Foundation
 
 MBA, Engineering Management • Certified ScrumMaster (CSM) • IBM Cybersecurity Certification • IBM AI Architecture Certification
 
-Power BI • Power Apps • Power Automate • Power Fx • SharePoint • Dataverse • DAX • Power Query • SQL • Python • Tableau • SSRS • Excel / Power Pivot
+My background allows me to move between the executive conversation and the implementation detail. I can discuss the operating decision, inspect the data model behind it, understand the workflow or architecture creating it, and build or guide the technical logic needed to improve it.
 
-The tools matter because they allow me to move between analysis and execution. The portfolio is organized around what I can do with them, not around a software inventory.
+## Portfolio Standard
 
-## How to Read This Portfolio
+The examples in this repository use fictional or demonstration data unless explicitly stated otherwise. They are designed to demonstrate capability without exposing protected operational information.
 
-I did not build these folders as isolated technology demos. Each one starts with a government operating problem and follows the decisions required to move it forward.
-
-**What is happening now → why the current process breaks down → what should connect → what data is required → how I would build it → how the logic works → what permissions and licenses are needed → what can be measured or projected → what leadership gains from the change.**
-
-The sample records are fictional. The architecture, calculations, workflow logic, security considerations, implementation decisions, and role alignment demonstrate how I approach the work.
-
-## The Work
-
-### Financial Management: See the Position Before It Becomes a Problem
-
-The issue is not simply whether financial data exists. The issue is whether budget authority, commitments, obligations, expenditures, requirements, forecasts, and program ownership can be read together soon enough to influence a decision.
-
-[Open the financial management case](Federal-Financial-Management-Analytics/README.md) to see a full fictional FY2026 dataset, execution calculations, forecast logic, funding-gap analysis, exception handling, permissions, and implementation considerations.
-
-### PPBE & Resource Decisions: Connect the Requirement to the Money and the Mission
-
-A requirement can look supportable in one file while the funding, schedule, milestone, or risk picture tells a different story somewhere else. This case connects those pieces so a resource decision can be evaluated in context.
-
-[Open the PPBE case](PPBE-Program-Analytics/README.md).
-
-### Executive Analytics: Stop Rebuilding the Same Answer Every Reporting Cycle
-
-When every office maintains its own definitions and trackers, leadership reporting becomes a reconciliation exercise. This case focuses on creating one governed performance model with consistent measures, exceptions, projections, and drill-through to the record behind the number.
-
-[Open the executive analytics case](Executive-BI-Analytics-Portfolio/README.md).
-
-### Power Platform: Replace the Handoff Chain, Not Just the Form
-
-A digital form does not modernize a process if the approval, ownership, evidence, status history, and reporting still happen manually. This case treats the application, workflow, data, security, licensing, automation, and reporting as one operating solution.
-
-[Open the Power Platform case](Power-Platform-Enterprise-Architecture/README.md).
-
-### Enterprise AI: Make the Answer Traceable Before Making It Fast
-
-Government AI has to do more than return an answer. The system has to know what a user is allowed to retrieve, where the supporting information came from, when confidence is too low, what should be logged, and when a person needs to make the call.
-
-[Open the enterprise AI case](Enterprise-AI-Architecture/README.md).
-
-### AI Risk: Approval Is Not the End of Governance
-
-Model behavior, data, users, and operating conditions change after deployment. This case turns AI risk from a point-in-time document into measurable thresholds, evidence, monitoring, escalation, and reassessment.
-
-[Open the AI governance case](NIST-AI-RMF-Governance/README.md).
-
-### Digital Transformation: Fix the Operating Model Before Automating the Symptoms
-
-Email intake, spreadsheet tracking, manual approvals, shared-drive evidence, and static reporting are often parts of the same process. This case works from that full picture instead of automating one broken handoff at a time.
-
-[Open the transformation case](Federal-Digital-Transformation-Playbook/README.md).
-
-## Government Audit & Compliance Management System
-
-This is the clearest example of how I approach a fragmented lifecycle.
-
-The starting point is familiar: intake in one location, review somewhere else, deficiencies in another tracker, recommendations and corrective actions maintained separately, evidence stored in documents, and leadership reporting assembled after the fact.
-
-I would treat those records as one connected lifecycle:
-
-**Intake → Review → Deficiency → Recommendation → Corrective Action → Milestone → Evidence → Closure → Reporting**
-
-The technical design supports that lifecycle with Power Apps for controlled interaction, Power Automate for routing and history, SharePoint or Dataverse for governed records, and Power BI for operating and leadership visibility. The value is in the relationships: leadership can move from portfolio health to the exact recommendation, action, milestone, evidence requirement, owner, or deadline creating the condition.
-
-This case aligns directly with Power Platform Solution Architect, Senior Technical Program Manager, Audit Readiness/Remediation, Audit Data Analytics, and Digital Transformation work.
-
-## What I Would Expect to Be Measured
-
-A modernization effort should leave evidence that the process changed. Depending on the solution, I would expect to measure review time, workflow aging, backlog, overdue exposure, execution rate, forecast variance, funding gaps, milestone performance, corrective-action completion, evidence completeness, SLA performance, data-quality exceptions, adoption, and 30/60/90-day projected exposure.
-
-## Implementation Reality
-
-Architecture does not stop at the diagram. The repository also accounts for software dependencies, developer and end-user permissions, environment access, least-privilege security, licensing structure, estimated public commercial licensing cost, premium connectors, storage/capacity considerations, and the difference between a development configuration and a production deployment.
-
-[Review the software, permissions, and licensing matrix](SOFTWARE-LICENSING-PERMISSIONS-MATRIX.md).
+For every case, the standard is the same: **the reader should be able to understand the challenge, inspect the data, follow the logic, see the technical execution, understand the controls, and determine what business or mission decision the solution improves.**
 
 ---
 
 **Faith Paulding**  
-Technical Program Leadership • Data & BI • Power Platform • Financial Management Analytics • AI Architecture • Cybersecurity-Aware Governance • Government Modernization
+Technical Program Leadership • Data & Decision Intelligence • Power Platform Architecture • AI Transformation • Financial & Program Analytics • Cybersecurity-Aware Governance
