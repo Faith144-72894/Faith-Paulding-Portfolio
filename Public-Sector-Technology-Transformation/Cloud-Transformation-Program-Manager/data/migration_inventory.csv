@@ -1,0 +1,6 @@
+workload,criticality,wave,readiness_pct,identity_ready,data_validated,integration_ready,rollback_ready,support_ready,cutover_window
+Reporting Mart,High,1,95,Yes,Yes,Yes,Yes,Yes,Weekend
+Document Repository,Medium,1,90,Yes,Yes,Yes,Yes,Yes,Evening
+Workflow Engine,Critical,2,72,Yes,Yes,Yes,No,Yes,Weekend
+Analytics Gateway,High,2,75,Yes,Yes,No,Yes,Yes,Evening
+AI Retrieval Index,Medium,3,55,Yes,No,No,No,No,Weekend
