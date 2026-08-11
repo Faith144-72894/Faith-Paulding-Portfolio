@@ -2,7 +2,7 @@
 
 This is the working-code companion to the real-time solution. The formulas are written in the form I would enter into Power Apps and Power BI. They are intentionally displayed as plain text rather than fenced Markdown code blocks.
 
-## Power Apps — Screen OnVisible
+## Power Apps | Screen OnVisible
 
     Set(varSubmissionAction, Blank());
     Set(varCurrentUserEmail, Lower(User().Email));
@@ -11,7 +11,7 @@ This is the working-code companion to the real-time solution. The formulas are w
     Refresh(Requests);
     Refresh(AuditHistory);
 
-## Power Apps — Save Draft Button OnSelect
+## Power Apps | Save Draft Button OnSelect
 
     Set(varSubmissionAction, "Draft");
     If(
@@ -55,7 +55,7 @@ This is the working-code companion to the real-time solution. The formulas are w
         Notify("Draft saved.", NotificationType.Success)
     )
 
-## Power Apps — Review & Submit Button OnSelect
+## Power Apps | Review & Submit Button OnSelect
 
     Set(varSubmissionAction, "Submit");
     Set(varDuplicateCount, CountRows(Filter(Requests, Lower(Title) = Lower(Trim(txtTitle.Text)) && ID <> Coalesce(varCurrentRecord.ID, -1))));
@@ -104,7 +104,7 @@ This is the working-code companion to the real-time solution. The formulas are w
         Notify("Request submitted for review.", NotificationType.Success)
     )
 
-## Power Apps — Reviewer Approve Button OnSelect
+## Power Apps | Reviewer Approve Button OnSelect
 
     If(
         !varIsReviewer,
@@ -142,7 +142,7 @@ This is the working-code companion to the real-time solution. The formulas are w
         Notify("Request approved.", NotificationType.Success)
     )
 
-## Power Apps — Reviewer Return Button OnSelect
+## Power Apps | Reviewer Return Button OnSelect
 
     If(
         IsBlank(Trim(txtReviewerComments.Text)),
@@ -180,7 +180,7 @@ This is the working-code companion to the real-time solution. The formulas are w
         Notify("Request returned to the submitter.", NotificationType.Success)
     )
 
-## Power Apps — My Drafts Gallery Items
+## Power Apps | My Drafts Gallery Items
 
     SortByColumns(
         Filter(
@@ -192,7 +192,7 @@ This is the working-code companion to the real-time solution. The formulas are w
         SortOrder.Descending
     )
 
-## Power Apps — Reviewer Queue Gallery Items
+## Power Apps | Reviewer Queue Gallery Items
 
     SortByColumns(
         Filter(
@@ -203,7 +203,7 @@ This is the working-code companion to the real-time solution. The formulas are w
         SortOrder.Ascending
     )
 
-## Power Apps — Status Display Formula
+## Power Apps | Status Display Formula
 
     Switch(
         ThisItem.Status.Value,
@@ -215,7 +215,7 @@ This is the working-code companion to the real-time solution. The formulas are w
         "Unknown"
     )
 
-## Power Automate — Trigger Condition
+## Power Automate | Trigger Condition
 
     @or(
         equals(triggerOutputs()?['body/Status/Value'], 'Pending Review'),
@@ -223,7 +223,7 @@ This is the working-code companion to the real-time solution. The formulas are w
         equals(triggerOutputs()?['body/Status/Value'], 'Returned')
     )
 
-## Power Automate — Days Until Due Expression
+## Power Automate | Days Until Due Expression
 
     div(
         sub(
@@ -233,7 +233,7 @@ This is the working-code companion to the real-time solution. The formulas are w
         864000000000
     )
 
-## Power Automate — Escalation Condition
+## Power Automate | Escalation Condition
 
     @and(
         lessOrEquals(outputs('Days_Until_Due'), 3),
@@ -241,7 +241,7 @@ This is the working-code companion to the real-time solution. The formulas are w
         not(equals(triggerOutputs()?['body/Status/Value'], 'Closed'))
     )
 
-## Power Automate — Audit History Payload
+## Power Automate | Audit History Payload
 
     RequestID = triggerOutputs()?['body/ID']
     Action = triggerOutputs()?['body/Status/Value']
@@ -251,7 +251,7 @@ This is the working-code companion to the real-time solution. The formulas are w
     ActionDateTime = utcNow()
     Comments = coalesce(triggerOutputs()?['body/ReviewComments'], '')
 
-## Power BI — Open Requests
+## Power BI | Open Requests
 
     Open Requests =
     CALCULATE(
@@ -259,7 +259,7 @@ This is the working-code companion to the real-time solution. The formulas are w
         NOT(Requests[Status] IN {"Closed", "Rejected"})
     )
 
-## Power BI — Overdue Requests
+## Power BI | Overdue Requests
 
     Overdue Requests =
     CALCULATE(
@@ -268,7 +268,7 @@ This is the working-code companion to the real-time solution. The formulas are w
         NOT(Requests[Status] IN {"Closed", "Rejected"})
     )
 
-## Power BI — Average Review Time
+## Power BI | Average Review Time
 
     Average Review Time Days =
     AVERAGEX(
@@ -280,7 +280,7 @@ This is the working-code companion to the real-time solution. The formulas are w
         DATEDIFF(Requests[SubmittedOn], Requests[ReviewedOn], DAY)
     )
 
-## Power BI — Return Rate
+## Power BI | Return Rate
 
     Return Rate =
     DIVIDE(
@@ -289,7 +289,7 @@ This is the working-code companion to the real-time solution. The formulas are w
         0
     )
 
-## Power BI — Projected SLA Breaches
+## Power BI | Projected SLA Breaches
 
     Projected SLA Breaches =
     CALCULATE(
