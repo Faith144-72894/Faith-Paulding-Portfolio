@@ -1,50 +1,73 @@
-# Federal Financial Management Analytics | Real-Time Decision Support
+# Federal Financial Management Analytics | Financial Systems & Decision Support Portfolio
 
-> Fictional portfolio solution. Results are simulated targets, not claims about an actual government customer.
+## Role Alignment
+Financial Management Business Analyst • Financial Systems Analyst • Financial Data / BI Analyst • Financial Management Modernization Consultant • Business Financial Manager • Resource Management Analyst • Program Financial Analyst • Financial Reporting Analyst
 
-## Challenge
-Financial leaders may receive budget, obligation, expenditure, forecast, and program information on different schedules. Consequently, a variance can exist before it becomes visible in the reporting package.
+## Common Government Problem
+Budget authority, commitments, obligations, expenditures, forecasts, requirements, and program status may be maintained in separate systems and spreadsheets. Financial and program teams reconcile the same information repeatedly before leadership can evaluate execution or projected funding pressure.
 
-## Desired Result
-Give program and financial leadership a current, traceable view of execution and immediately surface conditions that require explanation or action.
+## Fragmented State → Modernized State
 
-## Plan
-1. Define common Program, Fiscal Year, Funding, Transaction, Forecast, Milestone, and Risk keys.
-2. Establish approved ingestion cadence by source.
-3. Calculate execution, balance, forecast, and variance measures consistently.
-4. Define thresholds for emerging funding risk.
-5. Route exceptions to owners and expose them in the executive BI layer.
-6. Measure whether variance identification and response become faster.
-
-## Execution
-Power Query/SQL standardizes incoming records; the semantic model connects financial activity to programs; DAX calculates current execution and forecast indicators; Power BI surfaces exceptions; automation can notify owners when defined thresholds are crossed.
-
-```mermaid
-flowchart LR
- SRC[Approved Financial Sources] --> ETL[Validate / Transform]
- ETL --> MODEL[(Financial Model)]
- MODEL --> KPI[Execution & Forecast Measures]
- KPI --> BI[Power BI]
- KPI --> EX[Threshold Exception]
- EX --> OWNER[Owner Review]
- OWNER --> NOTE[Variance Explanation / Action]
+```text
+Budget File ─┐
+Commitment ──┤
+Obligation ──┤                    ┌→ Execution Rate
+Expenditure ─┼→ Governed Model ──┼→ Forecast Variance
+Forecast ────┤                    ├→ Funding Gap
+Requirements ┤                    ├→ Threshold Exception
+Program Data ┘                    └→ Owner / Decision
 ```
 
-## Real-Time / Operational Controls
-- Scheduled or approved-source refresh
-- Data-quality validation before reporting
-- Variance threshold flags
-- Forecast-to-available-funding comparison
-- 30/60/90-day requirement views
-- Owner and explanation tracking
+## Portfolio Data
+[Full FY2026 fictional financial execution dataset](financial_execution_sample.csv)
 
-## Demonstration Results
-A simulated threshold breach can move from source refresh to an executive exception view without rebuilding a monthly spreadsheet. A leader can identify the affected program, see the amount and direction of variance, review the forecast, and determine who owns the response.
+The dataset includes program, appropriation, budget authority, commitments, obligations, expenditures, forecast-at-completion, validated requirements, ownership, and execution status. It is intentionally structured so the same data can support financial analysis, program analysis, PPBE/resource analysis, BI development, systems analysis, and modernization design.
+
+## Data → Decision Translation
+[See the complete field-to-calculation-to-role breakout](DATA-TO-DECISION.md).
+
+Example: `PRG-003` contains $6.4M in fictional budget authority and $4.3M in obligations, producing a 67.2% execution rate. Its $6.7M forecast-at-completion creates $0.3M in projected pressure, while its $6.9M validated requirement creates a $0.5M requirement-to-authority gap. One governed row therefore supports execution monitoring, forecast analysis, resource analysis, and exception management.
+
+## Plan
+1. Standardize Program, Fiscal Year, Funding, Transaction, Forecast, Requirement, Milestone, Risk, and Owner keys.
+2. Validate incoming records before they enter the reporting model.
+3. Relate financial execution to program and requirement data.
+4. Calculate execution, balance, forecast, and funding-gap measures.
+5. Apply threshold rules to identify exceptions.
+6. Route exceptions to accountable owners.
+7. Publish current and projected conditions to leadership reporting.
+
+## Execution
+Power Query/SQL → validation → governed financial model → DAX measures → threshold logic → Power BI decision view → owner action.
+
+## Code / Calculations / Projections
+[Real-time DAX, projection logic, and automation example](REAL-TIME-SOLUTION.md)
+
+Core measures demonstrated:
+- Execution Rate
+- Unobligated Balance
+- Forecast Variance
+- Funding Risk
+- Projected Year-End Obligations
+- Projected Unobligated Balance
 
 ## Result Measures
-Refresh success rate • data-quality exception count • execution rate • unobligated balance • forecast variance • time-to-variance-identification • unresolved financial exceptions • 30/60/90-day funding exposure
+Refresh success • data-quality exceptions • execution rate • unobligated balance • forecast variance • requirement gap • time to identify variance • unresolved exceptions • 30/60/90-day funding exposure
 
-## Career Alignment
-Financial Data/BI Analyst • Financial Systems Analyst • Financial Management Business Analyst • Financial Modernization Consultant • Program Financial Analyst
+## What This Demonstrates to a Hiring Manager
+| Target Role | Evidence in This Folder |
+|---|---|
+| Financial Management Business Analyst | Requirements, source mapping, calculations, decision rules |
+| Financial Systems Analyst | Source integration, data structure, validation, governed model |
+| Financial Data / BI Analyst | Dataset, DAX, variance analysis, projections, reporting |
+| Business Financial Manager | Execution, forecast, requirement/funding position |
+| Resource Management / PPBE Analyst | Validated requirement, funding gap, resource decision support |
+| Financial Modernization Consultant | Fragmented-to-modernized operating model |
+| Program Financial Analyst | Program-level execution, forecast, exception analysis |
 
-Ultimately, the solution is designed to move financial reporting from retrospective compilation toward active decision support.
+## Portfolio Files
+- [financial_execution_sample.csv](financial_execution_sample.csv) — full fictional working dataset
+- [DATA-TO-DECISION.md](DATA-TO-DECISION.md) — how fields translate to calculations, decisions, and roles
+- [REAL-TIME-SOLUTION.md](REAL-TIME-SOLUTION.md) — DAX, projections, automation, and controls
+
+> All programs and financial values are fictional portfolio data. They do not represent an actual agency, appropriation, program, or government financial record.
