@@ -1,0 +1,6 @@
+id,type,description,impact,owner,opened_date,due_date,status,recovery_action,business_process
+R-001,Risk,Customer approval delay,High,Delivery Lead,2026-08-07,2026-08-15,Open,Escalate decision package,Release approval
+I-002,Issue,Test identity unavailable,High,Security Lead,2026-08-09,2026-08-12,Open,Temporary isolated test group,UAT
+D-003,Dependency,Finance API access,Medium,Data Lead,2026-08-08,2026-08-18,Watching,Mock dataset fallback,Financial analytics
+A-004,Assumption,Pilot users available,Medium,Change Lead,2026-08-10,2026-08-20,Validate,Confirm alternate roster,Adoption
+R-005,Risk,Licensing capacity,Medium,Solution Architect,2026-08-06,2026-08-17,Mitigating,Right-size license plan,Production deployment
