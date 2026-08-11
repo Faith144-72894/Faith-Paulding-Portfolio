@@ -1,0 +1,6 @@
+user_group,target_users,active_users_30d,transactions_30d,legacy_transactions,open_blockers,avg_cycle_minutes,hours_saved_monthly
+Operations,120,72,890,420,5,18,310
+Finance,45,39,340,28,1,14,126
+Program Management,55,46,410,35,2,16,144
+Leadership,18,17,96,0,0,4,38
+Field Users,80,49,520,260,4,22,172
