@@ -1,0 +1,6 @@
+data_product,owner,source,freshness_sla_hours,actual_freshness_hours,quality_score,ai_use,grounding_score,human_review_rule
+Policy Knowledge,Knowledge Ops,Document Library,24,18,0.985,Grounded Search,0.94,Review below 0.90
+Program Performance,PMO,Program Platform,8,10,0.965,Executive Summary,0.92,Review Red conditions
+Financial Execution,Finance,Finance Feed,24,22,0.992,Variance Narrative,0.96,Finance approval required
+Service Requests,Operations,Request Platform,1,1,0.978,Routing Recommendation,0.91,Review exceptions
+Risk Register,Risk Lead,Risk Platform,12,14,0.952,Risk Detection,0.88,Review below 0.90
