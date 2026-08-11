@@ -1,56 +1,50 @@
-# Federal Financial Management Analytics
+# Federal Financial Management Analytics | Real-Time Decision Support
 
-I designed this fictional federal financial-management project around a problem that is easy to underestimate: having financial data does not automatically mean leadership has financial visibility. The real value comes from connecting funding, execution, forecasts, program activity, and risk in a way that makes the next decision clearer.
+> Fictional portfolio solution. Results are simulated targets, not claims about an actual government customer.
 
-> All organizations, programs, transactions, and financial values in this project are fictional.
+## Challenge
+Financial leaders may receive budget, obligation, expenditure, forecast, and program information on different schedules. Consequently, a variance can exist before it becomes visible in the reporting package.
 
-## Why I Built This
+## Desired Result
+Give program and financial leadership a current, traceable view of execution and immediately surface conditions that require explanation or action.
 
-My objective is to demonstrate how my existing data, BI, program-management, and modernization background can translate into financial-management environments. More specifically, this model focuses on the analytical layer between raw financial records and executive decision-making.
+## Plan
+1. Define common Program, Fiscal Year, Funding, Transaction, Forecast, Milestone, and Risk keys.
+2. Establish approved ingestion cadence by source.
+3. Calculate execution, balance, forecast, and variance measures consistently.
+4. Define thresholds for emerging funding risk.
+5. Route exceptions to owners and expose them in the executive BI layer.
+6. Measure whether variance identification and response become faster.
 
-Consequently, I structured the solution to answer practical questions: What funding is available? What has been obligated? Where is execution deviating from plan? What is likely to happen by year-end? Which programs require leadership attention now rather than later?
-
-## Analytical Model
-
-The conceptual model includes Programs, Fiscal Years, Appropriations/Funding Categories, Budget Authority, Commitments, Obligations, Expenditures, Forecasts, Variance Explanations, Program Milestones, and Financial Risks.
+## Execution
+Power Query/SQL standardizes incoming records; the semantic model connects financial activity to programs; DAX calculates current execution and forecast indicators; Power BI surfaces exceptions; automation can notify owners when defined thresholds are crossed.
 
 ```mermaid
-erDiagram
-    PROGRAM ||--o{ BUDGET : receives
-    PROGRAM ||--o{ TRANSACTION : records
-    PROGRAM ||--o{ FORECAST : produces
-    PROGRAM ||--o{ RISK : carries
-    FISCAL_YEAR ||--o{ BUDGET : organizes
-    BUDGET ||--o{ TRANSACTION : funds
+flowchart LR
+ SRC[Approved Financial Sources] --> ETL[Validate / Transform]
+ ETL --> MODEL[(Financial Model)]
+ MODEL --> KPI[Execution & Forecast Measures]
+ KPI --> BI[Power BI]
+ KPI --> EX[Threshold Exception]
+ EX --> OWNER[Owner Review]
+ OWNER --> NOTE[Variance Explanation / Action]
 ```
 
-## Executive Measures
+## Real-Time / Operational Controls
+- Scheduled or approved-source refresh
+- Data-quality validation before reporting
+- Variance threshold flags
+- Forecast-to-available-funding comparison
+- 30/60/90-day requirement views
+- Owner and explanation tracking
 
-The dashboard layer is designed around Total Budget Authority, Obligations to Date, Expenditures to Date, Unobligated Balance, Execution Rate, Budget Variance, Forecast at Completion, Funding Risk, 30/60/90-Day Requirements, and Data Quality Exceptions.
+## Demonstration Results
+A simulated threshold breach can move from source refresh to an executive exception view without rebuilding a monthly spreadsheet. A leader can identify the affected program, see the amount and direction of variance, review the forecast, and determine who owns the response.
 
-```text
-Execution Rate = Obligations / Budget Authority
-Unobligated Balance = Budget Authority - Obligations
-Variance = Actual compared with forecast or approved baseline
-Forecast Risk = projected requirement exceeds available resources
-```
-
-## My Design Perspective
-
-From a data perspective, the model must preserve traceability between the financial transaction and the program it supports. Equally important, from a leadership perspective, the reporting layer should surface exceptions rather than force decision-makers to search for them.
-
-Therefore, I would design the Power BI experience so that a leader can move from portfolio-level execution to a specific program, understand the variance, review the explanation, and identify whether action is required.
-
-## Remote Delivery Capability
-
-This work is highly compatible with remote delivery because financial modeling, Power BI development, SQL/Excel analysis, forecasting, requirements analysis, documentation, dashboard reviews, and stakeholder briefings can be completed through approved secure environments. Where a contract requires restricted financial systems or classified data, the delivery model may shift to hybrid or on-site access.
-
-## Skills Demonstrated
-
-Power BI • DAX • Power Query • Excel • SQL • Data Modeling • Financial Analytics • Forecasting • Data Governance • Executive Reporting • Requirements Analysis
+## Result Measures
+Refresh success rate • data-quality exception count • execution rate • unobligated balance • forecast variance • time-to-variance-identification • unresolved financial exceptions • 30/60/90-day funding exposure
 
 ## Career Alignment
+Financial Data/BI Analyst • Financial Systems Analyst • Financial Management Business Analyst • Financial Modernization Consultant • Program Financial Analyst
 
-Financial Data / BI Analyst • Financial Systems Analyst • Financial Management Business Analyst • Financial Management Modernization Consultant • Program Financial Analyst
-
-Ultimately, this project demonstrates how I would use my technical background to make financial information more structured, explainable, and decision-ready rather than simply producing another report.
+Ultimately, the solution is designed to move financial reporting from retrospective compilation toward active decision support.
