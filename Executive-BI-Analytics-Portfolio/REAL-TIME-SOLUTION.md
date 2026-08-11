@@ -4,44 +4,26 @@
 BI / Data Analytics Lead • Senior BI Developer • Lead Data Analyst • Power BI Lead • Executive Decision Support Analyst • Performance Management Analyst
 
 ## Common Government Problem
-Executive reporting is frequently assembled from separate program trackers with different definitions, refresh dates, and status logic. Leadership receives a consolidated slide or spreadsheet after conditions have already changed.
+Executive reporting is assembled from separate program trackers with different definitions, refresh dates, and status logic. Leadership may receive consolidated reporting after operating conditions have changed.
 
 ## Modernization Pattern
-**Fragmented / Siloed** → multiple trackers → manual consolidation → static report
+**Fragmented / Siloed:** multiple trackers → manual consolidation → static report
 
-**Modernized** → governed model → common KPI definitions → automated refresh → exception calculations → executive drill-through
+**Modernized:** governed model → common KPI definitions → automated refresh → exception calculations → executive drill-through
 
 ## Real-Time Measures
-```DAX
-Overdue Items =
-CALCULATE(
-    COUNTROWS(FactPerformance),
-    FactPerformance[DueDate] < TODAY(),
-    FactPerformance[Status] <> "Closed"
-)
-
-Completion Rate =
-DIVIDE([Completed Items], [Total Items], 0)
-
-Average Aging Days =
-AVERAGEX(
-    FILTER(FactPerformance, FactPerformance[Status] <> "Closed"),
-    DATEDIFF(FactPerformance[CreatedDate], TODAY(), DAY)
-)
-```
+| Measure | DAX / Calculation Logic |
+|---|---|
+| Overdue Items | Count FactPerformance rows where DueDate < TODAY() and Status <> Closed |
+| Completion Rate | Completed Items ÷ Total Items |
+| Average Aging Days | Average days between CreatedDate and TODAY() for open records |
 
 ## Projection
-```DAX
-Projected 30 Day Closures =
-CALCULATE(
-    [Total Items],
-    FactPerformance[ForecastCloseDate] <= TODAY() + 30,
-    FactPerformance[Status] <> "Closed"
-)
-
-Projected Backlog =
-[Open Items] + [Expected New Items] - [Projected 30 Day Closures]
-```
+| Projection | Calculation Logic |
+|---|---|
+| Projected 30-Day Closures | Open records with ForecastCloseDate within the next 30 days |
+| Projected Backlog | Open Items + Expected New Items − Projected 30-Day Closures |
+| 30/60/90 Exposure | Open records grouped by projected deadline window |
 
 ## Execution
 Ingest → validate → dimensional model → calculate KPIs → detect exceptions → refresh dashboard → drill to accountable owner/record.
