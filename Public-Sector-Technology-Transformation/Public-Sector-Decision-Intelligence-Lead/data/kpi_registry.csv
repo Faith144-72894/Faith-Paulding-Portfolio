@@ -1,0 +1,6 @@
+kpi,definition,source,refresh_sla_minutes,actual_age_minutes,threshold,current_value,owner,decision_trigger
+Cycle Time,Submit to complete,Workflow Platform,240,38,<5 days,4.2,Operations Lead,Investigate above 5
+SLA Compliance,Completed within SLA,Request Platform,60,22,>90%,0.93,Service Lead,Escalate below 90%
+Forecast Pressure,Forecast minus budget,Finance Platform,1440,780,<=0,420000,Finance Lead,Decision when positive
+Adoption,Active divided by target,Usage Telemetry,1440,130,>80%,0.67,Customer Solutions Lead,Recovery below 80%
+Data Quality,Passed quality rules,Data Platform,60,18,>98%,0.965,Data Lead,Correct below 98%
