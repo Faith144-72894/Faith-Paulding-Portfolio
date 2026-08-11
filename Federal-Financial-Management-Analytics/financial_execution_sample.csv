@@ -1,0 +1,11 @@
+FiscalYear,ProgramID,ProgramName,Appropriation,BudgetAuthority,Commitments,Obligations,Expenditures,ForecastAtCompletion,ValidatedRequirement,ProgramOwner,ExecutionStatus
+2026,PRG-001,Enterprise Data Modernization,O&M,12500000,10400000,9200000,7150000,12100000,12800000,Program Office A,On Track
+2026,PRG-002,Financial Systems Integration,O&M,8700000,7900000,7450000,6100000,9100000,9000000,Program Office B,Watch
+2026,PRG-003,Cyber Analytics Modernization,RDT&E,6400000,5100000,4300000,3150000,6700000,6900000,Program Office C,At Risk
+2026,PRG-004,Workforce Digital Services,O&M,5200000,4100000,3650000,2900000,4900000,5000000,Program Office D,On Track
+2026,PRG-005,Enterprise Reporting Platform,O&M,9800000,7600000,6900000,5400000,10300000,10100000,Program Office E,At Risk
+2026,PRG-006,Audit Remediation Automation,O&M,4500000,3700000,3300000,2750000,4400000,4600000,Program Office F,On Track
+2026,PRG-007,AI Knowledge Services,RDT&E,7300000,5400000,4650000,3100000,7800000,8000000,Program Office G,Watch
+2026,PRG-008,Shared Data Governance,O&M,3900000,3200000,2850000,2100000,3750000,3900000,Program Office H,On Track
+2026,PRG-009,Program Performance Command Center,O&M,6100000,4950000,4400000,3350000,5900000,6200000,Program Office I,On Track
+2026,PRG-010,Legacy Workflow Retirement,O&M,3500000,2700000,2350000,1800000,3700000,3600000,Program Office J,Watch
