@@ -1,0 +1,6 @@
+workstream,owner,planned_finish,percent_complete,health,dependency,decision_due,uat_pass_rate,continuity_ready
+Identity & Access,Security Lead,2026-08-22,65,Amber,Customer security group,2026-08-14,0,Yes
+Data Integration,Data Lead,2026-08-29,55,Green,Source API,2026-08-16,0,Yes
+Workflow Build,Application Lead,2026-09-04,40,Amber,Data schema,2026-08-15,0,Yes
+Executive Analytics,BI Lead,2026-09-08,30,Green,Semantic model,2026-08-18,0,Yes
+UAT & Adoption,Change Lead,2026-09-18,10,Amber,Stable build,2026-08-20,42,No
