@@ -1,112 +1,80 @@
-# Faith Paulding | Federal Digital Transformation Portfolio
+# Faith Paulding | Real-Time Federal Digital Transformation Portfolio
 
 **Data & BI • Power Platform • AI Architecture • Cybersecurity • Financial Management Modernization**
 
-I built this portfolio to show more than a list of tools. My work is centered on a larger question: **How do you take a fragmented business problem, understand the operational risk behind it, and translate it into a solution that leadership can actually use?**
+I rebuilt this portfolio around the way I approach an actual delivery environment: **identify the operational challenge, define the result that matters, establish the plan, execute the solution, and measure whether the operating condition improved.** Technology is the enabler; the outcome is the point.
 
-My approach sits at the intersection of technical delivery, data strategy, program management, governance, and modernization. Consequently, each project demonstrates the challenge, the solution I designed, why that solution fits the problem, and the professional capability it represents.
+> **Portfolio integrity:** All organizations, records, financial values, metrics, and scenarios are fictional or sanitized. Any results shown below are **demonstration targets or simulated outcomes**, not claims about an actual government customer.
 
-> **Portfolio integrity statement:** Every organization, user, financial record, audit record, metric, screenshot, workflow, and dataset presented here is fictional or intentionally sanitized for demonstration. No classified, controlled, proprietary, customer-sensitive, or government-sensitive information is included.
+## Delivery Framework
 
-## My Professional Lens
+**Challenge → Desired Result → Plan → Execution → Real-Time Control → Measured Result → Next Decision**
 
-From a technical standpoint, I work across Microsoft Power Platform, Power BI, automation, data modeling, SQL, analytics, governance, and enterprise workflow design. Equally important, I approach technology through the lens of program outcomes: the solution has to improve visibility, reduce manual effort, strengthen controls, and give decision-makers a clearer path forward.
+This structure matters because a solution is not complete when an app or dashboard is published. In practice, the solution has to detect change, route work, surface risk, preserve accountability, and give leadership enough information to act while the issue is still manageable.
 
-Moreover, my IBM AI Architecture and IBM Cybersecurity certifications allow me to evaluate modernization from an emerging-technology and risk-aware perspective. Rather than treating AI, cybersecurity, data, and automation as separate disciplines, I view them as interconnected components of responsible enterprise architecture.
+## Portfolio: Real-Time Problems and Solutions
 
-## Challenge → Solution Portfolio Map
+| Solution | Real-Time Challenge | Plan & Execution | Demonstration Result |
+|---|---|---|---|
+| Government Audit & Compliance Management | Deficiencies, CAPs, evidence, and deadlines change faster than manual trackers | Govern lifecycle, automate status/alerts, connect evidence, surface exceptions | Earlier overdue visibility; traceable closure readiness; fewer manual status checks |
+| [Federal Financial Management Analytics](Federal-Financial-Management-Analytics/README.md) | Funding execution and forecasts change throughout the fiscal cycle | Integrate budget/execution data, calculate variance, trigger threshold views | Faster variance identification and decision-ready funding visibility |
+| [PPBE Program Analytics](PPBE-Program-Analytics/README.md) | Requirements, resources, execution, and program risk are evaluated separately | Connect planning assumptions to execution and forecast signals | Leadership sees resource pressure before it becomes a year-end surprise |
+| [Enterprise AI Architecture](Enterprise-AI-Architecture/README.md) | AI responses, access, and risk must be controlled at runtime | Layer identity, retrieval, safeguards, telemetry, and human review | Traceable AI interactions and faster detection of unsafe or unsupported behavior |
+| [AI RMF Governance](NIST-AI-RMF-Governance/README.md) | AI risk changes after initial approval | Operationalize Govern/Map/Measure/Manage with monitoring and escalation | Continuous risk visibility instead of one-time governance review |
+| [Power Platform Enterprise Architecture](Power-Platform-Enterprise-Architecture/README.md) | Low-code change can reach users faster than governance can respond | Dev/Test/Prod, ALM, DLP, monitoring, ownership, support | More controlled releases and faster response to production issues |
+| [Executive BI Analytics](Executive-BI-Analytics-Portfolio/README.md) | Leaders receive stale or inconsistent performance measures | Govern KPIs, refresh data, calculate exceptions, enable drill-down | One decision layer for current health, trend, forecast, and ownership |
+| [Federal Digital Transformation Playbook](Federal-Digital-Transformation-Playbook/README.md) | Modernization efforts can automate the wrong process | Diagnose current state, prioritize pain points, execute in phases, measure adoption | Modernization tied to operating outcomes rather than technology deployment alone |
+| [Federal Program Performance Command Center](Federal-Program-Performance-Command-Center) | Cost, schedule, milestone, risk, and corrective-action signals are disconnected | Integrate operational records and calculate program health | Earlier intervention through exception and 30/60/90-day views |
+| [Government Service Request & Approval Portal](Government-Service-Request-Approval-Portal) | Requests stall because ownership, approvals, and SLAs are unclear | State-based workflow, routing, alerts, audit history, SLA analytics | Reduced handoff ambiguity and real-time request accountability |
 
-| Portfolio Challenge | Solution | Capability Demonstrated |
-|---|---|---|
-| Fragmented audit records, manual approvals, and weak closure traceability | Governed audit lifecycle with Power Apps, automation, relational tracking, evidence, and executive reporting | Power Platform Architecture • Audit Modernization • Technical Program Leadership |
-| Financial data exists but leadership lacks timely execution visibility | Financial analytics model connecting budget, obligations, expenditures, variance, forecasts, and risk | Financial BI • Data Modeling • Financial Modernization |
-| Requirements, resources, execution, and program health are evaluated separately | PPBE-style decision-support model connecting planning, funding, execution, forecast, and program health | PPBE Analytics • Resource Management • Program Analysis |
-| AI adoption can outpace security, governance, and accountability | Layered enterprise AI architecture with controlled retrieval, identity, telemetry, safeguards, and human oversight | AI Architecture • Cybersecurity • AI Technical Leadership |
-| AI use cases lack consistent ownership, assessment, evidence, and monitoring | NIST AI RMF-aligned governance lifecycle using Govern, Map, Measure, and Manage | Responsible AI • AI Governance • Risk & Controls |
-| Low-code applications scale faster than enterprise governance | Dev/Test/Prod Power Platform architecture with ALM, DLP, ownership, security, and lifecycle controls | Power Platform Solution Architecture • Governance • ALM |
-| Multiple reports exist but executive performance remains difficult to interpret | Dimensional BI model with governed KPIs, exception reporting, drill-down, and 30/60/90 forecasting | BI Leadership • Analytics Strategy • Executive Decision Support |
-| Modernization efforts begin with technology before the operating problem is understood | Current-state → target-state transformation framework connecting people, process, data, technology, governance, and delivery | Digital Transformation • Technical Program Management • Change Leadership |
+## What “Real-Time” Means in This Portfolio
 
-## Career Alignment
+Real-time does not mean every source refreshes every second. It means the solution is designed so that **when an approved source changes, the operating model can detect, validate, calculate, route, alert, or refresh at the cadence the business process requires.** That may be event-driven for workflow actions, scheduled for financial feeds, or near-real-time for operational dashboards.
 
-This portfolio intentionally supports senior government-contractor opportunities including Senior Technical Program Manager, Power Platform Solution Architect, BI / Data Analytics Lead, Digital Transformation Lead, Senior Power Platform Developer, Financial Management Business Analyst, Financial Systems Analyst, Financial Data / BI Analyst, Audit Readiness / Remediation Analyst, AI Technical Program Manager, AI / Data Modernization Lead, and AI Governance / Responsible AI Lead.
+## Credentials & Technical Foundation
 
-## Credentials Represented
-
-- MBA, Engineering Management
-- Certified ScrumMaster (CSM)
-- IBM Cybersecurity Certification
-- IBM AI Architecture Certification
-- Power BI / SQL / Data Analytics credentials and experience
-- Microsoft Power Platform, SharePoint, Power Automate, Power Apps, Power Fx, DAX, Power Query, SQL, Python, Tableau, SSRS, and Excel / Power Pivot
-
-## Portfolio Projects
-
-| Project | Strategic Question | Career Alignment |
-|---|---|---|
-| [Government Audit & Compliance Management System](#government-audit--compliance-management-system) | How can fragmented audit activity become a traceable, governed lifecycle? | Power Platform Architect, Technical PM, Audit Readiness |
-| [Federal Financial Management Analytics](Federal-Financial-Management-Analytics/README.md) | How can funding execution and variance become actionable leadership intelligence? | Financial Data/BI, Financial Systems, FM Business Analyst |
-| [PPBE Program Analytics](PPBE-Program-Analytics/README.md) | How can requirements, resources, execution, and program health be viewed together? | PPBE Analyst, BFM, Resource Management |
-| [Enterprise AI Architecture](Enterprise-AI-Architecture/README.md) | How can AI be introduced without losing security, traceability, or human accountability? | AI Architect, AI TPM, AI Modernization |
-| [AI RMF Governance](NIST-AI-RMF-Governance/README.md) | How should AI risk be governed from intake through monitoring? | AI Governance, Responsible AI, Cyber/AI |
-| [Power Platform Enterprise Architecture](Power-Platform-Enterprise-Architecture/README.md) | How can low-code solutions scale beyond a single app? | Power Platform Solution Architect |
-| [Executive BI Analytics Portfolio](Executive-BI-Analytics-Portfolio/README.md) | How can raw operational data become a leadership decision system? | BI Lead, Data Analytics Lead |
-| [Federal Digital Transformation Playbook](Federal-Digital-Transformation-Playbook/README.md) | How do you move from current-state friction to a governed modernization roadmap? | Digital Transformation Lead, Technical Program Manager |
-
----
+MBA, Engineering Management • Certified ScrumMaster (CSM) • IBM Cybersecurity Certification • IBM AI Architecture Certification • Power BI • Power Apps • Power Automate • Power Fx • SharePoint • Dataverse • DAX • Power Query • SQL • Python • Tableau • SSRS • Excel/Power Pivot
 
 # Government Audit & Compliance Management System
 
 ## Challenge
+Audit records can move through intake, review, recommendations, corrective actions, milestones, evidence, and closure while information remains distributed across email, spreadsheets, trackers, and documents. The operational risk is not only duplication; it is delayed awareness of what changed and whether closure is actually supportable.
 
-Audit-management environments can become difficult to govern when information is distributed across spreadsheets, emails, manual approvals, disconnected trackers, and legacy systems. As a result, leadership may have limited visibility into overdue deficiencies, corrective-action progress, ownership, evidence, and closure readiness. Moreover, a status can appear complete even when the supporting actions or documentation are not.
+## Desired Result
+Create one governed lifecycle in which leadership can see current status, overdue exposure, ownership, evidence readiness, and the next required action without reconstructing the record manually.
 
-## Solution
+## Plan
+1. Establish a source-of-truth data model: Deficiency → Recommendation → CAP → Milestone → Evidence.
+2. Define workflow states, ownership, validation, and closure criteria.
+3. Automate event-driven notifications, audit history, and escalation.
+4. Build exception-driven Power BI views and 30/60/90-day forecasting.
+5. Test role-based access, transitions, failure paths, and closure gates.
 
-I designed a sanitized PL-600-style management solution using Power Apps, Power Automate, Power BI, SharePoint, Power Fx, and Microsoft 365. The model centralizes intake, internal review, recommendations, corrective actions, milestones, evidence, status history, alerts, and executive reporting.
-
-Most importantly, closure is treated as a controlled outcome rather than a manual status selection.
-
-## Challenge-to-Solution Alignment
-
-| Audit Challenge | Solution I Designed |
-|---|---|
-| Intake arrives through inconsistent channels | Structured external intake workflow |
-| Required information is incomplete | Field validation and conditional requirements |
-| Review decisions are difficult to trace | Internal review workflow with status history |
-| Deficiencies and corrective actions become disconnected | Relational Deficiency → Recommendation → CAP → Milestone structure |
-| Owners miss upcoming deadlines | Automated notifications and 30/60/90 forecasting |
-| Closure can occur without complete evidence | Completion and evidence gates before closure |
-| Leadership lacks portfolio visibility | Power BI executive dashboards and exception reporting |
-| Data terminology becomes inconsistent | Standardized fields, controlled values, and source-of-truth structures |
-
-## Application Workflows
-
-1. **External Intake** — captures new submissions, validates required information, creates tracking numbers, and supports draft behavior.
-2. **Internal Review** — provides structured validation, correction, approval, rejection, and return pathways.
-3. **Recommendations & Corrective Actions** — establishes relationships between deficiencies, recommendations, CAP actions, owners, milestones, evidence, and completion dates.
-4. **Deficiency Management & Closure** — confirms that required actions, documentation, milestones, and approvals are complete before closure.
-
-## Reference Architecture
+## Execution
+Power Apps handles intake/review/management; Power Automate records transitions and routes alerts; SharePoint/Dataverse stores governed records and evidence references; Power BI calculates health, overdue exposure, completion, and forecast measures.
 
 ```mermaid
 flowchart LR
-    U[Users] --> PA[Power Apps]
-    PA --> DV[(SharePoint / Dataverse)]
-    PA --> FL[Power Automate]
-    FL --> DV
-    DV --> BI[Power BI]
-    FL --> NT[Teams / Outlook Notifications]
-    BI --> EX[Executive Decision Support]
+ U[User Action] --> APP[Power Apps]
+ APP --> DATA[(Governed Data)]
+ DATA --> FLOW[Event / Scheduled Automation]
+ FLOW --> ALERT[Owner / Reviewer Alert]
+ DATA --> BI[Power BI Decision Layer]
+ BI --> LEAD[Leadership Action]
+ LEAD --> APP
 ```
 
-## Why the Solution Fits the Challenge
+## Demonstration Results
+- A status change can immediately create history and route the next action.
+- Overdue and approaching ECD conditions become visible without manual spreadsheet review.
+- Closure can be blocked until required downstream actions/evidence are complete.
+- Leadership can drill from portfolio health to the specific record driving the exception.
 
-From an architectural standpoint, the application is only one layer. The actual solution is the relationship between workflow, data, governance, reporting, and auditability. Accordingly, the model emphasizes source-of-truth data, least-privilege access, traceable status transitions, evidence linkage, data-quality validation, and controlled closure.
+## Result Measures
+Time from submission to review • overdue count • aging by workflow state • CAP completion rate • evidence completeness • returned/rejected rate • closure cycle time • 30/60/90-day exposure
 
-Ultimately, my objective is not simply to digitize a manual process. It is to create an operating structure in which activity becomes measurable, accountability becomes visible, and leadership can identify where intervention is required before an issue becomes larger.
+## Career Alignment
+Power Platform Solution Architect • Senior Technical Program Manager • Audit Readiness/Remediation • Digital Transformation Lead • BI/Data Analytics Lead
 
 ---
-
-**Faith Paulding**  
-Federal Digital Transformation • Data & BI • Power Platform • AI Architecture • Cybersecurity • Financial Management Modernization
+**Faith Paulding** — Federal Digital Transformation • Data & BI • Power Platform • AI Architecture • Cybersecurity • Financial Management Modernization
