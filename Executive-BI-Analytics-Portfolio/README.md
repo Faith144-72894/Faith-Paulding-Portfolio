@@ -1,78 +1,40 @@
-# Executive BI Analytics Portfolio
-
-I built this fictional executive analytics project around a recurring data challenge: organizations can have a large volume of reporting and still lack a clear picture of performance. More dashboards do not necessarily create better decisions. The information has to be structured around the questions leadership is actually responsible for answering.
+# Executive BI Analytics | Current-State Decision Support
 
 ## Challenge
+Organizations can have numerous dashboards and still react late because measures are inconsistent, refresh timing is unclear, exceptions are buried, and the report does not identify the owner or next action.
 
-A fictional program office receives status information from multiple sources. Metrics are calculated differently across teams, overdue items are difficult to identify, risks and milestones are reported separately, and leadership spends time reconciling numbers rather than evaluating performance.
+## Desired Result
+Create one governed decision layer that shows current health, what changed, what is approaching, what requires intervention, and which underlying record is driving the signal.
 
-Furthermore, the underlying data is operationally structured rather than analytically structured, making trend analysis and consistent KPI calculation difficult.
+## Plan
+1. Define conformed Date, Program, Owner, and Status dimensions.
+2. Establish one KPI definition for each executive measure.
+3. Define source refresh and data-quality controls.
+4. Build exception and trend measures before designing visuals.
+5. Add 30/60/90-day outlook and drill-through.
+6. Measure data freshness and decision-response performance.
 
-## Solution
-
-I designed a dimensional BI model that separates reusable dimensions from performance facts and creates one governed KPI layer for executive reporting. Consequently, the same definition of program health, overdue work, completion, risk exposure, and upcoming deadlines can be used across the reporting experience.
-
+## Execution
 ```mermaid
-erDiagram
-    DIM_DATE ||--o{ FACT_PERFORMANCE : filters
-    DIM_PROGRAM ||--o{ FACT_PERFORMANCE : filters
-    DIM_OWNER ||--o{ FACT_PERFORMANCE : filters
-    DIM_STATUS ||--o{ FACT_PERFORMANCE : filters
+flowchart LR
+ SRC[Operational Sources] --> Q[Quality / Transform]
+ Q --> MODEL[(Dimensional Model)]
+ MODEL --> DAX[Governed KPI Layer]
+ DAX --> BI[Executive Dashboard]
+ DAX --> EX[Exception View]
+ EX --> OWNER[Action Owner]
 ```
 
-## Challenge-to-Solution Alignment
+## Current-State Controls
+Data freshness indicator • refresh failure monitoring • governed DAX measures • overdue logic • health thresholds • exception views • drill-through • 30/60/90 forecast • data-quality exceptions
 
-| Reporting Challenge | Solution I Designed |
-|---|---|
-| Different teams calculate metrics differently | Central KPI definitions and reusable DAX measures |
-| Leadership cannot quickly see what requires attention | Exception-driven executive overview |
-| Historical trends are difficult to analyze | Date dimension and time-based measures |
-| Program, owner, and status reporting is inconsistent | Conformed dimensions |
-| Overdue work is buried in detail | Explicit overdue logic and drill-through |
-| Upcoming deadlines are reactive | 30/60/90-day forecasting views |
-| Data problems reduce trust | Data-quality exception monitoring |
-| Reports explain what happened but not where to investigate | Portfolio-to-program drill-down design |
+## Demonstration Results
+A fictional overdue milestone or critical risk can change the executive health indicator after refresh and immediately appear in the exception view. Leadership can then drill to the program, owner, due date, and underlying condition rather than reconciling separate reports.
 
-## Executive KPI Catalog
-
-The model includes Overall Program Health, Cost Variance, Schedule Variance, Milestone Completion Rate, Overdue Milestone Count, Open Risk Exposure, Critical Issue Count, Corrective-Action Completion Rate, Upcoming 30/60/90-Day Deadlines, and Data Quality Exception Count.
-
-## Example DAX Patterns
-
-```DAX
-Overdue Items =
-CALCULATE(
-    COUNTROWS(FactPerformance),
-    FactPerformance[DueDate] < TODAY(),
-    FactPerformance[Status] <> "Closed"
-)
-```
-
-```DAX
-Completion Rate =
-DIVIDE(
-    [Completed Items],
-    [Total Items],
-    0
-)
-```
-
-## Why This Solution Fits the Challenge
-
-The objective is not to place every available metric on one screen. Instead, the dashboard should establish a hierarchy of information: What is the overall condition? What changed? What requires attention? What is driving it? Who owns the next action?
-
-Therefore, I would structure the experience across Executive Overview, Trends & Timelines, Program Health, Risks & Issues, Milestones, 30/60/90 Forecast, and Data Quality views.
-
-## Remote Delivery Capability
-
-Power BI development, DAX, Power Query, SQL analysis, data modeling, dashboard design, requirements, KPI workshops, testing, documentation, and executive reporting are highly compatible with remote work.
-
-## Skills Demonstrated
-
-Power BI • DAX • Power Query • SQL • Dimensional Modeling • KPI Design • Forecasting • Data Quality • Executive Storytelling • Requirements Analysis
+## Result Measures
+Data freshness • refresh success • overdue count • critical risk exposure • milestone completion • corrective-action completion • exception aging • time from condition change to dashboard visibility
 
 ## Career Alignment
+BI/Data Analytics Lead • Senior BI Developer • Senior Data Analyst • Data Analytics Program Manager • Financial Data/BI Analyst
 
-BI / Data Analytics Lead • Senior BI Developer • Senior Data Analyst • Data Analytics Program Manager • Financial Data / BI Analyst
-
-Ultimately, this project reflects how I approach BI: the dashboard is the visible layer, but the real solution is the governed decision logic underneath it.
+The dashboard is the visible layer. The real solution is the governed logic and operating cadence that determine whether leadership can trust what it sees.
