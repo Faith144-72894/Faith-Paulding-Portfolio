@@ -36,3 +36,6 @@ Use synthetic data, original code, redacted sandbox screenshots and reproducible
 
 ## Visual implementation library
 [Copilot Studio instructional wireframes and validation checklist](visual-guide/README.md)
+
+## Additional platform labs
+- [CrewAI](labs/crewai/README.md)

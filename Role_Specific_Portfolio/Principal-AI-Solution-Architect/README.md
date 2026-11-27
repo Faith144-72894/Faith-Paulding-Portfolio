@@ -37,3 +37,8 @@ Use synthetic data, original code, redacted sandbox screenshots and reproducible
 
 ## Visual implementation library
 [Azure AI Foundry instructional wireframes and validation checklist](visual-guide/README.md)
+
+## Additional platform labs
+- [LangChain](labs/langchain/README.md)
+- [LangGraph](labs/langgraph/README.md)
+- [React](labs/react/README.md)

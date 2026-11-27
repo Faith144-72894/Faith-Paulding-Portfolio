@@ -37,3 +37,10 @@ Use synthetic data, original code, redacted sandbox screenshots and reproducible
 
 ## Visual implementation library
 [AWS instructional wireframes and validation checklist](visual-guide/README.md)
+
+## Additional platform labs
+- [Google Cloud](labs/google-cloud/README.md)
+- [Docker](labs/docker/README.md)
+- [Firebase](labs/firebase/README.md)
+- [C++](labs/c-/README.md)
+- [Terraform](labs/terraform/README.md)

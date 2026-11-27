@@ -36,3 +36,6 @@ Use synthetic data, original code, redacted sandbox screenshots and reproducible
 
 ## Visual implementation library
 [Azure DevOps instructional wireframes and validation checklist](visual-guide/README.md)
+
+## Additional platform labs
+- [GitHub Actions](labs/github-actions/README.md)

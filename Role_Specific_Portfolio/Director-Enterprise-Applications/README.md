@@ -36,3 +36,15 @@ Use synthetic data, original code, redacted sandbox screenshots and reproducible
 
 ## Visual implementation library
 [Power Apps instructional wireframes and validation checklist](visual-guide/README.md)
+
+## Additional platform labs
+- [MuleSoft](labs/mulesoft/README.md)
+- [Workato](labs/workato/README.md)
+- [SAP BTP](labs/sap-btp/README.md)
+- [Salesforce](labs/salesforce/README.md)
+- [ServiceNow](labs/servicenow/README.md)
+- [Angular](labs/angular/README.md)
+- [Vue](labs/vue/README.md)
+- [Meteor](labs/meteor/README.md)
+- [Java](labs/java/README.md)
+- [Node.js](labs/node-js/README.md)
