@@ -1,34 +1,14 @@
-# LangGraph — Agent workflow
+# Agent graph execution lab
 
-Original interactive configuration simulation. Download index.html and open locally in a browser. GitHub file preview does not execute HTML. This is not a replica of the vendor interface; settings are illustrative and must be verified in a real sandbox.
+Original LangGraph-inspired simulation, not actual framework runtime or official UI.
 
-[Interactive HTML source](index.html)
+1. Open index.html locally.
+2. Enter `leave approval` in Query.
+3. Click Invoke graph.
+4. Inspect highlighted START, Retrieve, Validate, Answer nodes and P01 evidence in trace.
+5. Enter `unknown` and invoke; expect Escalate and no evidence.
+6. Enter `leave expenses`; tied scores must escalate.
 
-## 01 — State
-![Simulated configuration](screens/01.svg)
-Select **State** in the simulation navigation, enter `Query and evidence`, then select **Save simulated setting**. Confirm the configuration record contains the value before selecting Next step. This verifies local state only.
+Executive acceptance: demonstrate safe escalation before funding a framework pilot. Deterministic JavaScript lexical retrieval only.
 
-## 02 — Node
-![Simulated configuration](screens/02.svg)
-Select **Node** in the simulation navigation, enter `Retrieve`, then select **Save simulated setting**. Confirm the configuration record contains the value before selecting Next step. This verifies local state only.
-
-## 03 — Node review
-![Simulated configuration](screens/03.svg)
-Select **Node review** in the simulation navigation, enter `Validate`, then select **Save simulated setting**. Confirm the configuration record contains the value before selecting Next step. This verifies local state only.
-
-## 04 — Edge
-![Simulated configuration](screens/04.svg)
-Select **Edge** in the simulation navigation, enter `Retrieve to review`, then select **Save simulated setting**. Confirm the configuration record contains the value before selecting Next step. This verifies local state only.
-
-## 05 — Route
-![Simulated configuration](screens/05.svg)
-Select **Route** in the simulation navigation, enter `Human escalation`, then select **Save simulated setting**. Confirm the configuration record contains the value before selecting Next step. This verifies local state only.
-
-## 06 — Compile
-![Simulated configuration](screens/06.svg)
-Select **Compile** in the simulation navigation, enter `Graph`, then select **Save simulated setting**. Confirm the configuration record contains the value before selecting Next step. This verifies local state only.
-
-## 07 — Invoke
-![Simulated configuration](screens/07.svg)
-Select **Invoke** in the simulation navigation, enter `Test query`, then select **Save simulated setting**. Confirm the configuration record contains the value before selecting Next step. This verifies local state only.
-
+![Execution diagram](graph.svg)
