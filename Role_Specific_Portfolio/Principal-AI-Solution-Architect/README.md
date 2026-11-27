@@ -42,3 +42,6 @@ Use synthetic data, original code, redacted sandbox screenshots and reproducible
 - [LangChain](labs/langchain/README.md)
 - [LangGraph](labs/langgraph/README.md)
 - [React](labs/react/README.md)
+
+## Flagship reference implementation
+[Business logic, architecture, source and tests](flagship/README.md)

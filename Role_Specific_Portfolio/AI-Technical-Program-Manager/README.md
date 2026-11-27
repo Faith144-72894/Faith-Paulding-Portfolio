@@ -36,3 +36,6 @@ Use synthetic data, original code, redacted sandbox screenshots and reproducible
 
 ## Visual implementation library
 [Jira instructional wireframes and validation checklist](visual-guide/README.md)
+
+## Flagship reference implementation
+[Business logic, architecture, source and tests](flagship/README.md)

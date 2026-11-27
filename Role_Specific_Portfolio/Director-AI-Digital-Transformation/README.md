@@ -39,3 +39,6 @@ Use synthetic data, original code, redacted sandbox screenshots and reproducible
 
 ## Additional platform labs
 - [CrewAI](labs/crewai/README.md)
+
+## Flagship reference implementation
+[Business logic, architecture, source and tests](flagship/README.md)

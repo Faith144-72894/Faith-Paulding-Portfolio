@@ -48,3 +48,6 @@ Use synthetic data, original code, redacted sandbox screenshots and reproducible
 - [Meteor](labs/meteor/README.md)
 - [Java](labs/java/README.md)
 - [Node.js](labs/node-js/README.md)
+
+## Flagship reference implementation
+[Business logic, architecture, source and tests](flagship/README.md)

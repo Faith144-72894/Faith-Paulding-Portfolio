@@ -44,3 +44,6 @@ Use synthetic data, original code, redacted sandbox screenshots and reproducible
 - [Firebase](labs/firebase/README.md)
 - [C++](labs/c-/README.md)
 - [Terraform](labs/terraform/README.md)
+
+## Flagship reference implementation
+[Business logic, architecture, source and tests](flagship/README.md)

@@ -4,11 +4,22 @@
 
 I work at the intersection of technical program delivery, enterprise application modernization, business intelligence and governed technology transformation. My professional background includes senior development leadership supporting federal modernization and data acquisition management. This portfolio connects that experience to principal-level and director-level technology responsibilities through original, independently developed case studies and implementation labs.
 
-## Target career scope & compensation
+## Leadership focus
 
-Target annual base compensation: **$200,000–$300,000+**, depending on role, scope, location and employer. This is a career objective, not a verified salary range for every title. Bonus and equity are evaluated separately.
+Principal and director-level technology delivery, enterprise architecture, analytics and transformation.
 
-Market context: [Google Principal/Director TPM AI Infrastructure Transformation](https://www.google.com/about/careers/applications/jobs/results/80345343643787974-principaldirector-technical-program-manager-ai-infrastructure-transformation) lists $281K–$391K plus bonus and equity; [JPMorganChase AI Principal TPM](https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210807776) lists $194,750–$285,000 in New York. These are employer-specific examples, not remote salary guarantees.
+## Flagship implementations
+
+| Project | Evidence |
+|---|---|
+| [AI Delivery Command Center](Role_Specific_Portfolio/AI-Technical-Program-Manager/flagship/README.md) | Release gate; local reference code and test cases |
+| [Intelligent Enterprise Assistant](Role_Specific_Portfolio/Principal-AI-Solution-Architect/flagship/README.md) | Grounded retrieval; local reference code and test cases |
+| [AI Adoption Office](Role_Specific_Portfolio/Director-AI-Digital-Transformation/flagship/README.md) | Investment assessment; local reference code and test cases |
+| [Technical Program Delivery System](Role_Specific_Portfolio/Principal-Technical-Program-Manager/flagship/README.md) | Dependency scheduling; local reference code and test cases |
+| [Governed AI Platform](Role_Specific_Portfolio/Enterprise-AI-Architect/flagship/README.md) | Policy routing; local reference code and test cases |
+| [Executive Intelligence Platform](Role_Specific_Portfolio/Director-Business-Intelligence/flagship/README.md) | ETL and KPI aggregation; local reference code and test cases |
+| [Enterprise Integration Hub](Role_Specific_Portfolio/Director-Enterprise-Applications/flagship/README.md) | Request validation and approval; local reference code and test cases |
+| [Strategic Technology Portfolio](Role_Specific_Portfolio/Director-Technology-Programs/flagship/README.md) | Earned value forecasting; local reference code and test cases |
 
 ## Eight role-specific projects
 
@@ -57,7 +68,7 @@ MBA – Engineering Management; PMP®; Certified ScrumMaster®; doctoral studies
 
 ## Publication status and confidentiality
 
-The eight new role-specific project pages are implementation plans. The local visual ZIP has not yet been imported. Existing conceptual cases remain available. All public demonstration work uses fictional or authorized data, never confidential government or employer information.
+Eight local reference implementations are available with source and test cases; vendor deployment and test execution remain unverified. Existing conceptual cases remain available. All public demonstration work uses fictional or authorized data, never confidential government or employer information.
 
 
 ## Visual implementation library
