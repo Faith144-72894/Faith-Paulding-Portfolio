@@ -1,0 +1,1 @@
+module.exports={webServer:{command:'python3 service.py',url:'http://127.0.0.1:8765/service-index.html',reuseExistingServer:!process.env.CI},use:{trace:'retain-on-failure'},workers:1};
