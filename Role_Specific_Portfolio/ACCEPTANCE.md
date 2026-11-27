@@ -1,11 +1,12 @@
 # Acceptance backlog
 
-- [x] Eight reference engines and local service dispatch/persistence tests passed in prior CI.
+- [x] Eight reference engines and local service tests passed in prior CI.
 - [x] Eight integrated browser forms and scorecards published.
-- [x] Eight annotated local application reconstructions and executive decision briefs published.
-- [ ] Verify repaired browser CI and actual screenshot artifacts.
-- [ ] Complete 28 high-fidelity vendor-specific walkthroughs and verify navigation.
-- [ ] Expand executive financial models, governance artifacts and actual AI integrations.
-- [ ] Public hosting, duplicate consolidation and resume links.
+- [x] Eight annotated local application walkthroughs and executive packages published.
+- [x] 28 illustrated software storyboards, seven stages each, published.
+- [ ] Verify actual vendor menu paths, platform-specific screenshots and execution for all 28.
+- [ ] Replace generic storyboard layouts with distinctive functional software environments.
+- [ ] Resolve browser regression failures and inspect screenshots.
+- [ ] Actual AI integrations, public hosting and resume links.
 
-[Executive evidence](EXECUTIVE-EVIDENCE.md)
+[Walkthrough library](CLICK-BY-CLICK.md) | [Leadership packages](LEADERSHIP-PACKAGES.md)

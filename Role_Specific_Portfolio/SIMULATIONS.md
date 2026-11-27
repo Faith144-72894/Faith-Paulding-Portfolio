@@ -30,3 +30,5 @@ Original local HTML configuration exercises and annotated visuals. No vendor con
 - [C++ — Telemetry validation](Enterprise-AI-Architect/simulations/c-/README.md)
 - [Node.js — Request API](Director-Enterprise-Applications/simulations/node-js/README.md)
 - [Terraform — Infrastructure plan](Enterprise-AI-Architect/simulations/terraform/README.md)
+
+[Complete illustrated walkthrough index](CLICK-BY-CLICK.md)

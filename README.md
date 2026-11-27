@@ -4,6 +4,12 @@
 
 I work at the intersection of technical program delivery, enterprise application modernization, business intelligence and governed technology transformation. My professional background includes senior development leadership supporting federal modernization and data acquisition management. This portfolio connects that experience to principal-level and director-level technology responsibilities through original, independently developed case studies and implementation labs.
 
+## Featured implementation evidence
+
+- [28 illustrated software walkthroughs](Role_Specific_Portfolio/CLICK-BY-CLICK.md) — 196 original storyboard stages; vendor navigation unverified.
+- [Eight executive leadership packages](Role_Specific_Portfolio/LEADERSHIP-PACKAGES.md) — synthetic investment and governance cases.
+- [Eight local application walkthroughs](Role_Specific_Portfolio/EXECUTIVE-EVIDENCE.md).
+
 ## Leadership focus
 
 Principal and director-level technology delivery, enterprise architecture, analytics and transformation.
