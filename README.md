@@ -44,7 +44,7 @@ Principal and director-level technology delivery, enterprise architecture, analy
 
 ## Documentation and evidence standard
 
-Every project is organized around a business scenario, role responsibilities, architecture, prerequisites and licensing, click-by-click configuration with original screenshots, source code, data model, integrations, security controls, test evidence, troubleshooting, deployment and rollback, and executive business outcomes. Prototype screens are labeled; vendor integrations are not represented as completed until tested.
+The target documentation standard for each project is a business scenario, role responsibilities, architecture, prerequisites and licensing, click-by-click configuration with original screenshots, source code, data model, integrations, security controls, test evidence, troubleshooting, deployment and rollback, and executive business outcomes. Prototype screens are labeled; vendor integrations are not represented as completed until tested.
 
 ## Existing case studies
 
@@ -68,7 +68,7 @@ MBA – Engineering Management; PMP®; Certified ScrumMaster®; doctoral studies
 
 ## Publication status and confidentiality
 
-Eight local reference implementations are available with source and test cases; vendor deployment and test execution remain unverified. Existing conceptual cases remain available. All public demonstration work uses fictional or authorized data, never confidential government or employer information.
+Eight local reference implementations are available with source and test cases; Python regression tests passed; vendor deployment remains unverified. Existing conceptual cases remain available. All public demonstration work uses fictional or authorized data, never confidential government or employer information.
 
 
 ## Visual implementation library
@@ -81,3 +81,7 @@ Eight local reference implementations are available with source and test cases; 
 
 ## Functional browser prototypes
 [Demonstration site source](docs/index.html) — eight independent browser applications with interactive business logic. Download the docs folder to run locally. GitHub Pages publication and browser testing are not yet verified.
+
+## Integrated local applications
+Run `python service.py` from the repository root, then open http://127.0.0.1:8765/service-index.html. The eight service demos submit JSON to the Python engines and store successful runs in SQLite. Use synthetic data only. Static demos remain separate offline examples. Service CI and browser execution require verification.
+[Acceptance backlog](Role_Specific_Portfolio/ACCEPTANCE.md)
