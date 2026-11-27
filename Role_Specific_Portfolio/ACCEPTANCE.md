@@ -1,12 +1,11 @@
 # Acceptance backlog
 
-- [x] Eight reference engines; prior Python CI passed.
-- [x] Local HTTP service and SQLite persistence source.
-- [x] Eight browser forms connected to API routes in source.
-- [ ] Verify service CI and browser end-to-end execution.
-- [ ] Distinct dashboards and consolidate offline duplicate HTML.
-- [ ] Actual AI frameworks and vendor integrations.
-- [ ] High-fidelity walkthroughs, executive cases and public hosting.
-- [ ] Resume links.
+- [x] Eight reference engines and local service dispatch/persistence tests passed in prior CI.
+- [x] Eight integrated browser forms and scorecards published.
+- [x] Eight annotated local application reconstructions and executive decision briefs published.
+- [ ] Verify repaired browser CI and actual screenshot artifacts.
+- [ ] Complete 28 high-fidelity vendor-specific walkthroughs and verify navigation.
+- [ ] Expand executive financial models, governance artifacts and actual AI integrations.
+- [ ] Public hosting, duplicate consolidation and resume links.
 
-Run `python service.py` and open http://127.0.0.1:8765/service-index.html. Synthetic data only; no production authentication.
+[Executive evidence](EXECUTIVE-EVIDENCE.md)

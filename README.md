@@ -85,3 +85,6 @@ Eight local reference implementations are available with source and test cases; 
 ## Integrated local applications
 Run `python service.py` from the repository root, then open http://127.0.0.1:8765/service-index.html. The eight service demos submit JSON to the Python engines and store successful runs in SQLite. Use synthetic data only. Static demos remain separate offline examples. Service CI and browser execution require verification.
 [Acceptance backlog](Role_Specific_Portfolio/ACCEPTANCE.md)
+
+## Executive leadership and visual implementation evidence
+[Eight executive decision cases and annotated click-by-click local application guides](Role_Specific_Portfolio/EXECUTIVE-EVIDENCE.md). Synthetic scenarios, not actual business outcomes. Browser screenshot capture is configured in CI.
