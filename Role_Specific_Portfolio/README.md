@@ -1,6 +1,6 @@
 # Role-Specific Executive Technology Portfolio
 
-Eight independent project prototypes using fictional data. Vendor integrations are planned, not verified deployments. Documentation benchmark: [SAP Customer Data Cloud Toolkit](https://github.com/SAP/sap-customer-data-cloud-toolkit/wiki).
+Eight independent project prototypes using fictional data. Vendor integrations are planned, not verified deployments. 
 
 - AI Technical Program Manager
 - Principal AI Solution Architect
