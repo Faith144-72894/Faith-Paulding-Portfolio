@@ -29,4 +29,7 @@ CSV is an illustrative schema; the current program uses embedded input, not CSV 
 Use the investment assessment output as decision support, not as a production approval. Assign a business owner, document assumptions, review exceptions and require sign-off before operational use.
 
 ## Limitations
-No production authentication, vendor deployment, persistent storage or verified vendor screenshots. Input validation and failure handling require further development.
+No production authentication, vendor deployment, persistent storage or verified vendor screenshots. Expanded input validation and edge-case tests are included; production hardening remains necessary.
+
+## Review evidence
+Expanded regression cases cover invalid inputs and boundary behavior. See repository Actions for actual test results. This remains a local reference implementation, not a vendor integration.

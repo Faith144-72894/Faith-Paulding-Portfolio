@@ -76,3 +76,5 @@ Eight local reference implementations are available with source and test cases; 
 
 ## Interactive sandbox simulations
 [Browse original interactive configuration exercises](Role_Specific_Portfolio/SIMULATIONS.md). These are local simulations, not vendor deployments.
+
+[Quality review and regression testing](Role_Specific_Portfolio/QUALITY-REVIEW.md)
