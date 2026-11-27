@@ -62,3 +62,6 @@ The eight new role-specific project pages are implementation plans. The local vi
 
 ## Visual implementation library
 [Browse role-specific instructional wireframes](Role_Specific_Portfolio/VISUAL-LIBRARY.md). Actual vendor screenshots and verified click paths remain pending.
+
+## Interactive sandbox simulations
+[Browse original interactive configuration exercises](Role_Specific_Portfolio/SIMULATIONS.md). These are local simulations, not vendor deployments.
