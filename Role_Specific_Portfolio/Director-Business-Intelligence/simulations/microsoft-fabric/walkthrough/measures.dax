@@ -1,0 +1,3 @@
+Budget = SUM(FactDelivery[budget])
+Actual = SUM(FactDelivery[actual])
+Variance = [Budget] - [Actual]
