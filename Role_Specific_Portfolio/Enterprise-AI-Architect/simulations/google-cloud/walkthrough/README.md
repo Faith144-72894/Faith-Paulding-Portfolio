@@ -8,7 +8,7 @@ Independent instructional storyboard. The navigation labels below are illustrati
 3. Review the expected checkpoint at callout 3: configuration reviewed before continuing.
 4. In the real environment, verify the equivalent control and capture actual output before proceeding.
 
-![Step 1 — Project selector](step-1.svg)
+![Step 1 — Project selector](step-1.png)
 
 ## Step 2: IAM
 1. In the illustrated Google Cloud workflow, locate callout 1 (IAM).
@@ -16,7 +16,7 @@ Independent instructional storyboard. The navigation labels below are illustrati
 3. Review the expected checkpoint at callout 3: configuration reviewed before continuing.
 4. In the real environment, verify the equivalent control and capture actual output before proceeding.
 
-![Step 2 — IAM](step-2.svg)
+![Step 2 — IAM](step-2.png)
 
 ## Step 3: Vertex AI
 1. In the illustrated Google Cloud workflow, locate callout 1 (Vertex AI).
@@ -24,7 +24,7 @@ Independent instructional storyboard. The navigation labels below are illustrati
 3. Review the expected checkpoint at callout 3: configuration reviewed before continuing.
 4. In the real environment, verify the equivalent control and capture actual output before proceeding.
 
-![Step 3 — Vertex AI](step-3.svg)
+![Step 3 — Vertex AI](step-3.png)
 
 ## Step 4: Model garden
 1. In the illustrated Google Cloud workflow, locate callout 1 (Model garden).
@@ -32,7 +32,7 @@ Independent instructional storyboard. The navigation labels below are illustrati
 3. Review the expected checkpoint at callout 3: configuration reviewed before continuing.
 4. In the real environment, verify the equivalent control and capture actual output before proceeding.
 
-![Step 4 — Model garden](step-4.svg)
+![Step 4 — Model garden](step-4.png)
 
 ## Step 5: Endpoint
 1. In the illustrated Google Cloud workflow, locate callout 1 (Endpoint).
@@ -40,7 +40,7 @@ Independent instructional storyboard. The navigation labels below are illustrati
 3. Review the expected checkpoint at callout 3: configuration reviewed before continuing.
 4. In the real environment, verify the equivalent control and capture actual output before proceeding.
 
-![Step 5 — Endpoint](step-5.svg)
+![Step 5 — Endpoint](step-5.png)
 
 ## Step 6: Monitoring
 1. In the illustrated Google Cloud workflow, locate callout 1 (Monitoring).
@@ -48,7 +48,7 @@ Independent instructional storyboard. The navigation labels below are illustrati
 3. Review the expected checkpoint at callout 3: configuration reviewed before continuing.
 4. In the real environment, verify the equivalent control and capture actual output before proceeding.
 
-![Step 6 — Monitoring](step-6.svg)
+![Step 6 — Monitoring](step-6.png)
 
 ## Step 7: Review
 1. In the illustrated Google Cloud workflow, locate callout 1 (Review).
@@ -56,7 +56,7 @@ Independent instructional storyboard. The navigation labels below are illustrati
 3. Review the expected checkpoint at callout 3: Model governance.
 4. In the real environment, verify the equivalent control and capture actual output before proceeding.
 
-![Step 7 — Review](step-7.svg)
+![Step 7 — Review](step-7.png)
 
 ## Troubleshooting and executive acceptance
 If a control is unavailable, verify role permissions, licensing and product version. If validation fails, stop, preserve the error and correct the input. Executive gate: Model governance. Record actual test output, reviewer and decision; do not claim completion without evidence.

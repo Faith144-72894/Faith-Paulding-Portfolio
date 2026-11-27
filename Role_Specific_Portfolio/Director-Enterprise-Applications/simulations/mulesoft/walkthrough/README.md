@@ -8,7 +8,7 @@ Independent instructional storyboard. The navigation labels below are illustrati
 3. Review the expected checkpoint at callout 3: configuration reviewed before continuing.
 4. In the real environment, verify the equivalent control and capture actual output before proceeding.
 
-![Step 1 — API design](step-1.svg)
+![Step 1 — API design](step-1.png)
 
 ## Step 2: RAML resource
 1. In the illustrated MuleSoft workflow, locate callout 1 (RAML resource).
@@ -16,7 +16,7 @@ Independent instructional storyboard. The navigation labels below are illustrati
 3. Review the expected checkpoint at callout 3: configuration reviewed before continuing.
 4. In the real environment, verify the equivalent control and capture actual output before proceeding.
 
-![Step 2 — RAML resource](step-2.svg)
+![Step 2 — RAML resource](step-2.png)
 
 ## Step 3: Studio project
 1. In the illustrated MuleSoft workflow, locate callout 1 (Studio project).
@@ -24,7 +24,7 @@ Independent instructional storyboard. The navigation labels below are illustrati
 3. Review the expected checkpoint at callout 3: configuration reviewed before continuing.
 4. In the real environment, verify the equivalent control and capture actual output before proceeding.
 
-![Step 3 — Studio project](step-3.svg)
+![Step 3 — Studio project](step-3.png)
 
 ## Step 4: HTTP listener
 1. In the illustrated MuleSoft workflow, locate callout 1 (HTTP listener).
@@ -32,7 +32,7 @@ Independent instructional storyboard. The navigation labels below are illustrati
 3. Review the expected checkpoint at callout 3: configuration reviewed before continuing.
 4. In the real environment, verify the equivalent control and capture actual output before proceeding.
 
-![Step 4 — HTTP listener](step-4.svg)
+![Step 4 — HTTP listener](step-4.png)
 
 ## Step 5: Transform Message
 1. In the illustrated MuleSoft workflow, locate callout 1 (Transform Message).
@@ -40,7 +40,7 @@ Independent instructional storyboard. The navigation labels below are illustrati
 3. Review the expected checkpoint at callout 3: configuration reviewed before continuing.
 4. In the real environment, verify the equivalent control and capture actual output before proceeding.
 
-![Step 5 — Transform Message](step-5.svg)
+![Step 5 — Transform Message](step-5.png)
 
 ## Step 6: Run
 1. In the illustrated MuleSoft workflow, locate callout 1 (Run).
@@ -48,7 +48,7 @@ Independent instructional storyboard. The navigation labels below are illustrati
 3. Review the expected checkpoint at callout 3: configuration reviewed before continuing.
 4. In the real environment, verify the equivalent control and capture actual output before proceeding.
 
-![Step 6 — Run](step-6.svg)
+![Step 6 — Run](step-6.png)
 
 ## Step 7: Test
 1. In the illustrated MuleSoft workflow, locate callout 1 (Test).
@@ -56,7 +56,7 @@ Independent instructional storyboard. The navigation labels below are illustrati
 3. Review the expected checkpoint at callout 3: Integration acceptance.
 4. In the real environment, verify the equivalent control and capture actual output before proceeding.
 
-![Step 7 — Test](step-7.svg)
+![Step 7 — Test](step-7.png)
 
 ## Troubleshooting and executive acceptance
 If a control is unavailable, verify role permissions, licensing and product version. If validation fails, stop, preserve the error and correct the input. Executive gate: Integration acceptance. Record actual test output, reviewer and decision; do not claim completion without evidence.

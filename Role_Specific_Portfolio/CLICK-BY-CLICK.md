@@ -25,7 +25,7 @@ Proposed solution: AI delivery and quality governance command center. Target rol
 
 <table>
 <tr>
-<td width="33%"><a href="AI-Technical-Program-Manager/simulations/jira/walkthrough/README.md"><img src="AI-Technical-Program-Manager/simulations/jira/walkthrough/step-1.svg" width="280" alt="Jira instructional preview"></a><br><strong>Jira</strong><br><a href="AI-Technical-Program-Manager/simulations/jira/walkthrough/README.md">Implementation walkthrough</a></td>
+<td width="33%"><a href="AI-Technical-Program-Manager/simulations/jira/walkthrough/README.md"><img src="AI-Technical-Program-Manager/simulations/jira/walkthrough/step-1.png" width="280" alt="Jira instructional preview"></a><br><strong>Jira</strong><br><a href="AI-Technical-Program-Manager/simulations/jira/walkthrough/README.md">Implementation walkthrough</a></td>
 </tr>
 </table>
 
@@ -39,12 +39,12 @@ Proposed solution: Governed RAG and multi-agent architecture. Target role: Princ
 
 <table>
 <tr>
-<td width="33%"><a href="Principal-AI-Solution-Architect/simulations/azure-ai-foundry/walkthrough/README.md"><img src="Principal-AI-Solution-Architect/simulations/azure-ai-foundry/walkthrough/step-1.svg" width="280" alt="Azure AI Foundry instructional preview"></a><br><strong>Azure AI Foundry</strong><br><a href="Principal-AI-Solution-Architect/simulations/azure-ai-foundry/walkthrough/README.md">Implementation walkthrough</a></td>
-<td width="33%"><a href="Principal-AI-Solution-Architect/simulations/langchain/walkthrough/README.md"><img src="Principal-AI-Solution-Architect/simulations/langchain/walkthrough/step-1.svg" width="280" alt="LangChain instructional preview"></a><br><strong>LangChain</strong><br><a href="Principal-AI-Solution-Architect/simulations/langchain/walkthrough/README.md">Implementation walkthrough</a></td>
-<td width="33%"><a href="Principal-AI-Solution-Architect/simulations/langgraph/walkthrough/README.md"><img src="Principal-AI-Solution-Architect/simulations/langgraph/walkthrough/step-1.svg" width="280" alt="LangGraph instructional preview"></a><br><strong>LangGraph</strong><br><a href="Principal-AI-Solution-Architect/simulations/langgraph/walkthrough/README.md">Implementation walkthrough</a></td>
+<td width="33%"><a href="Principal-AI-Solution-Architect/simulations/azure-ai-foundry/walkthrough/README.md"><img src="Principal-AI-Solution-Architect/simulations/azure-ai-foundry/walkthrough/step-1.png" width="280" alt="Azure AI Foundry instructional preview"></a><br><strong>Azure AI Foundry</strong><br><a href="Principal-AI-Solution-Architect/simulations/azure-ai-foundry/walkthrough/README.md">Implementation walkthrough</a></td>
+<td width="33%"><a href="Principal-AI-Solution-Architect/simulations/langchain/walkthrough/README.md"><img src="Principal-AI-Solution-Architect/simulations/langchain/walkthrough/step-1.png" width="280" alt="LangChain instructional preview"></a><br><strong>LangChain</strong><br><a href="Principal-AI-Solution-Architect/simulations/langchain/walkthrough/README.md">Implementation walkthrough</a></td>
+<td width="33%"><a href="Principal-AI-Solution-Architect/simulations/langgraph/walkthrough/README.md"><img src="Principal-AI-Solution-Architect/simulations/langgraph/walkthrough/step-1.png" width="280" alt="LangGraph instructional preview"></a><br><strong>LangGraph</strong><br><a href="Principal-AI-Solution-Architect/simulations/langgraph/walkthrough/README.md">Implementation walkthrough</a></td>
 </tr>
 <tr>
-<td width="33%"><a href="Principal-AI-Solution-Architect/simulations/react/walkthrough/README.md"><img src="Principal-AI-Solution-Architect/simulations/react/walkthrough/step-1.svg" width="280" alt="React instructional preview"></a><br><strong>React</strong><br><a href="Principal-AI-Solution-Architect/simulations/react/walkthrough/README.md">Implementation walkthrough</a></td>
+<td width="33%"><a href="Principal-AI-Solution-Architect/simulations/react/walkthrough/README.md"><img src="Principal-AI-Solution-Architect/simulations/react/walkthrough/step-1.png" width="280" alt="React instructional preview"></a><br><strong>React</strong><br><a href="Principal-AI-Solution-Architect/simulations/react/walkthrough/README.md">Implementation walkthrough</a></td>
 </tr>
 </table>
 
@@ -58,8 +58,8 @@ Proposed solution: Adoption, automation and ROI management platform. Target role
 
 <table>
 <tr>
-<td width="33%"><a href="Director-AI-Digital-Transformation/simulations/copilot-studio/walkthrough/README.md"><img src="Director-AI-Digital-Transformation/simulations/copilot-studio/walkthrough/step-1.svg" width="280" alt="Copilot Studio instructional preview"></a><br><strong>Copilot Studio</strong><br><a href="Director-AI-Digital-Transformation/simulations/copilot-studio/walkthrough/README.md">Implementation walkthrough</a></td>
-<td width="33%"><a href="Director-AI-Digital-Transformation/simulations/crewai/walkthrough/README.md"><img src="Director-AI-Digital-Transformation/simulations/crewai/walkthrough/step-1.svg" width="280" alt="CrewAI instructional preview"></a><br><strong>CrewAI</strong><br><a href="Director-AI-Digital-Transformation/simulations/crewai/walkthrough/README.md">Implementation walkthrough</a></td>
+<td width="33%"><a href="Director-AI-Digital-Transformation/simulations/copilot-studio/walkthrough/README.md"><img src="Director-AI-Digital-Transformation/simulations/copilot-studio/walkthrough/step-1.png" width="280" alt="Copilot Studio instructional preview"></a><br><strong>Copilot Studio</strong><br><a href="Director-AI-Digital-Transformation/simulations/copilot-studio/walkthrough/README.md">Implementation walkthrough</a></td>
+<td width="33%"><a href="Director-AI-Digital-Transformation/simulations/crewai/walkthrough/README.md"><img src="Director-AI-Digital-Transformation/simulations/crewai/walkthrough/step-1.png" width="280" alt="CrewAI instructional preview"></a><br><strong>CrewAI</strong><br><a href="Director-AI-Digital-Transformation/simulations/crewai/walkthrough/README.md">Implementation walkthrough</a></td>
 </tr>
 </table>
 
@@ -73,8 +73,8 @@ Proposed solution: Integrated delivery and dependency management system. Target 
 
 <table>
 <tr>
-<td width="33%"><a href="Principal-Technical-Program-Manager/simulations/azure-devops/walkthrough/README.md"><img src="Principal-Technical-Program-Manager/simulations/azure-devops/walkthrough/step-1.svg" width="280" alt="Azure DevOps instructional preview"></a><br><strong>Azure DevOps</strong><br><a href="Principal-Technical-Program-Manager/simulations/azure-devops/walkthrough/README.md">Implementation walkthrough</a></td>
-<td width="33%"><a href="Principal-Technical-Program-Manager/simulations/github-actions/walkthrough/README.md"><img src="Principal-Technical-Program-Manager/simulations/github-actions/walkthrough/step-1.svg" width="280" alt="GitHub Actions instructional preview"></a><br><strong>GitHub Actions</strong><br><a href="Principal-Technical-Program-Manager/simulations/github-actions/walkthrough/README.md">Implementation walkthrough</a></td>
+<td width="33%"><a href="Principal-Technical-Program-Manager/simulations/azure-devops/walkthrough/README.md"><img src="Principal-Technical-Program-Manager/simulations/azure-devops/walkthrough/step-1.png" width="280" alt="Azure DevOps instructional preview"></a><br><strong>Azure DevOps</strong><br><a href="Principal-Technical-Program-Manager/simulations/azure-devops/walkthrough/README.md">Implementation walkthrough</a></td>
+<td width="33%"><a href="Principal-Technical-Program-Manager/simulations/github-actions/walkthrough/README.md"><img src="Principal-Technical-Program-Manager/simulations/github-actions/walkthrough/step-1.png" width="280" alt="GitHub Actions instructional preview"></a><br><strong>GitHub Actions</strong><br><a href="Principal-Technical-Program-Manager/simulations/github-actions/walkthrough/README.md">Implementation walkthrough</a></td>
 </tr>
 </table>
 
@@ -88,14 +88,14 @@ Proposed solution: Secure enterprise AI architecture. Target role: Enterprise AI
 
 <table>
 <tr>
-<td width="33%"><a href="Enterprise-AI-Architect/simulations/aws/walkthrough/README.md"><img src="Enterprise-AI-Architect/simulations/aws/walkthrough/step-1.svg" width="280" alt="AWS instructional preview"></a><br><strong>AWS</strong><br><a href="Enterprise-AI-Architect/simulations/aws/walkthrough/README.md">Implementation walkthrough</a></td>
-<td width="33%"><a href="Enterprise-AI-Architect/simulations/google-cloud/walkthrough/README.md"><img src="Enterprise-AI-Architect/simulations/google-cloud/walkthrough/step-1.svg" width="280" alt="Google Cloud instructional preview"></a><br><strong>Google Cloud</strong><br><a href="Enterprise-AI-Architect/simulations/google-cloud/walkthrough/README.md">Implementation walkthrough</a></td>
-<td width="33%"><a href="Enterprise-AI-Architect/simulations/docker/walkthrough/README.md"><img src="Enterprise-AI-Architect/simulations/docker/walkthrough/step-1.svg" width="280" alt="Docker instructional preview"></a><br><strong>Docker</strong><br><a href="Enterprise-AI-Architect/simulations/docker/walkthrough/README.md">Implementation walkthrough</a></td>
+<td width="33%"><a href="Enterprise-AI-Architect/simulations/aws/walkthrough/README.md"><img src="Enterprise-AI-Architect/simulations/aws/walkthrough/step-1.png" width="280" alt="AWS instructional preview"></a><br><strong>AWS</strong><br><a href="Enterprise-AI-Architect/simulations/aws/walkthrough/README.md">Implementation walkthrough</a></td>
+<td width="33%"><a href="Enterprise-AI-Architect/simulations/google-cloud/walkthrough/README.md"><img src="Enterprise-AI-Architect/simulations/google-cloud/walkthrough/step-1.png" width="280" alt="Google Cloud instructional preview"></a><br><strong>Google Cloud</strong><br><a href="Enterprise-AI-Architect/simulations/google-cloud/walkthrough/README.md">Implementation walkthrough</a></td>
+<td width="33%"><a href="Enterprise-AI-Architect/simulations/docker/walkthrough/README.md"><img src="Enterprise-AI-Architect/simulations/docker/walkthrough/step-1.png" width="280" alt="Docker instructional preview"></a><br><strong>Docker</strong><br><a href="Enterprise-AI-Architect/simulations/docker/walkthrough/README.md">Implementation walkthrough</a></td>
 </tr>
 <tr>
-<td width="33%"><a href="Enterprise-AI-Architect/simulations/firebase/walkthrough/README.md"><img src="Enterprise-AI-Architect/simulations/firebase/walkthrough/step-1.svg" width="280" alt="Firebase instructional preview"></a><br><strong>Firebase</strong><br><a href="Enterprise-AI-Architect/simulations/firebase/walkthrough/README.md">Implementation walkthrough</a></td>
-<td width="33%"><a href="Enterprise-AI-Architect/simulations/c-/walkthrough/README.md"><img src="Enterprise-AI-Architect/simulations/c-/walkthrough/step-1.svg" width="280" alt="C++ instructional preview"></a><br><strong>C++</strong><br><a href="Enterprise-AI-Architect/simulations/c-/walkthrough/README.md">Implementation walkthrough</a></td>
-<td width="33%"><a href="Enterprise-AI-Architect/simulations/terraform/walkthrough/README.md"><img src="Enterprise-AI-Architect/simulations/terraform/walkthrough/step-1.svg" width="280" alt="Terraform instructional preview"></a><br><strong>Terraform</strong><br><a href="Enterprise-AI-Architect/simulations/terraform/walkthrough/README.md">Implementation walkthrough</a></td>
+<td width="33%"><a href="Enterprise-AI-Architect/simulations/firebase/walkthrough/README.md"><img src="Enterprise-AI-Architect/simulations/firebase/walkthrough/step-1.png" width="280" alt="Firebase instructional preview"></a><br><strong>Firebase</strong><br><a href="Enterprise-AI-Architect/simulations/firebase/walkthrough/README.md">Implementation walkthrough</a></td>
+<td width="33%"><a href="Enterprise-AI-Architect/simulations/c-/walkthrough/README.md"><img src="Enterprise-AI-Architect/simulations/c-/walkthrough/step-1.png" width="280" alt="C++ instructional preview"></a><br><strong>C++</strong><br><a href="Enterprise-AI-Architect/simulations/c-/walkthrough/README.md">Implementation walkthrough</a></td>
+<td width="33%"><a href="Enterprise-AI-Architect/simulations/terraform/walkthrough/README.md"><img src="Enterprise-AI-Architect/simulations/terraform/walkthrough/step-1.png" width="280" alt="Terraform instructional preview"></a><br><strong>Terraform</strong><br><a href="Enterprise-AI-Architect/simulations/terraform/walkthrough/README.md">Implementation walkthrough</a></td>
 </tr>
 </table>
 
@@ -109,7 +109,7 @@ Proposed solution: Centralized data platform and governed reporting. Target role
 
 <table>
 <tr>
-<td width="33%"><a href="Director-Business-Intelligence/simulations/microsoft-fabric/walkthrough/README.md"><img src="Director-Business-Intelligence/simulations/microsoft-fabric/walkthrough/step-5.svg" width="280" alt="Microsoft Fabric instructional preview"></a><br><strong>Microsoft Fabric</strong><br><a href="Director-Business-Intelligence/simulations/microsoft-fabric/walkthrough/README.md">Implementation walkthrough</a></td>
+<td width="33%"><a href="Director-Business-Intelligence/simulations/microsoft-fabric/walkthrough/README.md"><img src="Director-Business-Intelligence/simulations/microsoft-fabric/walkthrough/step-5.png" width="280" alt="Microsoft Fabric instructional preview"></a><br><strong>Microsoft Fabric</strong><br><a href="Director-Business-Intelligence/simulations/microsoft-fabric/walkthrough/README.md">Implementation walkthrough</a></td>
 </tr>
 </table>
 
@@ -123,23 +123,23 @@ Proposed solution: Enterprise integration and automation platform. Target role: 
 
 <table>
 <tr>
-<td width="33%"><a href="Director-Enterprise-Applications/simulations/power-apps/walkthrough/README.md"><img src="Director-Enterprise-Applications/simulations/power-apps/walkthrough/step-1.svg" width="280" alt="Power Apps instructional preview"></a><br><strong>Power Apps</strong><br><a href="Director-Enterprise-Applications/simulations/power-apps/walkthrough/README.md">Implementation walkthrough</a></td>
-<td width="33%"><a href="Director-Enterprise-Applications/simulations/mulesoft/walkthrough/README.md"><img src="Director-Enterprise-Applications/simulations/mulesoft/walkthrough/step-1.svg" width="280" alt="MuleSoft instructional preview"></a><br><strong>MuleSoft</strong><br><a href="Director-Enterprise-Applications/simulations/mulesoft/walkthrough/README.md">Implementation walkthrough</a></td>
-<td width="33%"><a href="Director-Enterprise-Applications/simulations/workato/walkthrough/README.md"><img src="Director-Enterprise-Applications/simulations/workato/walkthrough/step-1.svg" width="280" alt="Workato instructional preview"></a><br><strong>Workato</strong><br><a href="Director-Enterprise-Applications/simulations/workato/walkthrough/README.md">Implementation walkthrough</a></td>
+<td width="33%"><a href="Director-Enterprise-Applications/simulations/power-apps/walkthrough/README.md"><img src="Director-Enterprise-Applications/simulations/power-apps/walkthrough/step-1.png" width="280" alt="Power Apps instructional preview"></a><br><strong>Power Apps</strong><br><a href="Director-Enterprise-Applications/simulations/power-apps/walkthrough/README.md">Implementation walkthrough</a></td>
+<td width="33%"><a href="Director-Enterprise-Applications/simulations/mulesoft/walkthrough/README.md"><img src="Director-Enterprise-Applications/simulations/mulesoft/walkthrough/step-1.png" width="280" alt="MuleSoft instructional preview"></a><br><strong>MuleSoft</strong><br><a href="Director-Enterprise-Applications/simulations/mulesoft/walkthrough/README.md">Implementation walkthrough</a></td>
+<td width="33%"><a href="Director-Enterprise-Applications/simulations/workato/walkthrough/README.md"><img src="Director-Enterprise-Applications/simulations/workato/walkthrough/step-1.png" width="280" alt="Workato instructional preview"></a><br><strong>Workato</strong><br><a href="Director-Enterprise-Applications/simulations/workato/walkthrough/README.md">Implementation walkthrough</a></td>
 </tr>
 <tr>
-<td width="33%"><a href="Director-Enterprise-Applications/simulations/sap-btp/walkthrough/README.md"><img src="Director-Enterprise-Applications/simulations/sap-btp/walkthrough/step-1.svg" width="280" alt="SAP BTP instructional preview"></a><br><strong>SAP BTP</strong><br><a href="Director-Enterprise-Applications/simulations/sap-btp/walkthrough/README.md">Implementation walkthrough</a></td>
-<td width="33%"><a href="Director-Enterprise-Applications/simulations/salesforce/walkthrough/README.md"><img src="Director-Enterprise-Applications/simulations/salesforce/walkthrough/step-1.svg" width="280" alt="Salesforce instructional preview"></a><br><strong>Salesforce</strong><br><a href="Director-Enterprise-Applications/simulations/salesforce/walkthrough/README.md">Implementation walkthrough</a></td>
-<td width="33%"><a href="Director-Enterprise-Applications/simulations/servicenow/walkthrough/README.md"><img src="Director-Enterprise-Applications/simulations/servicenow/walkthrough/step-1.svg" width="280" alt="ServiceNow instructional preview"></a><br><strong>ServiceNow</strong><br><a href="Director-Enterprise-Applications/simulations/servicenow/walkthrough/README.md">Implementation walkthrough</a></td>
+<td width="33%"><a href="Director-Enterprise-Applications/simulations/sap-btp/walkthrough/README.md"><img src="Director-Enterprise-Applications/simulations/sap-btp/walkthrough/step-1.png" width="280" alt="SAP BTP instructional preview"></a><br><strong>SAP BTP</strong><br><a href="Director-Enterprise-Applications/simulations/sap-btp/walkthrough/README.md">Implementation walkthrough</a></td>
+<td width="33%"><a href="Director-Enterprise-Applications/simulations/salesforce/walkthrough/README.md"><img src="Director-Enterprise-Applications/simulations/salesforce/walkthrough/step-1.png" width="280" alt="Salesforce instructional preview"></a><br><strong>Salesforce</strong><br><a href="Director-Enterprise-Applications/simulations/salesforce/walkthrough/README.md">Implementation walkthrough</a></td>
+<td width="33%"><a href="Director-Enterprise-Applications/simulations/servicenow/walkthrough/README.md"><img src="Director-Enterprise-Applications/simulations/servicenow/walkthrough/step-1.png" width="280" alt="ServiceNow instructional preview"></a><br><strong>ServiceNow</strong><br><a href="Director-Enterprise-Applications/simulations/servicenow/walkthrough/README.md">Implementation walkthrough</a></td>
 </tr>
 <tr>
-<td width="33%"><a href="Director-Enterprise-Applications/simulations/angular/walkthrough/README.md"><img src="Director-Enterprise-Applications/simulations/angular/walkthrough/step-1.svg" width="280" alt="Angular instructional preview"></a><br><strong>Angular</strong><br><a href="Director-Enterprise-Applications/simulations/angular/walkthrough/README.md">Implementation walkthrough</a></td>
-<td width="33%"><a href="Director-Enterprise-Applications/simulations/vue/walkthrough/README.md"><img src="Director-Enterprise-Applications/simulations/vue/walkthrough/step-1.svg" width="280" alt="Vue instructional preview"></a><br><strong>Vue</strong><br><a href="Director-Enterprise-Applications/simulations/vue/walkthrough/README.md">Implementation walkthrough</a></td>
-<td width="33%"><a href="Director-Enterprise-Applications/simulations/meteor/walkthrough/README.md"><img src="Director-Enterprise-Applications/simulations/meteor/walkthrough/step-1.svg" width="280" alt="Meteor instructional preview"></a><br><strong>Meteor</strong><br><a href="Director-Enterprise-Applications/simulations/meteor/walkthrough/README.md">Implementation walkthrough</a></td>
+<td width="33%"><a href="Director-Enterprise-Applications/simulations/angular/walkthrough/README.md"><img src="Director-Enterprise-Applications/simulations/angular/walkthrough/step-1.png" width="280" alt="Angular instructional preview"></a><br><strong>Angular</strong><br><a href="Director-Enterprise-Applications/simulations/angular/walkthrough/README.md">Implementation walkthrough</a></td>
+<td width="33%"><a href="Director-Enterprise-Applications/simulations/vue/walkthrough/README.md"><img src="Director-Enterprise-Applications/simulations/vue/walkthrough/step-1.png" width="280" alt="Vue instructional preview"></a><br><strong>Vue</strong><br><a href="Director-Enterprise-Applications/simulations/vue/walkthrough/README.md">Implementation walkthrough</a></td>
+<td width="33%"><a href="Director-Enterprise-Applications/simulations/meteor/walkthrough/README.md"><img src="Director-Enterprise-Applications/simulations/meteor/walkthrough/step-1.png" width="280" alt="Meteor instructional preview"></a><br><strong>Meteor</strong><br><a href="Director-Enterprise-Applications/simulations/meteor/walkthrough/README.md">Implementation walkthrough</a></td>
 </tr>
 <tr>
-<td width="33%"><a href="Director-Enterprise-Applications/simulations/java/walkthrough/README.md"><img src="Director-Enterprise-Applications/simulations/java/walkthrough/step-1.svg" width="280" alt="Java instructional preview"></a><br><strong>Java</strong><br><a href="Director-Enterprise-Applications/simulations/java/walkthrough/README.md">Implementation walkthrough</a></td>
-<td width="33%"><a href="Director-Enterprise-Applications/simulations/node-js/walkthrough/README.md"><img src="Director-Enterprise-Applications/simulations/node-js/walkthrough/step-1.svg" width="280" alt="Node.js instructional preview"></a><br><strong>Node.js</strong><br><a href="Director-Enterprise-Applications/simulations/node-js/walkthrough/README.md">Implementation walkthrough</a></td>
+<td width="33%"><a href="Director-Enterprise-Applications/simulations/java/walkthrough/README.md"><img src="Director-Enterprise-Applications/simulations/java/walkthrough/step-1.png" width="280" alt="Java instructional preview"></a><br><strong>Java</strong><br><a href="Director-Enterprise-Applications/simulations/java/walkthrough/README.md">Implementation walkthrough</a></td>
+<td width="33%"><a href="Director-Enterprise-Applications/simulations/node-js/walkthrough/README.md"><img src="Director-Enterprise-Applications/simulations/node-js/walkthrough/step-1.png" width="280" alt="Node.js instructional preview"></a><br><strong>Node.js</strong><br><a href="Director-Enterprise-Applications/simulations/node-js/walkthrough/README.md">Implementation walkthrough</a></td>
 </tr>
 </table>
 
@@ -153,7 +153,7 @@ Proposed solution: Strategic portfolio performance management system. Target rol
 
 <table>
 <tr>
-<td width="33%"><a href="Director-Technology-Programs/simulations/power-bi/walkthrough/README.md"><img src="Director-Technology-Programs/simulations/power-bi/walkthrough/step-1.svg" width="280" alt="Power BI instructional preview"></a><br><strong>Power BI</strong><br><a href="Director-Technology-Programs/simulations/power-bi/walkthrough/README.md">Implementation walkthrough</a></td>
+<td width="33%"><a href="Director-Technology-Programs/simulations/power-bi/walkthrough/README.md"><img src="Director-Technology-Programs/simulations/power-bi/walkthrough/step-1.png" width="280" alt="Power BI instructional preview"></a><br><strong>Power BI</strong><br><a href="Director-Technology-Programs/simulations/power-bi/walkthrough/README.md">Implementation walkthrough</a></td>
 </tr>
 </table>
 

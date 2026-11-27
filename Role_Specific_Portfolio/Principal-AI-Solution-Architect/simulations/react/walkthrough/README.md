@@ -8,7 +8,7 @@ Independent instructional storyboard. The navigation labels below are illustrati
 3. Review the expected checkpoint at callout 3: configuration reviewed before continuing.
 4. In the real environment, verify the equivalent control and capture actual output before proceeding.
 
-![Step 1 — Editor](step-1.svg)
+![Step 1 — Editor](step-1.png)
 
 ## Step 2: Component
 1. In the illustrated React workflow, locate callout 1 (Component).
@@ -16,7 +16,7 @@ Independent instructional storyboard. The navigation labels below are illustrati
 3. Review the expected checkpoint at callout 3: configuration reviewed before continuing.
 4. In the real environment, verify the equivalent control and capture actual output before proceeding.
 
-![Step 2 — Component](step-2.svg)
+![Step 2 — Component](step-2.png)
 
 ## Step 3: State
 1. In the illustrated React workflow, locate callout 1 (State).
@@ -24,7 +24,7 @@ Independent instructional storyboard. The navigation labels below are illustrati
 3. Review the expected checkpoint at callout 3: configuration reviewed before continuing.
 4. In the real environment, verify the equivalent control and capture actual output before proceeding.
 
-![Step 3 — State](step-3.svg)
+![Step 3 — State](step-3.png)
 
 ## Step 4: Input
 1. In the illustrated React workflow, locate callout 1 (Input).
@@ -32,7 +32,7 @@ Independent instructional storyboard. The navigation labels below are illustrati
 3. Review the expected checkpoint at callout 3: configuration reviewed before continuing.
 4. In the real environment, verify the equivalent control and capture actual output before proceeding.
 
-![Step 4 — Input](step-4.svg)
+![Step 4 — Input](step-4.png)
 
 ## Step 5: Submit handler
 1. In the illustrated React workflow, locate callout 1 (Submit handler).
@@ -40,7 +40,7 @@ Independent instructional storyboard. The navigation labels below are illustrati
 3. Review the expected checkpoint at callout 3: configuration reviewed before continuing.
 4. In the real environment, verify the equivalent control and capture actual output before proceeding.
 
-![Step 5 — Submit handler](step-5.svg)
+![Step 5 — Submit handler](step-5.png)
 
 ## Step 6: Render
 1. In the illustrated React workflow, locate callout 1 (Render).
@@ -48,7 +48,7 @@ Independent instructional storyboard. The navigation labels below are illustrati
 3. Review the expected checkpoint at callout 3: configuration reviewed before continuing.
 4. In the real environment, verify the equivalent control and capture actual output before proceeding.
 
-![Step 6 — Render](step-6.svg)
+![Step 6 — Render](step-6.png)
 
 ## Step 7: Test
 1. In the illustrated React workflow, locate callout 1 (Test).
@@ -56,7 +56,7 @@ Independent instructional storyboard. The navigation labels below are illustrati
 3. Review the expected checkpoint at callout 3: Usability.
 4. In the real environment, verify the equivalent control and capture actual output before proceeding.
 
-![Step 7 — Test](step-7.svg)
+![Step 7 — Test](step-7.png)
 
 ## Troubleshooting and executive acceptance
 If a control is unavailable, verify role permissions, licensing and product version. If validation fails, stop, preserve the error and correct the input. Executive gate: Usability. Record actual test output, reviewer and decision; do not claim completion without evidence.

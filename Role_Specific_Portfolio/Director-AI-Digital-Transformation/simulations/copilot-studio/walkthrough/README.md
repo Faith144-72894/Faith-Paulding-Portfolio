@@ -8,7 +8,7 @@ Independent instructional storyboard. The navigation labels below are illustrati
 3. Review the expected checkpoint at callout 3: configuration reviewed before continuing.
 4. In the real environment, verify the equivalent control and capture actual output before proceeding.
 
-![Step 1 — Agents](step-1.svg)
+![Step 1 — Agents](step-1.png)
 
 ## Step 2: New agent
 1. In the illustrated Copilot Studio workflow, locate callout 1 (New agent).
@@ -16,7 +16,7 @@ Independent instructional storyboard. The navigation labels below are illustrati
 3. Review the expected checkpoint at callout 3: configuration reviewed before continuing.
 4. In the real environment, verify the equivalent control and capture actual output before proceeding.
 
-![Step 2 — New agent](step-2.svg)
+![Step 2 — New agent](step-2.png)
 
 ## Step 3: Knowledge
 1. In the illustrated Copilot Studio workflow, locate callout 1 (Knowledge).
@@ -24,7 +24,7 @@ Independent instructional storyboard. The navigation labels below are illustrati
 3. Review the expected checkpoint at callout 3: configuration reviewed before continuing.
 4. In the real environment, verify the equivalent control and capture actual output before proceeding.
 
-![Step 3 — Knowledge](step-3.svg)
+![Step 3 — Knowledge](step-3.png)
 
 ## Step 4: Topics
 1. In the illustrated Copilot Studio workflow, locate callout 1 (Topics).
@@ -32,7 +32,7 @@ Independent instructional storyboard. The navigation labels below are illustrati
 3. Review the expected checkpoint at callout 3: configuration reviewed before continuing.
 4. In the real environment, verify the equivalent control and capture actual output before proceeding.
 
-![Step 4 — Topics](step-4.svg)
+![Step 4 — Topics](step-4.png)
 
 ## Step 5: Test agent
 1. In the illustrated Copilot Studio workflow, locate callout 1 (Test agent).
@@ -40,7 +40,7 @@ Independent instructional storyboard. The navigation labels below are illustrati
 3. Review the expected checkpoint at callout 3: configuration reviewed before continuing.
 4. In the real environment, verify the equivalent control and capture actual output before proceeding.
 
-![Step 5 — Test agent](step-5.svg)
+![Step 5 — Test agent](step-5.png)
 
 ## Step 6: Review analytics
 1. In the illustrated Copilot Studio workflow, locate callout 1 (Review analytics).
@@ -48,7 +48,7 @@ Independent instructional storyboard. The navigation labels below are illustrati
 3. Review the expected checkpoint at callout 3: configuration reviewed before continuing.
 4. In the real environment, verify the equivalent control and capture actual output before proceeding.
 
-![Step 6 — Review analytics](step-6.svg)
+![Step 6 — Review analytics](step-6.png)
 
 ## Step 7: Publish decision
 1. In the illustrated Copilot Studio workflow, locate callout 1 (Publish decision).
@@ -56,7 +56,7 @@ Independent instructional storyboard. The navigation labels below are illustrati
 3. Review the expected checkpoint at callout 3: Adoption approval.
 4. In the real environment, verify the equivalent control and capture actual output before proceeding.
 
-![Step 7 — Publish decision](step-7.svg)
+![Step 7 — Publish decision](step-7.png)
 
 ## Troubleshooting and executive acceptance
 If a control is unavailable, verify role permissions, licensing and product version. If validation fails, stop, preserve the error and correct the input. Executive gate: Adoption approval. Record actual test output, reviewer and decision; do not claim completion without evidence.

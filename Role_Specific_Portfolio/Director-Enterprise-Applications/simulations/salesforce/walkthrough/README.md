@@ -8,7 +8,7 @@ Independent instructional storyboard. The navigation labels below are illustrati
 3. Review the expected checkpoint at callout 3: configuration reviewed before continuing.
 4. In the real environment, verify the equivalent control and capture actual output before proceeding.
 
-![Step 1 — Setup](step-1.svg)
+![Step 1 — Setup](step-1.png)
 
 ## Step 2: Object Manager
 1. In the illustrated Salesforce workflow, locate callout 1 (Object Manager).
@@ -16,7 +16,7 @@ Independent instructional storyboard. The navigation labels below are illustrati
 3. Review the expected checkpoint at callout 3: configuration reviewed before continuing.
 4. In the real environment, verify the equivalent control and capture actual output before proceeding.
 
-![Step 2 — Object Manager](step-2.svg)
+![Step 2 — Object Manager](step-2.png)
 
 ## Step 3: New object
 1. In the illustrated Salesforce workflow, locate callout 1 (New object).
@@ -24,7 +24,7 @@ Independent instructional storyboard. The navigation labels below are illustrati
 3. Review the expected checkpoint at callout 3: configuration reviewed before continuing.
 4. In the real environment, verify the equivalent control and capture actual output before proceeding.
 
-![Step 3 — New object](step-3.svg)
+![Step 3 — New object](step-3.png)
 
 ## Step 4: Fields
 1. In the illustrated Salesforce workflow, locate callout 1 (Fields).
@@ -32,7 +32,7 @@ Independent instructional storyboard. The navigation labels below are illustrati
 3. Review the expected checkpoint at callout 3: configuration reviewed before continuing.
 4. In the real environment, verify the equivalent control and capture actual output before proceeding.
 
-![Step 4 — Fields](step-4.svg)
+![Step 4 — Fields](step-4.png)
 
 ## Step 5: Flow Builder
 1. In the illustrated Salesforce workflow, locate callout 1 (Flow Builder).
@@ -40,7 +40,7 @@ Independent instructional storyboard. The navigation labels below are illustrati
 3. Review the expected checkpoint at callout 3: configuration reviewed before continuing.
 4. In the real environment, verify the equivalent control and capture actual output before proceeding.
 
-![Step 5 — Flow Builder](step-5.svg)
+![Step 5 — Flow Builder](step-5.png)
 
 ## Step 6: Debug
 1. In the illustrated Salesforce workflow, locate callout 1 (Debug).
@@ -48,7 +48,7 @@ Independent instructional storyboard. The navigation labels below are illustrati
 3. Review the expected checkpoint at callout 3: configuration reviewed before continuing.
 4. In the real environment, verify the equivalent control and capture actual output before proceeding.
 
-![Step 6 — Debug](step-6.svg)
+![Step 6 — Debug](step-6.png)
 
 ## Step 7: Review
 1. In the illustrated Salesforce workflow, locate callout 1 (Review).
@@ -56,7 +56,7 @@ Independent instructional storyboard. The navigation labels below are illustrati
 3. Review the expected checkpoint at callout 3: Approval control.
 4. In the real environment, verify the equivalent control and capture actual output before proceeding.
 
-![Step 7 — Review](step-7.svg)
+![Step 7 — Review](step-7.png)
 
 ## Troubleshooting and executive acceptance
 If a control is unavailable, verify role permissions, licensing and product version. If validation fails, stop, preserve the error and correct the input. Executive gate: Approval control. Record actual test output, reviewer and decision; do not claim completion without evidence.
