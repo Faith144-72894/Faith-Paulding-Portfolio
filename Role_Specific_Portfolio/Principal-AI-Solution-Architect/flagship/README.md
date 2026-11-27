@@ -33,3 +33,6 @@ No production authentication, vendor deployment, persistent storage or verified 
 
 ## Review evidence
 Expanded regression cases cover invalid inputs and boundary behavior. See repository Actions for actual test results. This remains a local reference implementation, not a vendor integration.
+
+## Functional browser prototype
+[Download demo.html](demo.html) and open in a browser. Edit the Search query fields, select Run analysis and inspect the decision. Try an invalid or empty input to inspect validation. The browser implementation is separate from Python and has not yet undergone browser or parity testing.

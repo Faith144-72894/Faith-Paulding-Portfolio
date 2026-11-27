@@ -78,3 +78,6 @@ Eight local reference implementations are available with source and test cases; 
 [Browse original interactive configuration exercises](Role_Specific_Portfolio/SIMULATIONS.md). These are local simulations, not vendor deployments.
 
 [Quality review and regression testing](Role_Specific_Portfolio/QUALITY-REVIEW.md)
+
+## Functional browser prototypes
+[Demonstration site source](docs/index.html) — eight independent browser applications with interactive business logic. Download the docs folder to run locally. GitHub Pages publication and browser testing are not yet verified.
