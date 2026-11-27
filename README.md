@@ -1,3 +1,7 @@
+# Executive technology portfolio
+
+[Role-specific project portfolio — implementation index](Role_Specific_Portfolio/README.md)
+
 # Faith Paulding | Technical Transformation, Data, AI & Program Leadership
 
 Welcome. This portfolio shows how I approach complex work when the process, data, technology, ownership, and reporting do not yet operate as one system.
