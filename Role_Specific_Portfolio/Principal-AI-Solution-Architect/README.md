@@ -34,3 +34,6 @@ Azure OpenAI, Azure AI Search, LangChain, LangGraph, CrewAI, Python, FastAPI, Re
 Use synthetic data, original code, redacted sandbox screenshots and reproducible tests. Distinguish conceptual design from working prototypes and verified vendor integrations. No employer systems or confidential information.
 
 [Return to portfolio](../README.md)
+
+## Visual implementation library
+[Azure AI Foundry instructional wireframes and validation checklist](visual-guide/README.md)

@@ -59,3 +59,6 @@ MBA – Engineering Management; PMP®; Certified ScrumMaster®; doctoral studies
 
 The eight new role-specific project pages are implementation plans. The local visual ZIP has not yet been imported. Existing conceptual cases remain available. All public demonstration work uses fictional or authorized data, never confidential government or employer information.
 
+
+## Visual implementation library
+[Browse role-specific instructional wireframes](Role_Specific_Portfolio/VISUAL-LIBRARY.md). Actual vendor screenshots and verified click paths remain pending.

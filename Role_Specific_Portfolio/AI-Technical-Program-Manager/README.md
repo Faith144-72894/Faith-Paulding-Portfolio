@@ -33,3 +33,6 @@ Jira, Confluence, Azure DevOps, Azure AI Foundry, Power BI, Python.
 Use synthetic data, original code, redacted sandbox screenshots and reproducible tests. Distinguish conceptual design from working prototypes and verified vendor integrations. No employer systems or confidential information.
 
 [Return to portfolio](../README.md)
+
+## Visual implementation library
+[Jira instructional wireframes and validation checklist](visual-guide/README.md)
